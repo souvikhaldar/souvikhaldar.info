@@ -1,10 +1,10 @@
 baseURL = "https://www.souvikhaldar.info"
 languageCode = "en-us"
-title = "Ramblings of an aspiring coder"
+title = "Souvik Haldar"
 theme = "ananke"
 [params]
   favicon = "https://img.icons8.com/ios-glyphs/30/000000/gamma.png"
-  description = "This website is currently under heavy construction by Souvik Haldar"
+  description = "Ramblings of an aspiring coder"
   facebook = "https://www.facebook.com/s0uvikhaldar"
   twitter = "https://twitter.com/s0ouvikhaldar"
   instagram = ""
