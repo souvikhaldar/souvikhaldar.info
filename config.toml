@@ -1,0 +1,4 @@
+baseURL = "http://souvikhaldar.info"
+languageCode = "en-us"
+title = "Souvik Haldar"
+theme = "ananke"
