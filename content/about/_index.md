@@ -5,7 +5,9 @@ draft: false
 ---
 
 # Souvik Haldar
-##### 8653149116 souvikhaldar32@gmail.com Flat 7-3A, PS IXORA, New town, Kolkata-700159
+##### 8653149116 
+##### souvikhaldar32@gmail.com 
+##### Flat 7-3A, PS IXORA, New town, Kolkata-700159
 
 ## Profile
 All India Rank in top 2 percentile in Modern Application Development course by NPTEL. Backend Developer with 1.5 years of experience using Golang and Python, DevOps using Ansible, Database Administration using PostgreSQL, PostGIS and Redis. CodeChef certified Data Structures and Algorithms programmer.
@@ -31,11 +33,11 @@ hisab-kitab-save-to-earn-c978344e5744
 As a management intern at Indian Railways (South Eastern) I got to understand how a big organisation like Railways does it’s basic management works like filing tender, pen- sion management, authorities, jurisdiction, etc.
 CONTENT WRITER, INDIANS NEWS; REMOTE — FEB 2015 - SEP 2016
 I used to write articles on various topics, but with special emphasis on covering events, seminars, lifestyle and workshops. I've even covered several techfests like EDGE 2015,     
- Eccentron and IIT KGP's EAD's Press Conference. (https://indiansnews.com/author/
+ Eccentron and IIT KGP's EAD's Press Conference. [Indians News](https://indiansnews.com/author/)
 souvik/)
 
 ### Project
-Mr Bin: Intelligent Waste Management System (https://youtu.be/6kOf2YhKCfo)
+Mr Bin: Intelligent Waste Management System [Youtube Link](https://youtu.be/6kOf2YhKCfo)
 * Technologies- IOT, Cloud Computing, Embedded Programming, Web-Development.
 * The motive of this project is that we display the status of the garbage dumps in real time on a personalised website which in turn can be used to predict the best route to be taken for garbage collection.
 * Server written in Go, deployed on Heroku, frontend in HTML/CSS, Arduino code on Arduino Uno, Python script for data fetching/pushing and Raspberry Pi 3.  
