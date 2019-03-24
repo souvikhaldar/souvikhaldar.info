@@ -3,9 +3,9 @@ description = "Ramblings of an aspiring coder"
 languageCode = "en-us"
 title = "Souvik Haldar"
 theme = "ananke"
+
 [params]
   favicon = "fav.png"
-  disqusShortname = "https-www-souvikhaldar-info"
   facebook = "https://www.facebook.com/s0uvikhaldar"
   twitter = "https://twitter.com/s0ouvikhaldar"
   instagram = ""
@@ -17,3 +17,18 @@ theme = "ananke"
   # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-black"
   featured_image = "/images/sikkim.jpg"
+
+[menu]
+
+  [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about/"
+    weight = -110
+
+  [[menu.main]]
+    name = "Articles"
+    post = "<span class='alert'>New!</span>"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/blogs/"
+    weight = -100
