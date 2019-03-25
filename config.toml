@@ -33,3 +33,8 @@ theme = "ananke"
     pre = "<i class='fa fa-road'></i>"
     url = "/blogs/"
     weight = -100
+
+  [[menu.main]]
+    name = "Photography"
+    url = "https://www.instagram.com/theperfectbehold/"
+    
