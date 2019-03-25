@@ -61,7 +61,8 @@ netes.
 * OS- Mac OSX, Arch Linux, Ubuntu, Kali Linux and Raspbian.
 * Tools - Postman, Git CLI , terminal, Slack/IRC, Goland, Vim, Visual Studio Code, Star-
 UML, Restlet, Swagger. 
-Achievements/ Additional Qualifications
+
+### Achievements/ Additional Qualifications
 * Deputy Head of Public Relations and content writer for www.indiansnews.com
 * NPTEL certification:- (1)Programming, Data Structures and Algorithms in Python
 (2)Design and Analysis of Algorithms (3) Programming in C (4) IoT
