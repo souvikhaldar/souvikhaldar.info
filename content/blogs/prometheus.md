@@ -8,10 +8,12 @@ Monitoring of a system is key to it's smooth functioning. Going to the battle fi
 In this article I'm going to show how you can monitor a system using Prometheus, node_exporter and the Grafana UI.
 
 ## Installation
+
+### Prometheus
 Installation procedure is pretty simple, I'm going to show how to install on two platforms, Arch linux and Ubuntu.
 For others you can definitely follow the [official docs](https://prometheus.io/download/)
 
-### Arch Linux
+#### Arch Linux
 Arch has package for prometheus, which is great because then you don't need to explicitely write unit file for the service.
 
 1. `sudo pacman -S prometheus` 
@@ -20,12 +22,12 @@ Arch has package for prometheus, which is great because then you don't need to e
 
 Now if you wish to check whether it is running properly or not you can run `systemctl status prometheus`.
 
-### Ubuntu
+#### Ubuntu
 
 1. Download `wget https://github.com/prometheus/prometheus/releases/download/v2.8.0/prometheus-2.8.0.linux-amd64.tar.gz`
 2. `tar -xzf prometheus-2.8.0.linux-amd64.tar.gz`
 3. Move the `prometheus` binary executable to PATH `mv prometheus-2.8.0.linux-amd64/prometheus /usr/local/bin/`
-4. Configure the prometheus config file (`prometheus-2.8.0.linux-amd64/prometheus.yml`) with simple configurations 
+4. Configure the prometheus config file (`prometheus-2.8.0.linux-amd64/prometheus.yml`) with simple configurations:- 
 
 ```
 global:
@@ -69,8 +71,33 @@ WantedBy=multi-user.target
 7. `sudo systemctl start prometheus`
 8. `sudo systemctl enable prometheus`
 9. Now if you wish to check whether it is not or not execute `systemctl status prometheus`
+    
+(Alternaltively you can use apt to install prometheus as well)
 
 Now you can visit `<ip-address>:9090` on browser to see promethues running. Kudos you've successfully set up prometheus on your monitoring server. 
 (make sure port 9090 is open for http)
 
+
+### node_exporter
+The Prometheus Node Exporter exposes a wide variety of hardware- and kernel-related metrics, which prometheus can scrape metrics from. Typically `node_exporter` is installed on the target machine which you want to monitor and `prometheus` is installed on a vertically scaled (it demands heavy resource, generally) server which is primarily used as the master to monitor the target servers.
+
+Here I will show you how you can install `node_exporter` on Debian and Windows server. Prometheus will keep pulling metrics from them and hence monitor.
+
+#### Debian
+
+The official [docs](https://prometheus.io/download/) will show to use the tarball (ref. - follow the above guide for installing prometheus on ubunut) but for convenience we will use the [official debian package](https://packages.debian.org/stretch/prometheus-node-exporter).  
+
+1) `sudo apt-get install prometheus-node-exporter`
+2) This by default enables and starts the node exporter service but you can cross check by `systemctl status node_exporter.service `
+
+#### Windows
+
+Unfortunately `node_exporter` is not well-supported on windows and hence we will use an [alternative](https://github.com/martinlindhe/wmi_exporter)
+
+1) Visit https://github.com/martinlindhe/wmi_exporter/releases
+2) I would recommend to download and run the `.msi` as can setup most of the things for you. 
+  By default the service will start running on port 9182 so make sure to open that port to prometheus server.
+
+
+**Now visit the `Status --> Targets` on the prometheus's address in the browser and your target server will appear there.**
 
