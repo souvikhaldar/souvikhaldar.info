@@ -9,7 +9,9 @@ In this article I'm going to show how you can monitor a system using Prometheus,
 
 ## Installation
 
-### Prometheus
+We will install `prometheus`, which will pull metrics from the target server, `node_exporter` which will make the system's metrics available at an HTTP port, for `prometheus` to pull; and `Grafana` which is the UI for an amazing visualization.
+
+### 1. Prometheus
 Installation procedure is pretty simple, I'm going to show how to install on two platforms, Arch linux and Ubuntu.
 For others you can definitely follow the [official docs](https://prometheus.io/download/)
 
@@ -78,7 +80,7 @@ Now you can visit `<ip-address>:9090` on browser to see promethues running. Kudo
 (make sure port 9090 is open for http)
 
 
-### node_exporter
+### 2. node_exporter
 The Prometheus Node Exporter exposes a wide variety of hardware- and kernel-related metrics, which prometheus can scrape metrics from. Typically `node_exporter` is installed on the target machine which you want to monitor and `prometheus` is installed on a vertically scaled (it demands heavy resource, generally) server which is primarily used as the master to monitor the target servers.
 
 Here I will show you how you can install `node_exporter` on Debian and Windows server. Prometheus will keep pulling metrics from them and hence monitor.
@@ -99,5 +101,6 @@ Unfortunately `node_exporter` is not well-supported on windows and hence we will
   By default the service will start running on port 9182 so make sure to open that port to prometheus server.
 
 
+*kudos*
 **Now visit the `Status --> Targets` on the prometheus's address in the browser and your target server will appear there.**
 
