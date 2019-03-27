@@ -56,7 +56,7 @@ netes.
 * Geographic Information System (GIS) manipulation, maintenance and management in PostGIS.
 * OS- Mac OSX, Arch Linux, Ubuntu, Kali Linux and Raspbian.
 * Tools - Postman, Git CLI , terminal, Slack/IRC, Goland, Vim, Visual Studio Code, Star-
-UML, Restlet, Swagger. 
+UML, Restlet, Swagger.
 
 ### Achievements/ Additional Qualifications
 * Deputy Head of Public Relations and content writer for www.indiansnews.com

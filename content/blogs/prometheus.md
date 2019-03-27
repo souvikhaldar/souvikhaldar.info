@@ -97,6 +97,7 @@ The official [docs](https://prometheus.io/download/) will show to use the tarbal
 Unfortunately `node_exporter` is not well-supported on windows and hence we will use an [alternative](https://github.com/martinlindhe/wmi_exporter)
 
 1) Visit https://github.com/martinlindhe/wmi_exporter/releases
+   
 2) I would recommend to download and run the `.msi` as can setup most of the things for you. 
   By default the service will start running on port 9182 so make sure to open that port to prometheus server.
 
