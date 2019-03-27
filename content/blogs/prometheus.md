@@ -1,5 +1,5 @@
 ---
-title: "Monitoring a system using Prometheus"
+title: "Monitoring a linux/windows server using Prometheus"
 date: 2019-03-25T13:09:45+05:30
 draft: false
 ---
@@ -113,6 +113,30 @@ For the above mentioned `debian` target server:-
 Similar for the above mentioned `windows` target server but change the port address to `9182`.
 These ports are the default values and can be changed according to need by making necessary changes to configuration file of the exporters.
 
+For the new target to get ready to be configured we need to restart the `prometheus` service so that it read the updated configuration i.e `prometheus.yml`. 
+Run `sudo systemctl restart prometheus.service`.
+The downside to this `restart` is that this will cause a downtime during the restart process. To get around this downtime follow this neat *trick*.
+The idea is to send a hang-up single to the `prometheus` service which will make it reload the configuration.
+For that first we need to know the PID (process ID) of the process. 
+Run `ps aux | grep prome*`
+```
+[souvik@quiche ~]$ ps aux | grep prome*
+prometh+ 29115  0.1  1.5 1142212 126020 ?      Ssl  Mar26   1:32 /usr/bin/prometheus --config.file=/etc/prometheus/prometheus.yml --storage.tsdb.path=/var/lib/prometheus/data
+souvik   33410  0.0  0.4 891840 39956 pts/1    S+   03:12   0:00 journalctl -u prometheus -f
+souvik   33445  0.0  0.0   6268  2316 pts/2    S+   03:18   0:00 grep prome*
+[souvik@quiche ~]$ 
+```
+So now we know that the PID of the prometheus service is `29915`.
+
+Now we need the hang up signal to it.
+Run `sudo kill -s HUP 29115`
+
+This will make prometheus reload the configuration as evident in the below logs:-
+```
+Mar 27 03:20:36 quiche prometheus[29115]: level=info ts=2019-03-27T10:20:36.618684382Z caller=main.go:724 msg="Loading configuration file" filename=/etc/prometheus/prometheus.yml
+Mar 27 03:20:36 quiche prometheus[29115]: level=info ts=2019-03-27T10:20:36.619961054Z caller=main.go:751 msg="Completed loading of configuration file" filename=/etc/prometheus/prometheus.yml
+```
+
 *kudos*
 
 **Now visit the `Status --> Targets` on the prometheus's address in the browser and your target server will appear there.** 
@@ -144,4 +168,34 @@ Now we need to configure Grafana to set `prometheus` as a data-source.
 
 ## Configure Grafana
 
+1) Visit `<montoring-server-ip>:3000`.  
+   
+2) Click on `Add data source`
+   
+   ![](/images/2019-03-27-16-32-40.png) 
+
+3) Select `prometheus`
+4) Let the defaults be. Check if the address the alright.
+5) Import a pre-built dashboad but clicking on `+` icon.
+6) Import `1860` and `405` as Dashboard ID.
+  
+#### Voila you have the pretty dashboard ready!
+
+*visit `<monitor-server-ip>:3000`*
+
+![](/images/2019-03-27-16-58-33.png)
+*405*
+
+![](/images/2019-03-27-17-01-03.png)
+
+*1860*
+
+![](/images/2019-03-27-17-05-27.png)
+*Some more*
+
+![](/images/2019-03-27-17-13-30.png)
+*windows node*
+
+So that's a brief walk-through of the setup of monitoring system for a linux and windows server. Now you can customize further and setup alerts for different scenarios using `Alert Manager`. You can go through this cool video [tutorial](https://youtu.be/4WWW2ZLEg74) if you are more of a video person.
+Thanks and I hope I was able to at least get you started with the popular and amazing monitoring tool **Prometheus**.
 
