@@ -29,7 +29,7 @@ Now if you wish to check whether it is running properly or not you can run `syst
 1. Download `wget https://github.com/prometheus/prometheus/releases/download/v2.8.0/prometheus-2.8.0.linux-amd64.tar.gz`
 2. `tar -xzf prometheus-2.8.0.linux-amd64.tar.gz`
 3. Move the `prometheus` binary executable to PATH `mv prometheus-2.8.0.linux-amd64/prometheus /usr/local/bin/`
-4. Configure the prometheus config file (`prometheus-2.8.0.linux-amd64/prometheus.yml`) with simple configurations:- 
+4. Configure the prometheus config file (`prometheus-2.8.0.linux-amd64/prometheus.yml`) with simple [configurations](https://prometheus.io/docs/prometheus/latest/configuration/configuration/):- 
 
 ```
 global:
