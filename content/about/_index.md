@@ -44,17 +44,15 @@ Mr Bin: Intelligent Waste Management System [Youtube Link](https://youtu.be/6kOf
 * Server written in Go, deployed on Heroku, frontend in HTML/CSS, Arduino code on Arduino Uno, Python script for data fetching/pushing and Raspberry Pi 3.  
 
 ### EDUCATION
-* Graduation Techno India Salt Lake, Kolkata, MAKAUT University — B.Tech in Computer Science and Engineering, 2014-18. 
-* AISSCE (12th standard) Kendriya Vidyalaya Adra — CBSE , 2013, Science 
-* AISSE (10th standard) Kendriya Vidyalaya Adra — CBSE , 2011, General 
+* Graduation = Techno India Salt Lake, Kolkata, MAKAUT University — B.Tech in Computer Science and Engineering, 2014-18. 
+* AISSCE = (12th standard) Kendriya Vidyalaya Adra — CBSE , 2013, Science 
+* AISSE = (10th standard) Kendriya Vidyalaya Adra — CBSE , 2011, General 
 
 ### Technical Skills
 * Programming in Golang and Python.
 * DevOps using Ansible, Building Docker containers and Orchestration using Kuber-
 netes.
-* Database management in postgreSQL and Redis.
-2
-   
+* Database management in postgreSQL and Redis. 
 * Geographic Information System (GIS) manipulation, maintenance and management in PostGIS.
 * OS- Mac OSX, Arch Linux, Ubuntu, Kali Linux and Raspbian.
 * Tools - Postman, Git CLI , terminal, Slack/IRC, Goland, Vim, Visual Studio Code, Star-
