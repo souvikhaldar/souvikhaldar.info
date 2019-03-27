@@ -21,6 +21,7 @@ All India Rank in top 2 percentile in Modern Application Development course by N
 * Maintaining and deploying the server using Ansible.
 * Implementing distributed messaging service using NSQ/Kafka.
 * Maintaining containers using Golang docker API. * Cloud - Digital Ocean, AWS.
+* Monitoring server using Prometheus and Grafana.
 
 **PRODUCT DEVELOPMENT INTERN, HASURA.IO, REMOTE — JUN 2017-AUG 2017**
 
@@ -43,12 +44,9 @@ Mr Bin: Intelligent Waste Management System [Youtube Link](https://youtu.be/6kOf
 * Server written in Go, deployed on Heroku, frontend in HTML/CSS, Arduino code on Arduino Uno, Python script for data fetching/pushing and Raspberry Pi 3.  
 
 ### EDUCATION
-Graduation
-Techno India Salt Lake, Kolkata, MAKAUT University — B.Tech in Computer Science and Engineering, 2014-18. (7.4 CGPA out of 10)
-AISSCE (12th standard)
-Kendriya Vidyalaya Adra — CBSE , 2013, Science (80.02 %)
-AISSE (10th standard)
-Kendriya Vidyalaya Adra — CBSE , 2011, General (9.6 CGPA out of 10)
+* Graduation Techno India Salt Lake, Kolkata, MAKAUT University — B.Tech in Computer Science and Engineering, 2014-18. 
+* AISSCE (12th standard) Kendriya Vidyalaya Adra — CBSE , 2013, Science 
+* AISSE (10th standard) Kendriya Vidyalaya Adra — CBSE , 2011, General 
 
 ### Technical Skills
 * Programming in Golang and Python.
