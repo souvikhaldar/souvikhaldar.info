@@ -4,7 +4,7 @@ date: 2019-03-25T13:09:45+05:30
 draft: false
 ---
 
-Monitoring of a system is key to it's smooth functioning. Going to the battle field (production) with having proper monitoring setup done is like making your platform vulnarable, hence to obtain full control it becomes a must; as the popular say goes *"Failing to plan, is planning to fail"*. 
+Monitoring of a system is key to it's smooth functioning. Going to the battle field (production) without having proper monitoring setup done is like making your platform vulnerable, hence to obtain full control it becomes a must; as the popular say goes *"Failing to plan, is planning to fail"*. 
 In this article I'm going to show how you can monitor a system using Prometheus, node_exporter and the Grafana UI.
 
 ## Installation
