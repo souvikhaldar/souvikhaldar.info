@@ -52,9 +52,11 @@ scrape_configs:
     static_configs:
       - targets: ['localhost:9090']
 ```
+
 5. Now write a unit file for the prometheus service. For more info on systemd and unit files see [here](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files#where-are-systemd-unit-files-found).
 
 `sudo nano /etc/systemd/system/prometheus.service`
+
 Add the following contents :-
 ```
 [Unit]
@@ -90,6 +92,7 @@ Here I will show you how you can install `node_exporter` on Debian and Windows s
 The official [docs](https://prometheus.io/download/) will show to use the tarball (ref. - follow the above guide for installing prometheus on ubunut) but for convenience we will use the [official debian package](https://packages.debian.org/stretch/prometheus-node-exporter).  
 
 1) `sudo apt-get install prometheus-node-exporter`
+   
 2) This by default enables and starts the node exporter service but you can cross check by `systemctl status node_exporter.service `
 
 #### Windows
