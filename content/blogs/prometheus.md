@@ -100,7 +100,48 @@ Unfortunately `node_exporter` is not well-supported on windows and hence we will
 2) I would recommend to download and run the `.msi` as can setup most of the things for you. 
   By default the service will start running on port 9182 so make sure to open that port to prometheus server.
 
+Now, make this newly created node_exporter a target for prometheus to pull.
+Add the following lines to promethues configuration file i.e `prometheus.yml`:-
+
+For the above mentioned `debian` target server:-
+```
+- job_name: 'node_exporter'
+    static_configs:
+      - targets: ['<target-server-ip>:9100']
+```
+
+Similar for the above mentioned `windows` target server but change the port address to `9182`.
+These ports are the default values and can be changed according to need by making necessary changes to configuration file of the exporters.
 
 *kudos*
-**Now visit the `Status --> Targets` on the prometheus's address in the browser and your target server will appear there.**
+
+**Now visit the `Status --> Targets` on the prometheus's address in the browser and your target server will appear there.** 
+Now you can query for basic matrics and see it'c corresponding graph on the dashboard. But Grafana makes it cooler. Let's grab it now.
+
+### 3. Grafana
+
+#### Debian
+Link to [docs](http://docs.grafana.org/installation/debian/)
+
+1) `wget https://dl.grafana.com/oss/release/grafana_6.0.2_amd64.deb`
+2) `sudo dpkg -i grafana_6.0.2_amd64.deb`
+3) `sudo systemctl start grafana-server.service `
+4) `sudo systemctl enable grafana-server.service`
+
+
+#### Arch Linux
+
+1) `sudo pacman -S  grafana`
+2) `sudo systemctl enable grafana`
+3) `sudo systemctl start grafana`
+
+Now open port 3000 because by default Grafana listens on port 3000.
+Now hit <server-ip>:3000 and you can see Grafana running. The default username and password is `admin` and `admin` respectively.
+Congratulations, your pretty dashboard is now setup correctly!
+
+
+Now we need to configure Grafana to set `prometheus` as a data-source. 
+
+## Configure Grafana
+
 
