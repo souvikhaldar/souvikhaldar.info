@@ -1,11 +1,11 @@
 ---
-title: "Monitoring a linux/windows server using Prometheus"
+title: "Monitoring a Linux/windows server using Prometheus"
 date: 2019-03-25T13:09:45+05:30
 draft: false
 ---
 ## Why monitor?
 
-Monitoring of a system is key to it's smooth functioning. Going to the battle field (production) without having proper monitoring setup done is like making your platform vulnerable, hence to obtain full control it becomes a must; as the popular say goes *"Failing to plan, is planning to fail"*. 
+Monitoring of a system is key to its smooth functioning. Going to the battlefield (production) without having proper monitoring setup done is like making your platform vulnerable, hence to obtain full control it becomes a must; as the popular say goes *"Failing to plan, is planning to fail"*. 
 In this article I'm going to show how you can monitor a system using Prometheus, node_exporter and the Grafana UI.
 
 
@@ -13,18 +13,18 @@ In this article I'm going to show how you can monitor a system using Prometheus,
 Simply put, in push based architecture each target node periodically sends metrics to a central collector. Examples of push architectures include: sFlow, Ganglia, Graphite, collectd and StatsD. 
 Whereas, in pull based architecture the central collector periodically requests each of the target node to send metrics to it. Examples of pull architectures include: SNMP, JMX, WMI, libvirt, prometheus,etc. 
 
-*Prometheus is primarily a pull-based system, however it can act as push based by using pushgateway*
+*Prometheus is primarily a pull-based system, however it can act as a push based system by using pushgateway*
 
 ## Installation and setup
 
-We will install `prometheus`, which will pull metrics from the target server, `node_exporter` which will make the target system's metrics available at an HTTP port for `prometheus` to pull; and `Grafana` is the UI for an amazing visualization.
+We will install `prometheus`, which will pull metrics from the target server, `node_exporter` which will make the target system's metrics available at an HTTP port for `prometheus` to pull; and `Grafana` is the UI for an amazing visualisation.
 
 ### 1. Prometheus
 Installation procedure is pretty simple, I'm going to show how to install on two platforms, Arch linux and Ubuntu.
 For others you can definitely follow the [official docs](https://prometheus.io/download/)
 
 #### Arch Linux
-Arch has package for prometheus, which is great because then you don't need to explicitely write unit file for the service.
+Arch has package for prometheus, which is great because then you don't need to explicitly write unit file for the service.
 
 1. `sudo pacman -S prometheus` 
 2. `sudo systemctl enable prometheus` (to create systemlink to the unit file in the systemd directory to that the systemd can always start it at boot) 
@@ -66,6 +66,7 @@ Now if you wish to check whether it is running properly or not you can run `syst
     `sudo nano /etc/systemd/system/prometheus.service`
 
     Add the following contents :-
+
     ```
     [Unit]
     Description=Prometheus
@@ -84,7 +85,7 @@ Now if you wish to check whether it is running properly or not you can run `syst
     3. `sudo systemctl enable prometheus`
     4. Now if you wish to check whether it is not or not execute `systemctl status prometheus`
         
-    (Alternaltively you can use apt to install prometheus as well)
+    Alternatively, you can use apt to install prometheus as well.
 
     Now you can visit `<ip-address>:9090` on browser to see promethues running. Kudos you've successfully set up prometheus on your monitoring server. 
     (make sure port 9090 is open for http)
@@ -97,7 +98,7 @@ Here I will show you how you can install `node_exporter` on Debian and Windows s
 
 #### Debian
 
-The official [docs](https://prometheus.io/download/) will show to use the tarball (ref. - follow the above guide for installing prometheus on ubunut) but for convenience we will use the [official debian package](https://packages.debian.org/stretch/prometheus-node-exporter).  
+The official [docs](https://prometheus.io/download/) will show to use the tarball (ref. - follow the above guide for installing prometheus on ubuntu) but for convenience we will use the [official debian package](https://packages.debian.org/stretch/prometheus-node-exporter).  
 
 1) `sudo apt-get install prometheus-node-exporter`
    
@@ -152,7 +153,7 @@ Mar 27 03:20:36 quiche prometheus[29115]: level=info ts=2019-03-27T10:20:36.6199
 *Congratulations*
 
 **Now visit the `Status --> Targets` on the prometheus's address in the browser and your target server will appear there.** 
-*Now you can query for basic matrics and see it'c corresponding graph on the dashboard*. But Grafana makes it cooler. Let's grab it now.
+*Now you can query for basic metrics and see it's corresponding graph on the dashboard*. But Grafana makes it cooler. Let's grab it now.
 
 ### 3. Grafana
 
@@ -190,7 +191,7 @@ Now we need to configure Grafana to set `prometheus` as a data-source.
    
 4) Let the defaults be. Check if the address the alright. 
    
-5) Import a pre-built dashboad but clicking on `+` icon. 
+5) Import a pre-built dashboard but clicking on `+` icon. 
    
 6) Import `1860` and `405` as Dashboard ID.
   
