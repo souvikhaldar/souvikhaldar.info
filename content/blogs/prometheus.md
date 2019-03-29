@@ -3,13 +3,21 @@ title: "Monitoring a linux/windows server using Prometheus"
 date: 2019-03-25T13:09:45+05:30
 draft: false
 ---
+## Why monitor?
 
 Monitoring of a system is key to it's smooth functioning. Going to the battle field (production) without having proper monitoring setup done is like making your platform vulnerable, hence to obtain full control it becomes a must; as the popular say goes *"Failing to plan, is planning to fail"*. 
 In this article I'm going to show how you can monitor a system using Prometheus, node_exporter and the Grafana UI.
 
-## Installation
 
-We will install `prometheus`, which will pull metrics from the target server, `node_exporter` which will make the system's metrics available at an HTTP port, for `prometheus` to pull; and `Grafana` which is the UI for an amazing visualization.
+## Difference between Pull and Push based monitoring architecture 
+Simply put, in push based architecture each target node periodically sends metrics to a central collector. Examples of push architectures include: sFlow, Ganglia, Graphite, collectd and StatsD. 
+Whereas, in pull based architecture the central collector periodically requests each of the target node to send metrics to it. Examples of pull architectures include: SNMP, JMX, WMI, libvirt, prometheus,etc. 
+
+*Prometheus is primarily a pull-based system, however it can act as push based by using pushgateway*
+
+## Installation and setup
+
+We will install `prometheus`, which will pull metrics from the target server, `node_exporter` which will make the target system's metrics available at an HTTP port for `prometheus` to pull; and `Grafana` is the UI for an amazing visualization.
 
 ### 1. Prometheus
 Installation procedure is pretty simple, I'm going to show how to install on two platforms, Arch linux and Ubuntu.
@@ -30,56 +38,56 @@ Now if you wish to check whether it is running properly or not you can run `syst
 2. `tar -xzf prometheus-2.8.0.linux-amd64.tar.gz`
 3. Move the `prometheus` binary executable to PATH `mv prometheus-2.8.0.linux-amd64/prometheus /usr/local/bin/`
 4. Configure the prometheus config file (`prometheus-2.8.0.linux-amd64/prometheus.yml`) with simple [configurations](https://prometheus.io/docs/prometheus/latest/configuration/configuration/):- 
+  
+  ```
+  global:
+    scrape_interval:     15s # By default, scrape targets every 15 seconds.
 
-```
-global:
-  scrape_interval:     15s # By default, scrape targets every 15 seconds.
+    # Attach these labels to any time series or alerts when communicating with
+    # external systems (federation, remote storage, Alertmanager).
+    external_labels:
+      monitor: 'codelab-monitor'
 
-  # Attach these labels to any time series or alerts when communicating with
-  # external systems (federation, remote storage, Alertmanager).
-  external_labels:
-    monitor: 'codelab-monitor'
+  # A scrape configuration containing exactly one endpoint to scrape:
+  # Here it's Prometheus itself.
+  scrape_configs:
+    # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
+    - job_name: 'prometheus'
 
-# A scrape configuration containing exactly one endpoint to scrape:
-# Here it's Prometheus itself.
-scrape_configs:
-  # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
-  - job_name: 'prometheus'
+      # Override the global default and scrape targets from this job every 5 seconds.
+      scrape_interval: 5s
 
-    # Override the global default and scrape targets from this job every 5 seconds.
-    scrape_interval: 5s
+      static_configs:
+        - targets: ['localhost:9090']
+  ```
 
-    static_configs:
-      - targets: ['localhost:9090']
-```
+* Now write a unit file for the prometheus service. For more info on systemd and unit files see [here](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files#where-are-systemd-unit-files-found).
 
-5. Now write a unit file for the prometheus service. For more info on systemd and unit files see [here](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files#where-are-systemd-unit-files-found).
+    `sudo nano /etc/systemd/system/prometheus.service`
 
-`sudo nano /etc/systemd/system/prometheus.service`
+    Add the following contents :-
+    ```
+    [Unit]
+    Description=Prometheus
+    Wants=network-online.target
+    After=network-online.target
 
-Add the following contents :-
-```
-[Unit]
-Description=Prometheus
-Wants=network-online.target
-After=network-online.target
+    [Service]
 
-[Service]
+    Type=simple
+    ExecStart=/usr/local/bin/prometheus --config.file /home/ubuntu/prometheus-2.8.0.linux-amd64/prometheus.yml
+    [Install]
+    WantedBy=multi-user.target
+    ```
+    1. `sudo systemctl daemon-reload`
+    2. `sudo systemctl start prometheus`
+    3. `sudo systemctl enable prometheus`
+    4. Now if you wish to check whether it is not or not execute `systemctl status prometheus`
+        
+    (Alternaltively you can use apt to install prometheus as well)
 
-Type=simple
-ExecStart=/usr/local/bin/prometheus --config.file /home/ubuntu/prometheus-2.8.0.linux-amd64/prometheus.yml
-[Install]
-WantedBy=multi-user.target
-```
-6. `sudo systemctl daemon-reload`
-7. `sudo systemctl start prometheus`
-8. `sudo systemctl enable prometheus`
-9. Now if you wish to check whether it is not or not execute `systemctl status prometheus`
-    
-(Alternaltively you can use apt to install prometheus as well)
-
-Now you can visit `<ip-address>:9090` on browser to see promethues running. Kudos you've successfully set up prometheus on your monitoring server. 
-(make sure port 9090 is open for http)
+    Now you can visit `<ip-address>:9090` on browser to see promethues running. Kudos you've successfully set up prometheus on your monitoring server. 
+    (make sure port 9090 is open for http)
 
 
 ### 2. node_exporter
@@ -141,10 +149,10 @@ Mar 27 03:20:36 quiche prometheus[29115]: level=info ts=2019-03-27T10:20:36.6186
 Mar 27 03:20:36 quiche prometheus[29115]: level=info ts=2019-03-27T10:20:36.619961054Z caller=main.go:751 msg="Completed loading of configuration file" filename=/etc/prometheus/prometheus.yml
 ```
 
-*kudos*
+*Congratulations*
 
 **Now visit the `Status --> Targets` on the prometheus's address in the browser and your target server will appear there.** 
-Now you can query for basic matrics and see it'c corresponding graph on the dashboard. But Grafana makes it cooler. Let's grab it now.
+*Now you can query for basic matrics and see it'c corresponding graph on the dashboard*. But Grafana makes it cooler. Let's grab it now.
 
 ### 3. Grafana
 
@@ -179,10 +187,15 @@ Now we need to configure Grafana to set `prometheus` as a data-source.
    ![](/images/2019-03-27-16-32-40.png) 
 
 3) Select `prometheus`
-4) Let the defaults be. Check if the address the alright.
-5) Import a pre-built dashboad but clicking on `+` icon.
+   
+4) Let the defaults be. Check if the address the alright. 
+   
+5) Import a pre-built dashboad but clicking on `+` icon. 
+   
 6) Import `1860` and `405` as Dashboard ID.
   
+## Demo 
+
 #### Voila you have the pretty dashboard ready!
 
 *visit `<monitor-server-ip>:3000`*
@@ -199,6 +212,8 @@ Now we need to configure Grafana to set `prometheus` as a data-source.
 
 ![](/images/2019-03-27-17-13-30.png)
 *windows node*
+
+## Conclusion 
 
 So that's a brief walk-through of the setup of monitoring system for a linux and windows server. Now you can customize further and setup alerts for different scenarios using `Alert Manager`. You can go through this cool video [tutorial](https://youtu.be/4WWW2ZLEg74) if you are more of a video person.
 Thanks and I hope I was able to at least get you started with the popular and amazing monitoring tool **Prometheus**.
