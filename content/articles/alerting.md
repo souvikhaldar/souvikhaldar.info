@@ -30,4 +30,4 @@ Once these changes are made restart the `grafana` service so as to apply the rec
 
 ## DEMO
 
-![](images/2019-04-02-22-28-06.png)
+![](/images/2019-04-02-22-28-06.png)
