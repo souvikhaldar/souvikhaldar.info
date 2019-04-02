@@ -19,7 +19,8 @@ from_address = "<email-ID>"
 from_name = "<name>"
 ```
 Also update the `root_url` values to the required domain name otherwise if you invite someone, they will get invitation link as `http://localhost:3000/abcdsef`.
-**TIP- Search for it by presssing `/` in vim**
+
+*TIP- Search for it by presssing `/` in vim*
 ```
 root_url = "http://domainname:port"
 ```
