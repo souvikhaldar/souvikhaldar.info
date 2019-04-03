@@ -26,7 +26,7 @@ So apart from monitoring we will also look at how we can set up alerts so that w
      
    * Restart the service `sudo systemctl restart node_exporter.service` to apply the latest changes to the unit file.
 
-        Optionally we can append `$ARGS` environment variable to the `ExecStart` and put it's value in the `~/.profile`.
+        Optionally we can append `$ARGS` environment variable to the `ExecStart` and put its value in the `~/.profile`.
 
         ![](/images/2019-04-03-23-15-40.png)
   
@@ -47,7 +47,7 @@ So apart from monitoring we will also look at how we can set up alerts so that w
 # Conclusion
 To test the Alert, try to stop the service by doing `sudo systemctl stop go-analyzer.service`. You should get an alert email soon. ![](/images/2019-04-03-01-18-04.png)
 
-Now you rest assured that whenever a crucial monitored service (maybe database, server, MQ service,etc) goes down you will be informed quick and hence take required action faster!
+Now you rest assured that whenever a crucial monitored service (maybe database, server, MQ service,etc) goes down you will be informed quickly and hence take required action faster!
 
 
 
