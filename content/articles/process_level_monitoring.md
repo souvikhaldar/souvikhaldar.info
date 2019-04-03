@@ -25,6 +25,10 @@ So apart from monitoring we will also look at how we can set up alerts so that w
    * Reload the changes `sudo systemctl daemon-reload`.
      
    * Restart the service `sudo systemctl restart node_exporter.service` to apply the latest changes to the unit file.
+
+        Optionally we can append `$ARGS` environment variable to the `ExecStart` and put it's value in the `~/.profile`.
+
+        ![](/images/2019-04-03-23-15-40.png)
   
 3. Create a new Dashboard in Grafana for monitoring the required service. Here, for example, let's monitor a service called `go-analyzer.service`. 
     * Select the `Add Query` option.
