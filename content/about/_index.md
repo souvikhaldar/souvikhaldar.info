@@ -10,7 +10,7 @@ draft: false
 ##### Flat 7-3A, PS IXORA, New town, Kolkata-700159
 
 ## Profile
-All India Rank in top 2 percentile in Modern Application Development course by NPTEL. Backend Developer with 1.5 years of experience using Golang and Python, DevOps using Ansible, Database Administration using PostgreSQL, PostGIS and Redis. CodeChef certified Data Structures and Algorithms programmer.
+All India Rank in top 2 percentile in Modern Application Development course by NPTEL. Backend Developer with ~2 years of experience using Golang and Python, DevOps using Ansible, Monitoring using Prometheus, Database Administration using PostgreSQL,PostGIS and Redis. CodeChef certified Data Structures and Algorithms programmer.
 
 ## Experience
 **BACKEND DEVELOPER, KARTBITES, KOLKATA — OCT 2017- PRESENT**
@@ -38,7 +38,8 @@ I used to write articles on various topics, but with special emphasis on coverin
 souvik/)
 
 ### Project
-Mr Bin: Intelligent Waste Management System [Youtube Link](https://youtu.be/6kOf2YhKCfo)
+[Mr Bin: Intelligent Waste Management System](https://youtu.be/6kOf2YhKCfo)
+
 * Technologies- IOT, Cloud Computing, Embedded Programming, Web-Development. 
   
 * The motive of this project is that we display the status of the garbage dumps in real time on a personalised website which in turn can be used to predict the best route to be taken for garbage collection.
