@@ -4,7 +4,13 @@ date: 2019-04-02T14:48:56+05:30
 draft: false
 ---
 
-# Setting up SMTP
+# Introduction
+Alerts are the most important feature of any monitoring system. You can although, always keep a tab open to monitor each and every event, but that's quite impractical. So, by setting alerts you can rest assured that in case of an emergency you will be notified appropriately by emails, slack, etc that something is not right, so you can take appropriate measures to analyse and finally fix it.
+
+# Two simple steps
+
+## 1. Setting up SMTP
+Here I'll show you how you can setup SMTP so that emails can be sent out as alert. There are various other ways to notify as well.
 Modify the `/etc/grafana.ini` (if you've installed Grafana using package manager, [otherwise](http://docs.grafana.org/installation/configuration/)) according to the content as follows:-
 ```
 #################################### SMTP / Emailing ##########################
@@ -18,6 +24,9 @@ skip_verify = true
 from_address = "<email-ID>"
 from_name = "<name>"
 ```
+
+*Note- Gmail need to be allowed access to [unsafe app](https://serverfault.com/questions/635139/how-to-fix-send-mail-authorization-failed-534-5-7-14).*
+
 Also update the `root_url` values to the required domain name otherwise if you invite someone, they will get invitation link as `http://localhost:3000/abcdsef`.
 
 *TIP- Search for it by presssing `/` in vim*
@@ -29,6 +38,22 @@ Once these changes are made restart the `grafana` service so as to apply the rec
 
 `sudo systemctl restart grafana.service`
 
-## DEMO
+## 2. Edit the dashboard
+You can setup alerts in the dashboard itself on the required metrics.
+I've imported the `Node Exporter Full` dashboard and now I want to set up alerts on disk space used. I want to be notified when I reach 80% of used disk space.
+![](/images/2019-04-03-22-47-04.png)
+*Node Exporter Full dashboard*
 
-![](/images/2019-04-02-22-28-06.png)
+Now click on edit option after clicking on the down arrow key-ish button on **Disk Space Used**. You'll see something like this:-
+
+![](/images/2019-04-03-22-50-10.png)
+
+Click on the bottom-left **Bell** icon called **Alert** and then click **Create Alert**.
+
+![](/images/2019-04-03-22-51-49.png)
+
+Since I want to set the limit to ~7.5 GB so I've set the values corresponding to **IS ABOVE** to `7500000000` which is in Bytes.
+
+![](/images/2019-04-03-22-56-30.png)
+
+Now add recipients of the alert mail and content in the bottom and you're done after you've saved it! *As simple as that*
