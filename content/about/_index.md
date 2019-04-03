@@ -3,7 +3,7 @@ title: "About"
 date: 2019-03-24T14:36:10+05:30
 draft: false
 ---
-
+[Download Resume](https://drive.google.com/open?id=1k9Y2c4tna7ugcLDh21wcRGQLmt0DkESI)
 # Souvik Haldar
 ##### 8653149116 
 ##### souvikhaldar32@gmail.com 
@@ -16,12 +16,12 @@ All India Rank in top 2 percentile in Modern Application Development course by N
 **BACKEND DEVELOPER, KARTBITES, KOLKATA — OCT 2017- PRESENT**
 
 * Building robust and high performant server and microservice using Golang.
+* Monitoring and alerting of servers using Prometheus, Grafana, node_exporter.
 * Spatial database management using PostGIS/PostgreSQL.
-* Implementing authentication and authorisation. (oauth2)
 * Maintaining and deploying the server using Ansible.
 * Implementing distributed messaging service using NSQ/Kafka.
-* Maintaining containers using Golang docker API. * Cloud - Digital Ocean, AWS.
-* Monitoring server using Prometheus and Grafana.
+* Cloud - Digital Ocean and AWS.
+
 
 **PRODUCT DEVELOPMENT INTERN, HASURA.IO, REMOTE — JUN 2017-AUG 2017**
 
@@ -39,8 +39,10 @@ souvik/)
 
 ### Project
 Mr Bin: Intelligent Waste Management System [Youtube Link](https://youtu.be/6kOf2YhKCfo)
-* Technologies- IOT, Cloud Computing, Embedded Programming, Web-Development.
+* Technologies- IOT, Cloud Computing, Embedded Programming, Web-Development. 
+  
 * The motive of this project is that we display the status of the garbage dumps in real time on a personalised website which in turn can be used to predict the best route to be taken for garbage collection.
+  
 * Server written in Go, deployed on Heroku, frontend in HTML/CSS, Arduino code on Arduino Uno, Python script for data fetching/pushing and Raspberry Pi 3.  
 
 ### EDUCATION
