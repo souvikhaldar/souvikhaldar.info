@@ -52,8 +52,8 @@ Click on the bottom-left **Bell** icon called **Alert** and then click **Create 
 
 ![](/images/2019-04-03-22-51-49.png)
 
-Since I want to set the limit to ~7.5 GB so I've set the values corresponding to **IS ABOVE** to `7500000000` which is in Bytes.
+The green graph shows the amount of free space left. Since I want to set the limit to >2 GB so I've set the values corresponding to **IS BELOW** to `2000000000` which is in Bytes. So it means that whenever the free-space left left will be <=2 GB I'll be notified. 
 
-![](/images/2019-04-03-22-56-30.png)
+![](/images/2019-04-04-09-38-30.png)
 
-Now add recipients of the alert mail and content in the bottom and you're done after you've saved it! *As simple as that*
+Now add recipients of the alert mail and content in the bottom and you're done after you've saved it! *As simple as that! Now relax, you'll be notified whenever there's an emergency*
