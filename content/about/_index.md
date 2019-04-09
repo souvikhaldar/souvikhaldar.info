@@ -32,9 +32,12 @@ hisab-kitab-save-to-earn-c978344e5744
 **MANAGEMENT INTERN, INDIAN RAILWAYS; RANCHI, JHARKHAND — JUN 2017-JUL 2017**
 
 As a management intern at Indian Railways (South Eastern) I got to understand how a big organisation like Railways does it’s basic management works like filing tender, pen- sion management, authorities, jurisdiction, etc.
-CONTENT WRITER, INDIANS NEWS; REMOTE — FEB 2015 - SEP 2016
-I used to write articles on various topics, but with special emphasis on covering events, seminars, lifestyle and workshops. I've even covered several techfests like EDGE 2015,     
- Eccentron and IIT KGP's EAD's Press Conference. [Indians News](https://indiansnews.com/author/)
+
+**CONTENT WRITER, INDIANS NEWS; REMOTE — FEB 2015 - SEP 2016** 
+
+* Articles on various topics, but with special emphasis on covering events, seminars, lifestyle and workshops. 
+* Covered several techfests like EDGE 2015, Eccentron (TISL) and Entrepreneurship Awareness Drive press conference.
+*  [Indians News](https://indiansnews.com/author/)
 souvik/)
 
 ### Project
