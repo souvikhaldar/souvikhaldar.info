@@ -9,9 +9,12 @@ You can get plenty of resources online which talks about how to get started with
 
 ## Structure
 A module can be thought of as the project. The module `github.com/souvikhaldar/example` is described in it's `go.mod` file. A module comprises of packages. Each package can be imported by users by doing, for example `go get github.com/souvikhaldar/example/pkg`. There are four directives in a module:-
-1) module --> Determines the path of the module
-2) require --> Determines all the dependencies required
-3) [replace](https://github.com/golang/go/wiki/Modules#when-should-i-use-the-replace-directive) --> Allows to supply another import path that might be a module in another VCS or in local file system 
+1) module --> Determines the path of the module 
+   
+2) require --> Determines all the dependencies required 
+   
+3) [replace](https://github.com/golang/go/wiki/Modules#when-should-i-use-the-replace-directive) --> Allows to supply another import path that might be a module in another VCS or in local file system  
+   
 4) exclude --> To exclude specific version of a dependency
 
 **Note- Check the version of the packages for satisfaction  by doing `go list -m all`**
