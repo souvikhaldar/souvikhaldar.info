@@ -9,6 +9,7 @@ You can get plenty of resources online which talks about how to get started with
 
 ## Structure
 A module can be thought of as the project. The module `github.com/souvikhaldar/example` is described in it's `go.mod` file. A module comprises of packages. Each package can be imported by users by doing, for example `go get github.com/souvikhaldar/example/pkg`. There are four directives in a module:-
+
 1) module --> Determines the path of the module 
    
 2) require --> Determines all the dependencies required 
