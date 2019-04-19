@@ -1,5 +1,5 @@
 ---
-title: "Migrating dependency management to go modules in a Go project"
+title: "How to migrate dependency management to go modules in a Golang project"
 date: 2019-04-05T14:19:52+05:30
 draft: false
 ---
