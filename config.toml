@@ -35,6 +35,13 @@ theme = "ananke"
     weight = -100
 
   [[menu.main]]
+    name = "Programming"
+    post = "<span class='alert'>New!</span>"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/programming/"
+    weight = -100
+
+  [[menu.main]]
     name = "Photography"
     url = "https://www.instagram.com/theperfectbehold/"
     
