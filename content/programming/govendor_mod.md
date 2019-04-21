@@ -35,6 +35,7 @@ I have a dependency requirement of a package called `gitlab.com/multitech/go_ser
 
 ### Solution
 In order to import this I need to `replace` this import path with the absolute or relative path of the module which provides this package and also mention this in the `require` directive.
+
 * Add --> `gitlab.com/multitech/go_server v0.0.0` in the require section.
 
 * Add --> `replace gitlab.com/multitech/go_server => <absolute or relative path>/go_server` at the bottom.
