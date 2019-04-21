@@ -43,6 +43,6 @@ In order to import this I need to `replace` this import path with the absolute o
 
 This solves two major steps that are often required while migrating the dependency management tool. I'll update this article with more hurdles that might come in the way while I work with modules more.
 
-Read this brilliant article by Russ Cox on [go modules](https://research.swtch.com/vgo-module).
+Moving ahead, read this brilliant article by Russ Cox on [go modules](https://research.swtch.com/vgo-module).
 
 
