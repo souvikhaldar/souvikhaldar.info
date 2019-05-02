@@ -17,7 +17,7 @@ Hence, I would suggest this to a fresher --> **When starting career, choose ment
 
 Also, I should discuss about some hardships I faced. If you work remote then at times you might feel lonely. This is excruciating as you will see your friends and classmates enjoy at weekends while you will either be with you family or alone. So it is very important that you know this aspect and make apt decision for yourself as to how you can deal with it. How I dealt with it is, I travelled often, spent more family time, bike rides *(oh I bought my first time with my salary!)* and played/exercised a lot! Another issue you might face is that, you won't always be spoon-fed with guidelines. You need to be a self learner, which again, returns you with the fruit of awesome fundamental understanding. Also, the time saved while not having to travel to office, can be utilized to learn more and more!
 
-To conclude, Kartbites gave me the best start to my career that I could ever dream of! Like all the good things, my tenure at Kartbites also has come to an end and it's time to bid farewell. 
+To conclude, Kartbites gave me the best start to my career that I could ever dream of! Like all the good things, my tenure at Kartbites also has come to an end and it's time to bid farewell. *Hasta la vista :)*
 
 
 
