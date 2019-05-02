@@ -4,7 +4,7 @@ date: 2019-05-02T20:57:31+05:30
 draft: false
 ---
 
-30th of April marks my last working day at [Kartbites](https://kartbites.com/), where I landed after getting the first job of my life as Software Engineer (Backend). 
+30th of April marked my last working day at [Kartbites](https://kartbites.com/), where I landed after getting the first job of my life as Software Engineer (Backend). 
 
 Sometime around August,2017, I was pretty sad one night, because campus placements were going on but I was not able to sit for most of the interviews because of low grades. Also, that particular day there was a recruitment drive for a role which I felt I could do very well because I had just done internship in the same domain at [hasura](https://hasura.io/) but alas, my grades didn't meet the requirements.
  
