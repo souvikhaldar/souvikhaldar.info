@@ -13,7 +13,11 @@ draft: false
 All India Rank in top 2 percentile in Modern Application Development course by NPTEL. Backend Developer with ~2 years of experience using Golang and Python, DevOps using Ansible, Monitoring using Prometheus, Database Administration using PostgreSQL,PostGIS and Redis. CodeChef certified Data Structures and Algorithms programmer.
 
 ## Experience
-**BACKEND DEVELOPER, KARTBITES, KOLKATA — OCT 2017- PRESENT**
+**BACKEND ENGINEER, BIOSTRAP - REMOTE - MAY 2019 - PRESENT**
+* Responsible to building and managing the backend platform of [Biostrap](www.biostrap.com) mobile device.
+
+
+**BACKEND DEVELOPER, KARTBITES, KOLKATA — OCT 2017- APRIL 2019**
 
 * Building robust and high performant server and microservice using Golang.
 * Monitoring and alerting of servers using Prometheus, Grafana, node_exporter.
