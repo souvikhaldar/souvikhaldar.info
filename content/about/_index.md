@@ -14,6 +14,7 @@ All India Rank in top 2 percentile in Modern Application Development course by N
 
 ## Experience
 **BACKEND ENGINEER, BIOSTRAP - REMOTE - MAY 2019 - PRESENT**
+
 * Responsible to building and managing the backend platform of [Biostrap](www.biostrap.com) mobile device.
 
 
