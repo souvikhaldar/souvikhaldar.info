@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cosmos on Souvik Haldar</title>
+    <link>https://www.souvikhaldar.info/</link>
+    <description>Recent content in Cosmos on Souvik Haldar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 May 2019 20:57:31 +0530</lastBuildDate>
+    
+	<atom:link href="https://www.souvikhaldar.info/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Farewell to the first workplace of my life</title>
+      <link>https://www.souvikhaldar.info/articles/farewell/</link>
+      <pubDate>Thu, 02 May 2019 20:57:31 +0530</pubDate>
+      
+      <guid>https://www.souvikhaldar.info/articles/farewell/</guid>
+      <description>30th of April marked my last working day at Kartbites, where I landed after getting the first job of my life as Software Engineer (Backend).
+Sometime around August of 2017, I was pretty sad one night, because campus placements were going on but I was not able to sit for most of the interviews because of low grades. Also, that particular day there was a recruitment drive for a role which I felt I could do very well because I had just done internship in the same domain at hasura but alas, my grades didn&amp;rsquo;t meet the requirements.</description>
+    </item>
+    
+    <item>
+      <title>How to update Golang</title>
+      <link>https://www.souvikhaldar.info/programming/update_go/</link>
+      <pubDate>Thu, 11 Apr 2019 10:33:26 +0530</pubDate>
+      
+      <guid>https://www.souvikhaldar.info/programming/update_go/</guid>
+      <description> For updating golang, you need to first uninstall golang. Check where is the go directory. Run which go. The output might be similar to:-
+souvik:Development souvikhaldar$ which go /usr/local/bin/go  Delete the directory as is the output above.
+sudo rm -rf /usr/local/bin/go  Now install the required version. Visit this link
+ Check the version by running :-
+souvik:~ souvikhaldar$ go version go version go1.12.3 darwin/amd64   </description>
+    </item>
+    
+    <item>
+      <title>The good and bad of asking for help</title>
+      <link>https://www.souvikhaldar.info/articles/help/</link>
+      <pubDate>Tue, 09 Apr 2019 13:02:30 +0530</pubDate>
+      
+      <guid>https://www.souvikhaldar.info/articles/help/</guid>
+      <description>We all have our vulnerabilities, the way we deal with them varies. To me (and maybe to many more) asking for help seems the best way, because by doing that you start to express the problem in the best way possible so as to make the person understand. In trying to do that we do a very major thing, that is, we formulate the problem statement. Most of the times we don&amp;rsquo;t know what the problem is, hence doing this makes us understand the problem in a better way, we start getting a clear picture.</description>
+    </item>
+    
+    <item>
+      <title>How to migrate dependency management to go modules in a Golang project</title>
+      <link>https://www.souvikhaldar.info/programming/govendor_mod/</link>
+      <pubDate>Fri, 05 Apr 2019 14:19:52 +0530</pubDate>
+      
+      <guid>https://www.souvikhaldar.info/programming/govendor_mod/</guid>
+      <description>Introduction Go didn&amp;rsquo;t had any official dependency management tool till the version 1.10, but gophers heavily used the third party dependency management tools like govendor,dep,etc. In late 2018, go modules was introduced as an experimental dependency management tool in the version 1.11 and since then it has proved it&amp;rsquo;s mettle and now in 2019 it has become the official one. You can get plenty of resources online which talks about how to get started with go modules but here I&amp;rsquo;m going to talk about how to migrate a project&amp;rsquo;s dependency management from govendor/dep to go modules.</description>
+    </item>
+    
+    <item>
+      <title>Process level monitoring and alerting in Prometheus</title>
+      <link>https://www.souvikhaldar.info/programming/process_level_monitoring/</link>
+      <pubDate>Wed, 03 Apr 2019 00:06:21 +0530</pubDate>
+      
+      <guid>https://www.souvikhaldar.info/programming/process_level_monitoring/</guid>
+      <description>Introduction Most of the Linux systems these days use systemd for service management, is responsible for starting rest of the system and is assigned the PID 1. We can easily create a service out of command by writing a systemd unit file for it. This is typically the practice for making sure a process keeps running as a system process and avails a valid PID. This is multiple benefits as well, you can read/manipulate the logs by using journalctl, start/stop/restart a service, send required signals to it, etc.</description>
+    </item>
+    
+    <item>
+      <title>Alert Manager in Prometheus</title>
+      <link>https://www.souvikhaldar.info/programming/alerting/</link>
+      <pubDate>Tue, 02 Apr 2019 14:48:56 +0530</pubDate>
+      
+      <guid>https://www.souvikhaldar.info/programming/alerting/</guid>
+      <description>Introduction Alerts are the most important feature of any monitoring system. You can although, always keep a tab open to monitor each and every event, but that&amp;rsquo;s quite impractical. So, by setting alerts you can rest assured that in case of an emergency you will be notified appropriately by emails, slack, etc that something is not right, so you can take appropriate measures to analyse and finally fix it.</description>
+    </item>
+    
+    <item>
+      <title>Monitoring a Linux/windows server using Prometheus</title>
+      <link>https://www.souvikhaldar.info/programming/prometheus/</link>
+      <pubDate>Mon, 25 Mar 2019 13:09:45 +0530</pubDate>
+      
+      <guid>https://www.souvikhaldar.info/programming/prometheus/</guid>
+      <description>Why monitor? Monitoring of a system is key to its smooth functioning. Going to the battlefield (production) without having proper monitoring setup done is like making your platform vulnerable, hence to obtain full control it becomes a must; as the popular say goes &amp;ldquo;Failing to plan, is planning to fail&amp;rdquo;. In this article I&amp;rsquo;m going to show how you can monitor a system using Prometheus, node_exporter and the Grafana UI.</description>
+    </item>
+    
+    <item>
+      <title>Brief Walkthrough of concurrency model in Go</title>
+      <link>https://www.souvikhaldar.info/programming/go/</link>
+      <pubDate>Sun, 24 Mar 2019 12:13:31 +0530</pubDate>
+      
+      <guid>https://www.souvikhaldar.info/programming/go/</guid>
+      <description>Introduction Around the year 2005, CPU manufacturers reached the limit of increasing the speed of the processors physically, which may also be thought of as reaching the saturation point of Moore’s Law. Hence they started adding more cores to the CPU viz. Dual-Core processor, Quad Core processor, etc., for enhancing the performance. Unfortunately, older languages are not very efficient at exploiting the benefits of the modern hardware comprising of multi-core CPUs.</description>
+    </item>
+    
+  </channel>
+</rss>
