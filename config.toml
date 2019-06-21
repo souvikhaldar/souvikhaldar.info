@@ -40,6 +40,12 @@ theme = "ananke"
     url = "/events/"
     weight = -100
 
+  [[menu.main]]
+    name = "Books"
+    post = "<span class='alert'>New!</span>"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/books/"
+    weight = -100
 
   [[menu.main]]
     name = "Programming"
