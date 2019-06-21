@@ -11,7 +11,7 @@ IRC is the abbreviation for *Internet Relay Chat*, which is an application layer
 IRC clients are the computer programs that implements the IRC protocol to establish connection to the server, to which more clients are connected further and hence, can communicate with each other, in the client-server way.
 
 There are several IRC clients available today, but I prefer to use terminal based clients, for example, bitchx, irssi, etc.
-I love irssi and in this post I'm going to go step by step as to how **I** did the setup and configure irssi on mac, but linux distributions should follow similar configuration process, except installation.
+I love [irssi](https://irssi.org/) and in this post I'm going to go step by step as to how **I** did the setup and configure irssi on mac, but linux distributions should follow similar configuration process, except installation.
 
 You can install it on mac using brew package manager- `brew install irssi`. 
  
