@@ -1,7 +1,7 @@
 ---
 title: "Setting up IRC client: irssi on Mac"
 date: 2019-05-16T18:59:51+05:30
-draft: true
+draft: false
 ---
 
 # What is IRC?
