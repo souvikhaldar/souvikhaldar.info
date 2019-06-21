@@ -3,24 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.souvikhaldar.info/programming/</loc>
+    <lastmod>2019-05-16T18:59:51+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.souvikhaldar.info/</loc>
+    <lastmod>2019-05-16T18:59:51+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.souvikhaldar.info/programming/setting_up_irssi/</loc>
+    <lastmod>2019-05-16T18:59:51+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.souvikhaldar.info/articles/</loc>
     <lastmod>2019-05-02T20:57:31+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.souvikhaldar.info/</loc>
-    <lastmod>2019-05-02T20:57:31+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.souvikhaldar.info/articles/farewell/</loc>
     <lastmod>2019-05-02T20:57:31+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.souvikhaldar.info/programming/</loc>
-    <lastmod>2019-04-11T10:33:26+05:30</lastmod>
   </url>
   
   <url>

@@ -6,10 +6,20 @@
     <description>Recent content in Cosmos on Souvik Haldar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 May 2019 20:57:31 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 16 May 2019 18:59:51 +0530</lastBuildDate>
     
 	<atom:link href="https://www.souvikhaldar.info/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Setting up IRC client: irssi on Mac</title>
+      <link>https://www.souvikhaldar.info/programming/setting_up_irssi/</link>
+      <pubDate>Thu, 16 May 2019 18:59:51 +0530</pubDate>
+      
+      <guid>https://www.souvikhaldar.info/programming/setting_up_irssi/</guid>
+      <description>What is IRC? IRC is the abbreviation for Internet Relay Chat, which an application layer protocol used for communication between systems connected to the internet. It follows the client-server architecture model.
+What is an IRC client? IRC clients are the computer programs that implements the IRC protocol to establish connection to the server, to which more clients are connected further and hence, can communicate with each other, in the client-server way.</description>
+    </item>
     
     <item>
       <title>Farewell to the first workplace of my life</title>
