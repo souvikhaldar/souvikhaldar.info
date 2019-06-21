@@ -55,6 +55,7 @@ eg. `/channel add -auto #dgplug freenode`
 * `/exit` to leave irssi  
 * `/me <message>` to write a message in second person.  
 * `/whois <nickname>` to know about the person  
+* `/part` to leave a channel  
 (other useful commands you can find [here](https://irssi.org/documentation/help/))   
 
 Now, you're ready to enter the world of IRC chatting, *welcome to one of oldest platform of real-time communication!*
