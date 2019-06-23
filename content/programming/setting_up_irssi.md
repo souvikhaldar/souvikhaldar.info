@@ -5,7 +5,9 @@ draft: false
 ---
 
 ## What is IRC?
-IRC is the abbreviation for *Internet Relay Chat*, which is an application layer protocol of the OSI stack, used for communication between systems connected to the internet. It follows the [client-server architecture model](https://en.wikipedia.org/wiki/Client%E2%80%93server_model).
+IRC is the abbreviation for *Internet Relay Chat*, which is an application layer protocol of the OSI stack, used for communication between systems connected to the internet. It follows the [client-server architecture model](https://en.wikipedia.org/wiki/Client%E2%80%93server_model).  
+
+{{< https://twitter.com/mariofusco/status/1137991622178816001 >}}  
 
 ## What is an IRC client?
 IRC clients are the computer programs that implements the IRC protocol to establish connection to the server, to which more clients are connected further and hence, can communicate with each other, in the client-server way.
