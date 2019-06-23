@@ -1,6 +1,6 @@
 ---
 title: "Cosmos"
 featured_image: '/images/index.jpg'
-description: "Souvik's corner in the vast world wide web"
+description: "Using Feynman's technique to understand life and things I covet"
 ---
 
