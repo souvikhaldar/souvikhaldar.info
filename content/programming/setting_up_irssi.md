@@ -58,4 +58,9 @@ eg. `/channel add -auto #dgplug freenode`
 * `/part` to leave a channel  
 (other useful commands you can find [here](https://irssi.org/documentation/help/))   
 
+*Also*, it is quite helpful if you can get some sort of notification when you're nick is mentioned by someone. By default, irssi will hilight the person who has mentioned you're nick but some sound notification makes if way more handy and sometimes it isn't even possible to browse though all the texts to see if someone has mentioned you. So, following will help you get a *beep* tone in case someone's mentions you-  
+`/set bell_beeps ON`  
+`/set beep_msg_level MSGS NOTICES DCC DCCMSGS HILIGHT`  
+
+
 Now, you're ready to enter the world of IRC chatting, *welcome to one of oldest platform of real-time communication!*
