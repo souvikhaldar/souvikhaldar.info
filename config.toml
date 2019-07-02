@@ -2,7 +2,7 @@ baseURL = "https://www.souvikhaldar.info"
 description = "Ramblings of an aspiring coder"
 languageCode = "en-us"
 title = "Souvik Haldar"
-theme = "ananke"
+theme = "hugo-coder"
 
 [params]
   favicon = "fav.png"
