@@ -16,4 +16,4 @@ This is implemented by writing a function that calls itself, and hence keep brea
 ## Example of recursive function
 
 Recursion is be better understood with an example.  
-Suppose we want to calculate factorial of a number in recursive fashiion. Here you go:-  
+Suppose we want to calculate factorial of a number in recursive fashion. Here you go:-  
