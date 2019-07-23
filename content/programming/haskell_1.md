@@ -1,9 +1,9 @@
 ---
-title: "Learning Haskell: Part 1"
+title: "What is functional programming?"
 date: 2019-04-28T20:18:44+05:30
 draft: false
 ---
-# What is functional programming?  
+# Introduction    
 A functional program is set of rules that govern a specific output on providing an input. The basic operation in functional programming in composition of functions.
 * function f(x) is represented as f x.
 * Recursive defination:-
