@@ -1,9 +1,9 @@
 ---
 title: "Learning Haskell: Part 1"
 date: 2019-04-28T20:18:44+05:30
-draft: true
+draft: false
 ---
-1)
+# What is functional programming?  
 A functional program is set of rules that govern a specific output on providing an input. The basic operation in functional programming in composition of functions.
 * function f(x) is represented as f x.
 * Recursive defination:-
@@ -11,10 +11,10 @@ A functional program is set of rules that govern a specific output on providing 
   succ(m) == m + 1
   plus n succ m == succ plus n m
 
-2)
+# What is a function  
 In mathematics, a function f with domain S and codomain T can be represented as f: S -> T, where Range R of this function should be subset of codomain T. Similarly in Haskell we can define the function type, input type and output type, where **type** is a well defined set of certain permitted values.
 
-3)
+# Haskell, a purely functional programming language  
 Simply put, Haskell is a programming language for defining functions.
 It is two parts:-
 * Type of the input and the output
