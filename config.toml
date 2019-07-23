@@ -1,60 +1,87 @@
-baseURL = "http://68.183.86.2"
+baseURL = "http://souvikhaldar.info"
 description = "Ramblings of an aspiring coder"
 languageCode = "en-us"
 title = "Souvik Haldar"
 theme = "hugo-coder"
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 
 [params]
+  author = "Souvik Haldar"
   favicon = "fav.png"
-  facebook = "https://www.facebook.com/s0uvikhaldar"
-  twitter = "https://twitter.com/s0ouvikhaldar"
-  instagram = "https://www.instagram.com/souvikhaldar/"
-  youtube = ""
-  github = "https://github.com/souvikhaldar"
-  gitlab = ""
-  linkedin = "https://www.linkedin.com/in/souvikhaldar/"
-  mastodon = ""
-  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-black"
-  featured_image = "/images/sikkim.jpg"
-  recent_posts_number = 3
+  description = "Using Feynman's techique to understand things"
+  info = "Backend Engineer | Creator | Explorer"
+  avatarurl = "/images/IMG_20180912_145153_434.jpg"
+  footercontent = "getting better eachday, everyday"
+  dateformat = "January 2,2006"
+  rtl = false
 
-[menu]
+  # Use inverted colors
+  inverted = false
+  # Series see also post count
+  maxSeeAlsoItems = 5
 
-  [[menu.main]]
-    name = "About"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "/about/"
-    weight = -110
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
 
-  [[menu.main]]
-    name = "Articles"
-    post = "<span class='alert'>New!</span>"
-    pre = "<i class='fa fa-road'></i>"
-    url = "/articles/"
-    weight = -100
-  [[menu.main]]
-    name = "Events"
-    post = "<span class='alert'>New!</span>"
-    pre = "<i class='fa fa-road'></i>"
-    url = "/events/"
-    weight = -100
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/souvikhaldar"
 
-  [[menu.main]]
-    name = "Books"
-    post = "<span class='alert'>New!</span>"
-    pre = "<i class='fa fa-road'></i>"
-    url = "/books/"
-    weight = -100
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 3
+    url = "https://twitter.com/s0uvikhaldar"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 4
+    url = "https://www.linkedin.com/in/souvikhaldar/"
+[[params.social]]
+    name = "Medium"
+    icon = "fab fa-medium"
+    weight = 5
+    url = "https://medium.com/@souvikhaldar"
+[[params.social]]
+    name = "Facebook"
+    icon = "fab fa-facebook"
+    weight = 6
+    url = "https://www.facebook.com/s0uvikhaldar"
 
-  [[menu.main]]
-    name = "Programming"
-    post = "<span class='alert'>New!</span>"
-    pre = "<i class='fa fa-road'></i>"
-    url = "/programming/"
-    weight = -100
 
-  [[menu.main]]
-    name = "Photography"
-    url = "https://www.instagram.com/theperfectbehold/"
-    
+
+[languages]
+    [languages.en]
+        languagename = "English"
+
+        [[languages.en.menu.main]]
+        name = "About"
+        weight = 1
+        url = "/about"
+
+        [[languages.en.menu.main]]
+        name = "Articles"
+        weight = 2
+        url = "/articles/"
+
+        [[languages.en.menu.main]]
+        name = "Programming"
+        weight = 3
+        url = "/programming/"
+
+        [[languages.en.menu.main]]
+        name = "Photography"
+        weight = 5
+        url = "https://www.instagram.com/theperfectbehold/"
+
+
+
