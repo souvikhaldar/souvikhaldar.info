@@ -31,7 +31,7 @@ draft: false
 **PRODUCT DEVELOPMENT INTERN, HASURA.IO, REMOTE — JUN 2017-AUG 2017**
 
 * Developed complete web-app named “hisab-kitab” which is an expense journal ap- plication,
-* Backend in Python (Flask), frontend in html, css, bootstrap and several Hasura APIs. * Complete documentation can be found at [Medium](https://medium.com/@souvikhaldar32/)
+* Backend in Python (Flask), frontend in html, css, bootstrap and several Hasura APIs. * Complete documentation can be found [here](https://medium.com/@souvikhaldar32/)
 hisab-kitab-save-to-earn-c978344e5744
 
 **MANAGEMENT INTERN, INDIAN RAILWAYS; RANCHI, JHARKHAND — JUN 2017-JUL 2017**
@@ -42,8 +42,7 @@ As a management intern at Indian Railways (South Eastern) I got to understand ho
 
 * Articles on various topics, but with special emphasis on covering events, seminars, lifestyle and workshops. 
 * Covered several techfests like EDGE 2015, Eccentron (TISL) and Entrepreneurship Awareness Drive press conference.
-*  [Indians News](https://indiansnews.com/author/)
-souvik/)
+*  [Indians News](https://indiansnews.com/author/souvik/)
 
 ### Project
 [Mr Bin: Intelligent Waste Management System](https://youtu.be/6kOf2YhKCfo)
@@ -52,7 +51,7 @@ souvik/)
   
 * The motive of this project is that we display the status of the garbage dumps in real time on a personalised website which in turn can be used to predict the best route to be taken for garbage collection.
   
-* Server written in Go, deployed on Heroku, frontend in HTML/CSS, Arduino code on Arduino Uno, Python script for data fetching/pushing and Raspberry Pi 3.  
+* Server written in Go, deployed on Heroku, frontend in HTML/CSS, Arduino code on Arduino Uno, Python script for data fetching/pushing and Raspberry Pi 3. 
 
 ### EDUCATION
 * Graduation = Techno India Salt Lake, Kolkata, MAKAUT University — B.Tech in Computer Science and Engineering, 2014-18. 
