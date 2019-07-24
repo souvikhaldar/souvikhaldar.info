@@ -5,20 +5,20 @@ draft: false
 ---
 [Download Resume](https://drive.google.com/open?id=1k9Y2c4tna7ugcLDh21wcRGQLmt0DkESI)
 # Souvik Haldar
-##### 8653149116 
-##### souvikhaldar32@gmail.com 
-##### Flat 7-3A, PS IXORA, New town, Kolkata-700159
+* 8653149116 
+* souvikhaldar32@gmail.com 
+* RA 304, sector 4, Salt Lake, Kolkata, 700098
 
 ## Profile
-All India Rank in top 2 percentile in Modern Application Development course by NPTEL. Backend Developer with ~2 years of experience using Golang and Python, DevOps using Ansible, Monitoring using Prometheus, Database Administration using PostgreSQL,PostGIS and Redis. CodeChef certified Data Structures and Algorithms programmer.
+[All India Rank in top 2 percentile](https://drive.google.com/file/d/0B8ez0XXq-2ITWDhDRWhUX0I1OTg/view?usp=sharing) in Modern Application Development course by NPTEL. Backend Developer with ~2 years of experience using Golang and Python, DevOps using Ansible, Monitoring using Prometheus, Database Administration using PostgreSQL,MySQL,PostGIS and Redis. [CodeChef certified Data Structures and Algorithms programmer](https://drive.google.com/open?id=1BxSSaGt7PjelIUJac_BpMMSpEgvGWftu).  
 
 ## Experience
-**BACKEND ENGINEER, BIOSTRAP - REMOTE - MAY 2019 - PRESENT**
+**BACKEND ENGINEER, [BIOSTRAP](https://biostrap.com/) - REMOTE - MAY 2019 - PRESENT**
 
-* Responsible to building and managing the backend platform of [Biostrap](www.biostrap.com) mobile device.
+* Responsible to building and managing the backend platform of Biostrap mobile device.
 
 
-**BACKEND DEVELOPER, KARTBITES, KOLKATA — OCT 2017- APRIL 2019**
+**BACKEND DEVELOPER, [KARTBITES](https://www.kartbites.com/), KOLKATA — OCT 2017- APRIL 2019**
 
 * Building robust and high performant server and microservice using Golang.
 * Monitoring and alerting of servers using Prometheus, Grafana, node_exporter.
