@@ -3,8 +3,7 @@ title: "About"
 date: 2019-03-24T14:36:10+05:30
 draft: false
 ---
-# Souvik Haldar
-* 8653149116 
+* Contact number- 8653149116 
 * souvikhaldar32@gmail.com 
 * RA 304, sector 4, Salt Lake, Kolkata, 700098
 
