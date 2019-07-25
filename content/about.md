@@ -14,7 +14,7 @@ draft: false
 ## Experience
 **BACKEND ENGINEER, [BIOSTRAP](https://biostrap.com/) - REMOTE - MAY 2019 - PRESENT**
 
-* Responsible to building and managing the backend platform of Biostrap mobile device.
+* Responsible to building and managing the backend platform of Biostrap mobile device in Golang.
 
 
 **BACKEND DEVELOPER, [KARTBITES](https://www.kartbites.com/), KOLKATA — OCT 2017- APRIL 2019**
