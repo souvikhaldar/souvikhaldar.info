@@ -1,5 +1,5 @@
 ---
-title: "Some Simple Ideas to Become a Better Software Engineer"
+title: "Some Ideas to Become a Better Software Engineer"
 date: 2019-03-26T02:01:06+05:30
 draft: false
 ---
