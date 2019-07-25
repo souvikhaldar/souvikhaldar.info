@@ -3,7 +3,6 @@ title: "About"
 date: 2019-03-24T14:36:10+05:30
 draft: false
 ---
-[Download Resume](https://drive.google.com/open?id=1k9Y2c4tna7ugcLDh21wcRGQLmt0DkESI)
 # Souvik Haldar
 * 8653149116 
 * souvikhaldar32@gmail.com 
