@@ -4,6 +4,7 @@ date: 2019-03-24T14:36:10+05:30
 draft: false
 ---
 * Email- souvikhaldar32@gmail.com 
+* IRC- souvikhaldar on Freenode server  
 
 ## Profile
 [All India Rank in top 2 percentile](https://drive.google.com/file/d/0B8ez0XXq-2ITWDhDRWhUX0I1OTg/view?usp=sharing) in Modern Application Development course by NPTEL. Backend Developer with ~2 years of experience using Golang and Python, DevOps using Ansible, Monitoring using Prometheus, Database Administration using PostgreSQL,MySQL,PostGIS and Redis. [CodeChef certified Data Structures and Algorithms programmer](https://drive.google.com/open?id=1BxSSaGt7PjelIUJac_BpMMSpEgvGWftu).  
