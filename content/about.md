@@ -56,14 +56,12 @@ As a management intern at Indian Railways (South Eastern) I got to understand ho
 * AISSE = (10th standard) Kendriya Vidyalaya Adra — CBSE , 2011, General 
 
 ### Technical Skills
-* Programming in Golang and Python.
-* DevOps using Ansible, Building Docker containers and Orchestration using Kuber-
-netes.
-* Database management in postgreSQL and Redis. 
-* Geographic Information System (GIS) manipulation, maintenance and management in PostGIS.
-* OS- Mac OSX, Arch Linux, Ubuntu, Kali Linux and Raspbian.
-* Tools - Postman, Git CLI , terminal, Slack/IRC, Goland, Vim, Visual Studio Code, Star-
-UML, Restlet, Swagger.
+* Languages- Golang and Python.
+* DevOps- Ansible.  
+* Database- postgreSQL, mySQL, Redis. 
+* Geographic Information System (GIS)- PostGIS.  
+* OS- Mac OSX, Arch Linux, Ubuntu, Kali Linux and Raspbian.  
+* Tools - Postman, Goland, Vim, Visual Studio Code.
 
 ### Achievements/ Additional Qualifications
 * Deputy Head of Public Relations and content writer for www.indiansnews.com
