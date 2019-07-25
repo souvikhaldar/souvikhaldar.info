@@ -1,4 +1,4 @@
-INV="$PWD/cloudhack/"
+export INV="$PWD/cloudhack/"
 
 
 
