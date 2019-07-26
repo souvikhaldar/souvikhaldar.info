@@ -28,6 +28,10 @@ A module can be thought of as the project. The module `github.com/souvikhaldar/e
 
 Here comes the requirement of `replace` directive as mentioned above.
 
+## Synchronizing  
+If you have a new golang project with dependencies vendored with modules and now you want to synchronize the dependencies, you have to first move the project outside of `GOPATH`. Once you've done that make sure `GO111MODULE` is `on`.   
+![](/images/2019-07-26-13-54-33.png)  
+Now if you try to install/build the project, the dependencies will be vendored automatically.  
 ### Situation 
 I have a dependency requirement of a package called `gitlab.com/multitech/go_server/config` which is local package.
 
