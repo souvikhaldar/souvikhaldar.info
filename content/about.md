@@ -27,9 +27,9 @@ draft: false
 
 **PRODUCT DEVELOPMENT INTERN, HASURA.IO, REMOTE — JUN 2017-AUG 2017**
 
-* Developed complete web-app named “hisab-kitab” which is an expense journal ap- plication,
-* Backend in Python (Flask), frontend in html, css, bootstrap and several Hasura APIs. * Complete documentation can be found [here](https://medium.com/@souvikhaldar32/)
-hisab-kitab-save-to-earn-c978344e5744
+* Developed complete web-app named [**hisab-kitab**](https://youtu.be/V86Moyi1QkM) which is an expense journal application.  
+* Backend in Python (Flask), frontend in html, css, bootstrap and several Hasura APIs.  
+* Complete documentation can be found [here](https://medium.com/@souvikhaldar32/hisab-kitab-save-to-earn-c978344e5744)  
 
 **MANAGEMENT INTERN, INDIAN RAILWAYS; RANCHI, JHARKHAND — JUN 2017-JUL 2017**
 
@@ -56,20 +56,23 @@ As a management intern at Indian Railways (South Eastern) I got to understand ho
 * AISSE = (10th standard) Kendriya Vidyalaya Adra — CBSE , 2011, General 
 
 ### Technical Skills
-* Languages- Golang and Python.
+* Languages- Golang, Python and Clojure.  
 * DevOps- Ansible.  
 * Database- postgreSQL, mySQL, Redis. 
 * Geographic Information System (GIS)- PostGIS.  
 * OS- Mac OSX, Arch Linux, Ubuntu, Kali Linux and Raspbian.  
-* Tools - Postman, Goland, Vim, Visual Studio Code.
+* Tools - Postman, Goland, Vim, Visual Studio Code.  
 
 ### Achievements/ Additional Qualifications
 * Deputy Head of Public Relations and content writer for www.indiansnews.com
-* NPTEL certification:- (1)Programming, Data Structures and Algorithms in Python
-(2)Design and Analysis of Algorithms (3) Programming in C (4) IoT
-* Represented school twice at Jawaharlal Nehru National Science Exhibition, twice in Social Science exhibition and won several competitions like debate, poem com- position, quiz
-* Played Basketball at cluster level, Cricket at district level of CAB and Dwitya Sopan scout of Bharat Scout and Guide.
-* Active member of tech-fest in Management, PR and anchoring at several fests at college.
-* Held various positions of responsibility in school/college including House Captain, literary captain, Class Representative.
-* CodeChef certified Data Structures and Algorithms programmer.
+* NPTEL certification:-  
+(1)Programming, Data Structures and Algorithms in Python    
+(2)Design and Analysis of Algorithms  
+(3) Programming in C  
+(4) IoT    
+* Represented school twice at Jawaharlal Nehru National Science Exhibition, twice in Social Science exhibition and won several competitions like debate, poem com- position, quiz  
+* Played Basketball at cluster level, Cricket at district level of CAB and Dwitya Sopan scout of Bharat Scout and Guide.  
+* Active member of tech-fest in Management, PR and anchoring at several fests at college.  
+* Held various positions of responsibility in school/college including House Captain, literary captain, Class Representative.  
+* CodeChef certified Data Structures and Algorithms programmer.  
 
