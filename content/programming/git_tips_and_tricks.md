@@ -11,9 +11,9 @@ For eg, if I want to set xyz.go file to the master version you can do:-
 * Sometimes, we are not ready to commit yet but want to change the branch or we realise that we have been making changes in a wrong branch. In that case `git stash` can be useful. What is does is, it saves your current changes in a stack and makes the status clean (i.e no `diff`). Now you can change your branch or do whatever is needed, and then when you want those stashed changes back, you `apply` selected stash from the stack.  
     1. To save current chaneges to the stack `git stash save "message"`. 
     2. List all the saved changes in the stack `git stash list`.  
-        ![](2019-08-02-20-01-06.png)   
+        ![](images/2019-08-02-20-01-06.png)   
     3. To apply the selected stash `git stash apply <stash id>`.
-        ![](2019-08-02-20-04-02.png)
+        ![](images/2019-08-02-20-04-02.png)
     4. If you want to apply last saved stash `git stash pop` (same concept as stack ADT)  
     5. If you want to delete particular stash `git stash drop <stash-id>`.  
     6. If you want to delete all the saved changes in you stash `git stash clear`.  
