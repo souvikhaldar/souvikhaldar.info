@@ -62,17 +62,3 @@ As a management intern at Indian Railways (South Eastern) I got to understand ho
 * Geographic Information System (GIS)- PostGIS.  
 * OS- Mac OSX, Arch Linux, Ubuntu, Kali Linux and Raspbian.  
 * Tools - Postman, Goland, Vim, Visual Studio Code.  
-
-### Achievements/ Additional Qualifications
-* Deputy Head of Public Relations and content writer for www.indiansnews.com
-* NPTEL certification:-  
-(1)Programming, Data Structures and Algorithms in Python    
-(2)Design and Analysis of Algorithms  
-(3) Programming in C  
-(4) IoT    
-* Represented school twice at Jawaharlal Nehru National Science Exhibition, twice in Social Science exhibition and won several competitions like debate, poem com- position, quiz  
-* Played Basketball at cluster level, Cricket at district level of CAB and Dwitya Sopan scout of Bharat Scout and Guide.  
-* Active member of tech-fest in Management, PR and anchoring at several fests at college.  
-* Held various positions of responsibility in school/college including House Captain, literary captain, Class Representative.  
-* CodeChef certified Data Structures and Algorithms programmer.  
-
