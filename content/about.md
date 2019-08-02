@@ -39,9 +39,17 @@ As a management intern at Indian Railways (South Eastern) I got to understand ho
 
 * Articles on various topics, but with special emphasis on covering events, seminars, lifestyle and workshops. 
 * Covered several techfests like EDGE 2015, Eccentron (TISL) and Entrepreneurship Awareness Drive press conference.
-*  [Indians News](https://indiansnews.com/author/souvik/)
+*  [Indians News](https://indiansnews.com/author/souvik/)  
 
-### Project
+## Technical Skills
+* Languages- Golang, Python and Clojure.  
+* DevOps- Ansible.  
+* Database- postgreSQL, mySQL, Redis. 
+* Geographic Information System (GIS)- PostGIS.  
+* OS- Mac OSX, Arch Linux, Ubuntu, Kali Linux and Raspbian.  
+* Tools - Postman, Goland, Vim, Visual Studio Code.    
+
+## Project
 [Mr Bin: Intelligent Waste Management System](https://youtu.be/6kOf2YhKCfo)
 
 * Technologies- IOT, Cloud Computing, Embedded Programming, Web-Development. 
@@ -50,15 +58,8 @@ As a management intern at Indian Railways (South Eastern) I got to understand ho
   
 * Server written in Go, deployed on Heroku, frontend in HTML/CSS, Arduino code on Arduino Uno, Python script for data fetching/pushing and Raspberry Pi 3. 
 
-### EDUCATION
+## EDUCATION
 * Graduation = Techno India Salt Lake, Kolkata, MAKAUT University — B.Tech in Computer Science and Engineering, 2014-18. 
 * AISSCE = (12th standard) Kendriya Vidyalaya Adra — CBSE , 2013, Science 
 * AISSE = (10th standard) Kendriya Vidyalaya Adra — CBSE , 2011, General 
 
-### Technical Skills
-* Languages- Golang, Python and Clojure.  
-* DevOps- Ansible.  
-* Database- postgreSQL, mySQL, Redis. 
-* Geographic Information System (GIS)- PostGIS.  
-* OS- Mac OSX, Arch Linux, Ubuntu, Kali Linux and Raspbian.  
-* Tools - Postman, Goland, Vim, Visual Studio Code.  
