@@ -25,7 +25,7 @@ draft: false
 * Cloud - Digital Ocean and AWS.
 
 
-**PRODUCT DEVELOPMENT INTERN, HASURA.IO, REMOTE — JUN 2017-AUG 2017**
+**PRODUCT DEVELOPMENT INTERN, [HASURA.IO](https://hasura.io/), REMOTE — JUN 2017-AUG 2017**
 
 * Developed complete web-app named [**hisab-kitab**](https://youtu.be/V86Moyi1QkM) which is an expense journal application.  
 * Backend in Python (Flask), frontend in html, css, bootstrap and several Hasura APIs.  
