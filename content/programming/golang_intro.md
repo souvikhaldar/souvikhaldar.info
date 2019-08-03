@@ -8,21 +8,21 @@ draft: false
 The Go programming language (A.K.A Golang) is an open-source language built by Google. Some of the biggest names in the world of Computer Science are associated with Go, namely Rob Pike, Ken Thompson and Robert Griesemer. There are several characteristics of Go that makes it a perfect fit for building simple, reliable and efficient software, let's discuss them now.  
 
 ## Characteristics of Go
-i) Open-source- The very nature of the open-source product assures that it is a language built by the community for the community.
+* Open-source- The very nature of the open-source product assures that it is a language built by the community for the community.
 
-ii) Statically typed- When you’re building production-grade software, type safety avoids a LOT of bugs that arise simply due to the assignment of unsuitable type of value to a variable. Static typing allows early detection of trivial bugs.
+* Statically typed- When you’re building production-grade software, type safety avoids a LOT of bugs that arise simply due to the assignment of unsuitable type of value to a variable. Static typing allows early detection of trivial bugs.
 Such errors in dynamically typed languages like python are thrown only at runtime, which is not desirable.  
 `a = 'foo'`  
 `b = True`  
 `c = a / b`  
 
-iii) Generates Binary executable - Go is a compiled language that can generate binary executable with all the dependencies baked into it. This essentially means, for running the binary one does not need any runtime support. Plus the binary generated is really small in size, added bonanza :) 
+* Generates Binary executable - Go is a compiled language that can generate binary executable with all the dependencies baked into it. This essentially means, for running the binary one does not need any runtime support. Plus the binary generated is really small in size, added bonanza :) 
 The best result that comes out of it is, one can containerize a full blown software in ~5 MB! That’s a really small number! This process of building a container is called multi-stage build. 
 
-iv) Cross-platform- This is one of the most amazing feature of golang, which makes it the language of choice for the DevOps people too. Go can generate binary executable for different target platform! What is means is, you can write Go code on Darwin (Mac) and generate binary which can run on linux, so on and so forth, with no requirement for any other support! 
+* Cross-platform- This is one of the most amazing feature of golang, which makes it the language of choice for the DevOps people too. Go can generate binary executable for different target platform! What is means is, you can write Go code on Darwin (Mac) and generate binary which can run on linux, so on and so forth, with no requirement for any other support! 
 Also, it isn’t like Java which can also run on different platforms, but the catch is, it requires the Java Virtual machine to be installed on the target platform, which is hugely memory hogging!
 
-v) Concurrency- This is the feature that makes puts Go in the lead position in the field of Backend Engineering. Concurrent programming is a nightmare for most of the developers. But the way Go deals with it is a breeze! Concurrency is first class citizen in Go. You can run a process in a new goroutine (light-weight thread) just by prefixing the function invocation call with `go`. There’s a lot to talk about it but you [read my article](http://souvikhaldar.info/programming/go/) on this topic which elaborates it further.
+* Concurrency- This is the feature that makes puts Go in the lead position in the field of Backend Engineering. Concurrent programming is a nightmare for most of the developers. But the way Go deals with it is a breeze! Concurrency is first class citizen in Go. You can run a process in a new goroutine (light-weight thread) just by prefixing the function invocation call with `go`. There’s a lot to talk about it but you [read my article](http://souvikhaldar.info/programming/go/) on this topic which elaborates it further.
 
 
 ## Why learn Go?
