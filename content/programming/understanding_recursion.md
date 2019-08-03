@@ -66,7 +66,7 @@ def palindrome(s):
 3. Given `n` people in a circle, `kth` person is killed in every iteration. Find the survivor. (Josephus Problem)  
 ![](2019-08-01-17-19-35.png)  
 
-
+TODO: Wrong solution
 ```
 def josephus(n,k,start,i,killed=[]):
 
@@ -84,3 +84,18 @@ def josephus(n,k,start,i,killed=[]):
             return josephus(n,k,start,1,killed)
         return josephus(n,k,next,i+1,killed)
 ```
+
+4. Write a recursive function to calculate the `nth` number in the Finonacci sequence.  
+```
+def fib(n):
+    if n <= 1:
+        return n
+    return fib(n-1)+fib(n-2)
+```
+In the above solution it is important to analyse the recursion. Let's try to understand this by taking example if `fib(5)` i.e 5th element in the Fibonacci sequence. When we call `fib(5)` it recursively makes call to `fib(4)` then `fib(3)` then `fib(2)` then hits the base condition when it calls `fib(1)` as when `n<=1` fib returns `n` i.e 1 in this case.  
+
+![](/images/2019-08-03-12-32-24.png)  
+
+Now the control goes back to `fib(2)` when it recursively makes call to `fib(0)` which is again a base condition and returns 0. So, `fib(2)` returns `1+0` back to `fib(3)` when `fib(3)` will further make recursive call to `fib(1)` which return 1. Hence `fib(3)` returns `1+1` back to `fib(4)`. Now `fib(4)` makes another recursive call to `fib(2)` which recursively calls `fib(1)` and `fib(0)` to essentially returns `1+0`, hence `fib(4)` returns `2+1` to `fib(5)`. Now `fib(5)` recursively makes call to `fib(3)` which upon makes further calls would essesentially return `(1+0)+1` i.e 2. So, finally `fib(5)` returns `3+2` back to the caller, which is the 5th element in the Fibonacci sequence.   
+![](/images/2019-08-03-12-33-49.png)  
+(image courtesy- mycodeschool, which has arguably the best videos on DSA on the entire internet)  

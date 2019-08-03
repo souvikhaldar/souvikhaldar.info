@@ -49,17 +49,24 @@ As a management intern at Indian Railways (South Eastern) I got to understand ho
 * OS- Mac OSX, Arch Linux, Ubuntu, Kali Linux and Raspbian.  
 * Tools - Postman, Goland, Vim, Visual Studio Code.    
 
-## Project
-[Mr Bin: Intelligent Waste Management System](https://youtu.be/6kOf2YhKCfo)
+## Projects
+1. [Mr Bin: Intelligent Waste Management System](https://youtu.be/6kOf2YhKCfo)
 
 * Technologies- IOT, Cloud Computing, Embedded Programming, Web-Development. 
   
 * The motive of this project is that we display the status of the garbage dumps in real time on a personalised website which in turn can be used to predict the best route to be taken for garbage collection.
   
-* Server written in Go, deployed on Heroku, frontend in HTML/CSS, Arduino code on Arduino Uno, Python script for data fetching/pushing and Raspberry Pi 3. 
+* Server written in Go, deployed on Heroku, frontend in HTML/CSS, Arduino code on Arduino Uno, Python script for data fetching/pushing and Raspberry Pi 3.  
+
+2. [Self Operating and Weather Adaptable Street Lights](https://youtu.be/aaMccwiHsxU)  
+This is the science project I've made in class 12th in 2012 under the category of Energy Conservation and stood first at school level and was further selected for the regional level at Kendriya Vidyalaya Salt Lake no. 2. 
+Documentation of this project can be seen at https://drive.google.com/file/d/0B8ez0XXq-2ITRXFXYjNTZkdqd2c/edit?usp=sharing.
+
+    Description: As the name suggests this system can adapt to the brightness of the environment and emit proper amount of light, hence conserving the electricity.This system comprises of only a few elements like IC 555, a PCB, an LED, battery, switch, LDR etc.
+
 
 ## EDUCATION
-* Graduation = Techno India Salt Lake, Kolkata, MAKAUT University — B.Tech in Computer Science and Engineering, 2014-18. 
+* Graduation = Techno India Salt Lake, Kolkata, MAKAUT University — **B.Tech in Computer Science and Engineering**, 2014-18. 
 * AISSCE = (12th standard) Kendriya Vidyalaya Adra — CBSE , 2013, Science 
 * AISSE = (10th standard) Kendriya Vidyalaya Adra — CBSE , 2011, General 
 
