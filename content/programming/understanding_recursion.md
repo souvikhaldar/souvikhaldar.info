@@ -64,7 +64,7 @@ def palindrome(s):
     return palindrome(s[1:len(s)-1])
 ```  
 3. Given `n` people in a circle, `kth` person is killed in every iteration. Find the survivor. (Josephus Problem)  
-![](2019-08-01-17-19-35.png)  
+![](/images/2019-08-01-17-19-35.png)  
 
 TODO: Wrong solution
 ```
