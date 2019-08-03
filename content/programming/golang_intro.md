@@ -26,12 +26,13 @@ v) Concurrency- This is the feature that makes puts Go in the lead position in t
 
 
 ## Why learn Go?
-If you still not convinced to learn Go after reading the above points, let me show you the practical benefits of learning it, as of July,2019.
+If you still not convinced to learn Go after reading the above points, let me show you the practical benefits of learning it, as of July,2019.  
+
 * According to stackoverflow 2019 survey results, Go ranks at 3rd spot in the rankings for Most Wanted Languages.  
 
     ![](/images/2019-08-04-00-01-27.png)  
 
-* Go finds itself at 3rd rank in the list for highest paying job’s language globally. 
+* Go finds itself at 3rd rank in the list for highest paying job’s language globally.   
     ![](/images/2019-08-04-00-03-48.png)  
 
 * The number of available jobs for golang professionals are increasing day by day as more companies are starting to adopt Go in the toolchain and also migrating legacy codebases to Go, for the good reasons.  
