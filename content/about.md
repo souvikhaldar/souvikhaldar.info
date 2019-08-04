@@ -59,10 +59,10 @@ As a management intern at Indian Railways (South Eastern) I got to understand ho
     * Server written in Go, deployed on Heroku, frontend in HTML/CSS, Arduino code on Arduino Uno, Python script for data fetching/pushing and Raspberry Pi 3.  
 
 * [Self Operating and Weather Adaptable Street Lights](https://youtu.be/aaMccwiHsxU)  
-This is the science project I've made in class 12th in 2012 under the category of Energy Conservation and stood first at school level and was further selected for the regional level at Kendriya Vidyalaya Salt Lake no. 2. 
-Documentation of this project can be found [here](https://drive.google.com/file/d/0B8ez0XXq-2ITRXFXYjNTZkdqd2c/edit?usp=sharing).
+    This is the science project I've made in class 12th in 2012 under the category of Energy Conservation and stood first at school level and was further selected for the regional level at Kendriya Vidyalaya Salt Lake no. 2. 
+    Documentation of this project can be found [here](https://drive.google.com/file/d/0B8ez0XXq-2ITRXFXYjNTZkdqd2c/edit?usp=sharing).
 
-    **Description**: As the name suggests this system can adapt to the brightness of the environment and emit proper amount of light, hence conserving the electricity.This system comprises of only a few elements like IC 555, a PCB, an LED, battery, switch, LDR etc.
+    **Description**: As the name suggests this system can adapt to the brightness of the environment and emit proper amount of light, hence conserving the electricity.This system comprises of only a few elements like IC 555, a PCB,an LED, battery, switch, LDR etc.
 
 
 ## EDUCATION
