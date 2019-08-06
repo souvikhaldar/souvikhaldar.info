@@ -6,8 +6,8 @@ draft: false
 
 # What is REST
 REST, acronym for Representational State Transfer, is the architectural approach to building web services. Let's discuss a few characteristics of REST:  
-* REST is independent of any underlying protocol. i.e REST API can be build over any protocol like REST HTTP API which means RESTful API built over HTTP protocol.  
-* REST is independent of any specific implementation detail. i.e a REST API can be built on any language,tool,environment,etc. Almost every language allows one to write a REST API. The participating Client and Server can be built,modified and scaled separately, as long as they communicate in a consistent manner.  
+*  REST is independent of any underlying protocol. i.e REST API can be build over any protocol like REST HTTP API which means RESTful API built over HTTP protocol.  
+*  REST is independent of any specific implementation detail. i.e a REST API can be built on any language,tool,environment,etc. Almost every language allows one to write a REST API. The participating Client and Server can be built,modified and scaled separately, as long as they communicate in a consistent manner.  
 
 # Design principles of RESTful HTTP APIs  
 * Statelessness: The participating client and server are not required to know the state of each other. Essentially every request/response is independent and does not have any knowledge of the previous request/response.  
