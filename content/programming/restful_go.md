@@ -177,7 +177,7 @@ func fetchCustomers(w http.ResponseWriter, r *http.Request) {
 In the above code, we are querying for all the customer records, accessing them one by one and appending to a slice and finally serializing them into JSON using the `Marshall` method.   
 
 
-You can checkout the entire code in this [repository]().
+You can checkout the entire code in this [repository](https://github.com/souvikhaldar/golang-API-guide).
 
 **Link to [API documentation](https://documenter.getpostman.com/view/1921454/SVYrsdwf) is here.**
 
