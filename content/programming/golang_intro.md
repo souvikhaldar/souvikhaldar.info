@@ -16,6 +16,8 @@ Such errors in dynamically typed languages like python are thrown only at runtim
 `b = True`  
 `c = a / b`  
 
+* Fast compilation- The compilation of a golang program is so fast that it often feels like a interpreted language! So Go is the perfect combination of `type safety` of compiled languages and quick to execute aspect of interpreted languages!  
+
 * Generates Binary executable - Go is a compiled language that can generate binary executable with all the dependencies baked into it. This essentially means, for running the binary one does not need any runtime support. Plus the binary generated is really small in size, added bonanza :) 
 The best result that comes out of it is, one can containerize a full blown software in ~5 MB! That’s a really small number! This process of building a container is called multi-stage build. 
 

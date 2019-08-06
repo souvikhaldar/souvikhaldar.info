@@ -92,7 +92,10 @@ So let's setup the database connection now.
 
     ```
 
-What it is doing is, first it is reading the request JSON data and unmarshalling it into `customer` struct, then it is making `INSERT` query to the database to add the data. Simple!  
+    What it is doing is, first it is reading the request JSON data and  unmarshalling it into `customer` struct, then it is making `INSERT`  query to the database to add the data. Simple!  
+
+6. The code for updating the user is as follows:-  
+
 
 
 
