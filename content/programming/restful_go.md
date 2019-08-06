@@ -28,6 +28,7 @@ U --> update a customer's detail (PUT)
 D --> delete a customer's instance (DELETE)  
 The standard library of Go is really very powerful, you can write a full blown server by using just the [standard library](https://golang.org/pkg/)!  
 I’m assuming your system is setup for writing Go programs, if not you can [follow this link](https://golang.org/doc/install) and get it done.  
+
 1. Create a directory in the `$GOPATH/src/<vcs-name>/<username>/golang-server` and name it anything you want. I’m naming in `golang-server`. 
 The above path is standard golang practice, but after the onset of `go modules` you can create the directory anywhere you want.  
 For me the path looks like:-  
@@ -129,22 +130,22 @@ We pass the data to be updated in the `body` of the request and customer ID of t
 (NOTE: later when you see the request you will understand it better, for now focus on the logic.)  
 8. Let's try to `DELETE` a resource now.  
 
-    
-    func deleteCustomer(w http.ResponseWriter, r *http.Request) {
-        v := mux.Vars(r)
-        id := v["id"]
-        fmt.Println("Deleting user: ", id)
-        if _, err := dbDriver.Exec("DELETE FROM customer where customer_id=$1", id); err != nil {
-            fmt.Println("Unable to delete the customer: ", err)
-            http.Error(w, err.Error(), 500)
-            return
-        }
-        fmt.Fprintln(w, "Successfully deleted!")
+```
+func deleteCustomer(w http.ResponseWriter, r *http.Request) {
+    v := mux.Vars(r)
+    id := v["id"]
+    fmt.Println("Deleting user: ", id)
+    if _, err := dbDriver.Exec("DELETE FROM customer where customer_id=$1", id); err != nil {
+        fmt.Println("Unable to delete the customer: ", err)
+        http.Error(w, err.Error(), 500)
+        return
     }
+    fmt.Fprintln(w, "Successfully deleted!")
+}
+```
     
 
-In the above code, we are passing the ID of the customer to be deleted from our records. The query for deletion the simple `DELETE` command.    
-
+In the above code, we are passing the ID of the customer to be deleted from our records. The query for deletion the simple `DELETE` command.  
 9. Now finally, let's try to fetch the details of all customer data in JSON format.  
 ```
 func fetchCustomers(w http.ResponseWriter, r *http.Request) {
