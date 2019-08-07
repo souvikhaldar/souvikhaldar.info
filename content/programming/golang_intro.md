@@ -1,5 +1,5 @@
 ---
-title: "A brief introduction to Go programming language"
+title: "What is Go programming language and why you should learn it"
 date: 2019-08-03T23:52:50+05:30
 draft: false
 ---
