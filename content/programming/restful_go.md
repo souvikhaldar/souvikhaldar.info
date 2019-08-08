@@ -37,8 +37,8 @@ For me the path looks like:-
     ![](/images/2019-08-04-21-11-41.png)   
 
 2. Create a file called `main.go` (you can name it whatever). This is where the `main` function resides.  
-3. We can store data anywhere, but for persistent storage a database is always a good option. In this guide, we will be using [PostgreSQL](https://www.postgresql.org/). 
-    *So let's setup the database connection now.*   
+3. We can store data anywhere, but for persistent storage a database is always a good option. In this guide, we will be using [PostgreSQL](https://www.postgresql.org/).   
+    *So let's setup the database connection now.*     
     (i) Install postgresql on your system. Follow this [link](https://www.postgresqltutorial.com/install-postgresql/)  
     (ii) Run `psql -U postgres` on the terminal. (NOTE: `postgres` is a default role automatically created, if it's not you need to create it. Also, my commands are for mac, but other OSs should be pretty similar)  
     (iii) Create a new database. `create database guide`, I'm naming it guide, you can name it anything.  
@@ -47,7 +47,7 @@ For me the path looks like:-
         * At the project root- `govendor init`  
         * `govendor fetch github.com/lib/pq` 
         (Note: If we would have not used govendor for dependency management we could have installed using- `go get -u github.com/lib/pq` but using one is always a better idea)  
-    (vi) `init` method in golang is the method that runs first even before running `main` hence we will setup the database connection there. 
+    (vi) `init` method in golang is the method that runs first even before running `main` hence we will setup the database connection there.   
         ``` 
         func init() {
             psqlInfo := fmt.Sprintf("host=%s port=%d user=%s dbname=%s sslmode=disable", host, port, user, dbname)
@@ -79,7 +79,7 @@ For me the path looks like:-
     ```
 
 5. Now let's write the handler for each of the operations. 
-    Below is the handler for adding a new customer's details.  
+    Below is the handler for adding a new customer's details.   
     ```
     func addCustomer(w http.ResponseWriter, r *http.Request) {
         var requestbody customer
@@ -101,7 +101,7 @@ For me the path looks like:-
     What it is doing is, first it is reading the request which contains a JSON data as body and unmarshalling it into `customer` struct, then it is making `INSERT`  query to the database to add the data.
     
 
-6. The code for updating the user is as follows:-   
+6. The code for updating the user is as follows:-    
     ```
     func updateCustomer(w http.ResponseWriter, r *http.Request) {
         v := mux.Vars(r)
