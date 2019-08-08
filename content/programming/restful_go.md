@@ -46,7 +46,7 @@ For me the path looks like:-
     (v) We need a third party library for better database handling. Use [govendor](https://github.com/kardianos/govendor) for dependency management hence install it this way:-  
         * At the project root- `govendor init`  
         * `govendor fetch github.com/lib/pq` 
-        (Note: If we would have not used govendor for dependency management we could have installed using- `go get -u github.com/lib/pq` but using one is always a better idea)
+        (Note: If we would have not used govendor for dependency management we could have installed using- `go get -u github.com/lib/pq` but using one is always a better idea)  
     (vi) `init` method in golang is the method that runs first even before running `main` hence we will setup the database connection there. 
         ``` 
         func init() {
