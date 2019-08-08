@@ -3,6 +3,7 @@ title: "Git tips and tricks"
 date: 2019-08-02T19:20:36+05:30
 draft: false
 ---
+`Git` is arguably the foundation tool of *Open Source* and software engineering (VCS) part in general, second biggest gift of [Linus Torvals](https://en.wikipedia.org/wiki/Linus_Torvalds) to the world after the mighty `Linux`! If you are new to the world of OSS, `git` is probably the first tool you should learn about! While getting starting with `git` is very easy, mastering `git` is a lifetime endeavour! So this article would be forever in WIP, I'll keep adding notes to it, so that anyone (including me) can keep visiting.  
 
 * If you want to set a particular file to some branch's version on origin without disturbing other files in the branch you can use `git checkout origin/<branch-name> --path/to/the/file`.  
 For eg, if I want to set xyz.go file to the master version you can do:-  
