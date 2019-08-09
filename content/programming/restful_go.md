@@ -1,5 +1,5 @@
 ---
-title: "Understanding REST and priciples behind designing RESTful HTTP APIs in Go"
+title: "Understanding REST and principles behind designing RESTful HTTP APIs in Go"
 date: 2019-08-04T15:58:48+05:30
 draft: false
 ---
