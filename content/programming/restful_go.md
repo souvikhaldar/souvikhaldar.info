@@ -45,9 +45,10 @@ For me the path looks like:-
     (iii) Create a new database. `create database guide`, I'm naming it guide, you can name it anything.  
     (iv) Create a simple table with two columns `customer_id` and `customer_name` by running `create table customer(customer_id int,customer_name text);` after connecting the `guide` database (do `\c guide`)  
     (v) We need a third party library for better database handling. Use [govendor](https://github.com/kardianos/govendor) for dependency management hence install it this way:-  
-        * At the project root- `govendor init`  
-        * `govendor fetch github.com/lib/pq`  
+        (a)  At the project root- `govendor init`  
+        (b) `govendor fetch github.com/lib/pq`  
         (Note: If we would have not used govendor for dependency management we could have installed using- `go get -u github.com/lib/pq` but using one is always a better idea)  
+
     (vi) `init` method in golang is the method that runs first even before running `main` hence we will setup the database connection there.  
 
     ``` 
