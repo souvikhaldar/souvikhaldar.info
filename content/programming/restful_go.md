@@ -350,7 +350,8 @@ You can peek into the database once to see/cross-check how our data is stored wh
 
 # Conclusion  
 So, in just 130 lines of code we are created a fully functioning RESTful API performing all four of the CRUD operations in the most dominating language of this segment! **kudos!**  
-As further steps of deployment, you can write a simple [Ansible](https://www.ansible.com/) script and a corresponding [unit file](https://fedoramagazine.org/systemd-getting-a-grip-on-units/) which will keep your webserver running running and make `systemd` take away all the pain of maintenance! You can have a look at [this](https://github.com/souvikhaldar/online-store) repository where I've implemented an online store and deployed it to cloud using ansible and an unit file. Welcome, to the world of Go, hope this article got you started and now you can keep **GOing**.
+As further steps of deployment, you can write a simple [Ansible](https://www.ansible.com/) script and a corresponding [unit file](https://fedoramagazine.org/systemd-getting-a-grip-on-units/) which will keep your webserver running running and make `systemd` take away all the pain of maintenance! As an example, you can have a look at [this](https://github.com/souvikhaldar/replayd) repository where I've implemented a server to store data in `in-memory buffer` and deployed it to cloud using Ansible and an unit file.  
+Welcome, to the world of Go, hope this article got you started and now you can keep **GOing**.
 
 
 
