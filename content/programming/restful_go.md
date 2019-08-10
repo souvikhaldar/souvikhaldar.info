@@ -30,8 +30,8 @@ U --> update a customer's detail (PUT)
 D --> delete a customer's instance (DELETE)  
 ```  
 The standard library of Go is really very powerful, you can write a full blown server by using just the [standard library](https://golang.org/pkg/)!  
-I’m assuming your system is setup for writing Go programs, if not you can [follow this link](https://golang.org/doc/install) and get it done.  
-1. Create a directory in the `$GOPATH/src/<vcs-name>/<username>/golang-server` or you can name it anything you want. I’m naming in `golang-server`. 
+I’m assuming your system is setup for writing Go programs, if not you can [follow this link](https://golang.org/doc/install) and get it done.   
+Create a directory in the `$GOPATH/src/<vcs-name>/<username>/golang-server` or you can name it anything you want. I’m naming in `golang-server`. 
 The above path is standard golang practice, but after the onset of `go modules` you can create the directory anywhere you want.  
 For me the path looks like:-  
 `/Users/souvik/Development/go/src/github.com/souvikhaldar/golang-server`    
