@@ -80,8 +80,9 @@ For me the path looks like:-
     ```
     We've provided `8192` as the port on which the server should run run, but in case that port is already used by some other service, choose any other port, like `8193`,`8188`,etc.  
 
-5. **Add a new resource**  
-Now let's write the handler for each of the operations. 
+5.  **POST**  
+    **Add a new resource**  
+    Now let's write the handler for each of the operations. 
     Below is the handler for adding a new customer's details which will essentially insert a new instance of customer to our database.  
     ```
     func addCustomer(w http.ResponseWriter, r *http.Request) {
@@ -114,7 +115,8 @@ Now let's write the handler for each of the operations.
     ```
     
 
-6. The code for updating the user is as follows:-    
+6.  **PUT**   
+    The code for updating the user is as follows:-    
     ```
     func updateCustomer(w http.ResponseWriter, r *http.Request) {
         v := mux.Vars(r)
@@ -145,7 +147,8 @@ Now let's write the handler for each of the operations.
         \"CustomerName\":\"haldar\"
     }"
     ``` 
-7. Let's try to `DELETE` a resource now.  
+7.  **DELETE**  
+    Let's try to `DELETE` a resource now.  
 
     ```
     func deleteCustomer(w http.ResponseWriter, r *http.Request) {
@@ -169,7 +172,8 @@ Now let's write the handler for each of the operations.
     ```
 
 
-8. Now finally, let's try to fetch the details of all customer data in JSON format.  
+8.  **GET**  
+    Now finally, let's try to fetch the details of all customer data in JSON format.  
     ```
     func fetchCustomers(w http.ResponseWriter, r *http.Request) {
         fmt.Println("Fetching all customers")
