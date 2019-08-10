@@ -202,12 +202,12 @@ For me the path looks like:-
         fmt.Fprintln(w, string(customerJSON))
     }
     ```
-In the above code, we are querying for all the customer records, accessing them one by one and appending to a slice and finally serializing them into JSON using the `Marshall` method.  
+    In the above code, we are querying for all the customer records, accessing them one by one and appending to a slice and finally serializing them into JSON using the `Marshall` method.  
 
-Sample request:-  
-```
-curl --location --request GET "localhost:8192/customer"
-```
+    Sample request:-  
+    ```
+    curl --location --request GET "localhost:8192/customer"
+    ```
 
 ---
 
