@@ -31,4 +31,7 @@ For eg, if I want to set xyz.go file to the master version you can do:-
     `Git reset --hard <commit-hash>`
 
 * If you want to undo the changes made in a certain commit do :-  
-    `Git revert <commit-hash>`
+    `Git revert <commit-hash>`  
+    
+* If you want to create a new branch out of a remote branch you can use:-  
+    `git checkout -b <new-branch> origin/<source-branch>`  
