@@ -3,26 +3,32 @@ title: "About"
 date: 2019-03-24T14:36:10+05:30
 draft: false
 ---
+## Contact  
 * Email- souvikhaldar32@gmail.com 
 * IRC- souvikhaldar on Freenode server  
 
 ## Profile
-[All India Rank in top 2 percentile](https://drive.google.com/file/d/0B8ez0XXq-2ITWDhDRWhUX0I1OTg/view?usp=sharing) in Modern Application Development course by NPTEL. Backend Developer with ~2 years of experience using Golang and Python, DevOps using Ansible, Monitoring using Prometheus, Database Administration using PostgreSQL,MySQL,PostGIS and Redis. [CodeChef certified Data Structures and Algorithms programmer](https://drive.google.com/open?id=1BxSSaGt7PjelIUJac_BpMMSpEgvGWftu).  
+
+ I'm a Backend Developer by profession and mostly use Golang and Python to interact with computers. I like to read books/articles of various genres (little biased towards technical ones), socialize/hangout with friends and new people; and love to build and learn new things. I mostly write about things I'm learning, here or on [Medium](https://medium.com/@souvikhaldar) mostly to make it a point to visit later on, which others too might find helpful.  
+ 
+ ---
 
 ## Experience
 **BACKEND ENGINEER, [BIOSTRAP](https://biostrap.com/) - REMOTE - MAY 2019 - PRESENT**
 
-* Responsible to building and managing the backend platform of Biostrap mobile device in Golang.
+* Responsible for building and managing the backend platform of Biostrap platform.
+* gRPC 
+* Cloud- AWS
 
 
 **BACKEND DEVELOPER, [KARTBITES](https://www.kartbites.com/), KOLKATA — OCT 2017- APRIL 2019**
 
-* Building robust and high performant server and microservice using Golang.
-* Monitoring and alerting of servers using Prometheus, Grafana, node_exporter.
+* Building robust and high performant HTTP APIs and microservice using Golang.
+* Monitoring and alerting of servers using Prometheus.  
 * Spatial database management using PostGIS/PostgreSQL.
 * Maintaining and deploying the server using Ansible.
-* Implementing distributed messaging service using NSQ/Kafka.
-* Cloud - Digital Ocean and AWS.
+* Implementing distributed messaging service using NSQ.
+* Cloud - Digital Ocean
 
 
 **PRODUCT DEVELOPMENT INTERN, [HASURA.IO](https://hasura.io/), REMOTE — JUN 2017-AUG 2017**
@@ -33,13 +39,15 @@ draft: false
 
 **MANAGEMENT INTERN, INDIAN RAILWAYS; RANCHI, JHARKHAND — JUN 2017-JUL 2017**
 
-As a management intern at Indian Railways (South Eastern) I got to understand how a big organisation like Railways does it’s basic management works like filing tender, pen- sion management, authorities, jurisdiction, etc.
+As a management intern at Indian Railways (South Eastern) I got to understand how a big organization like Railways does it’s basic management works like filing tender, pen- sion management, authorities, jurisdiction, etc.
 
 **CONTENT WRITER, INDIANS NEWS; REMOTE — FEB 2015 - SEP 2016** 
 
 * Articles on various topics, but with special emphasis on covering events, seminars, lifestyle and workshops. 
 * Covered several techfests like EDGE 2015, Eccentron (TISL) and Entrepreneurship Awareness Drive press conference.
-*  [Indians News](https://indiansnews.com/author/souvik/)  
+*  [Indians News](https://indiansnews.com/author/souvik/)   
+
+---
 
 ## Technical Skills
 * Languages- Golang, Python and Clojure.  
@@ -49,6 +57,8 @@ As a management intern at Indian Railways (South Eastern) I got to understand ho
 * OS- Mac OSX, Arch Linux, Ubuntu, Kali Linux and Raspbian.  
 * Tools - Postman, Goland, Vim, Visual Studio Code.    
 
+---
+
 ## Projects  
 * [Mr Bin: Intelligent Waste Management System](https://youtu.be/6kOf2YhKCfo)
 
@@ -56,14 +66,15 @@ As a management intern at Indian Railways (South Eastern) I got to understand ho
     
     * The motive of this project is that we display the status of the garbage dumps in real time on a personalised website which in turn can be used to predict the best route to be taken for garbage collection.
     
-    * Server written in Go, deployed on Heroku, frontend in HTML/CSS, Arduino code on Arduino Uno, Python script for data fetching/pushing and Raspberry Pi 3.  
+    * Server written in Go, deployed on Heroku, frontend in HTML/CSS, Arduino code on Arduino Uno, Python script for data fetching/pushing and Raspberry Pi 3.   
 
-* [Self Operating and Weather Adaptable Street Lights](https://youtu.be/aaMccwiHsxU)  
-    This is the science project I've made in class 12th in 2012 under the category of Energy Conservation and stood first at school level and was further selected for the regional level at Kendriya Vidyalaya Salt Lake no. 2. 
-    Documentation of this project can be found [here](https://drive.google.com/file/d/0B8ez0XXq-2ITRXFXYjNTZkdqd2c/edit?usp=sharing).
+ ---
 
-    **Description**: As the name suggests this system can adapt to the brightness of the environment and emit proper amount of light, hence conserving the electricity.This system comprises of only a few elements like IC 555, a PCB,an LED, battery, switch, LDR etc.
+## Achievements   
+*  [All India Rank in top 2 percentile](https://drive.google.com/file/d/0B8ez0XXq-2ITWDhDRWhUX0I1OTg/view?usp=sharing) in Modern Application Development course by NPTEL.    
+*  [CodeChef certified Data Structures and Algorithms programmer](https://drive.google.com/open?id=1BxSSaGt7PjelIUJac_BpMMSpEgvGWftu)  
 
+---
 
 ## EDUCATION
 * Graduation = Techno India Salt Lake, Kolkata, MAKAUT University — **B.Tech in Computer Science and Engineering**, 2014-18. 
