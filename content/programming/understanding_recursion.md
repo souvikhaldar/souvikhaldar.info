@@ -96,7 +96,7 @@ In the above solution it is important to analyse the recursion. Let's try to und
 
 ![](/images/2019-08-03-12-32-24.png)  
 
-Now the control goes back to `fib(2)` when it recursively makes call to `fib(0)` which is again a base condition and returns 0. So, `fib(2)` returns `1+0` back to `fib(3)` when `fib(3)` will further make recursive call to `fib(1)` which return 1. Hence `fib(3)` returns `1+1` back to `fib(4)`. Now `fib(4)` makes another recursive call to `fib(2)` which recursively calls `fib(1)` and `fib(0)` to essentially returns `1+0`, hence `fib(4)` returns `2+1` to `fib(5)`. Now `fib(5)` recursively makes call to `fib(3)` which upon makes further calls would essesentially return `(1+0)+1` i.e 2. So, finally `fib(5)` returns `3+2` back to the caller, which is the 5th element in the Fibonacci sequence.   
+Now the control goes back to `fib(2)` when it recursively makes call to `fib(0)` which is again a base condition and returns 0. So, `fib(2)` returns `1+0` back to `fib(3)` when `fib(3)` will further make recursive call to `fib(1)` which return 1. Hence `fib(3)` returns `1+1` back to `fib(4)`. Now `fib(4)` makes another recursive call to `fib(2)` which recursively calls `fib(1)` and `fib(0)` to essentially returns `1+0`, hence `fib(4)` returns `2+1` to `fib(5)`. Now `fib(5)` recursively makes call to `fib(3)` which upon makes further calls would essentially return `(1+0)+1` i.e 2. So, finally `fib(5)` returns `3+2` back to the caller, which is the 5th element in the Fibonacci sequence.   
 ![](/images/2019-08-03-12-33-49.png)  
 (image courtesy- mycodeschool, which has arguably the best videos on DSA on the entire internet)  
 

@@ -78,6 +78,11 @@ pygmentscodefencesguesssyntax = true
         url = "/programming/"
 
         [[languages.en.menu.main]]
+        name = "Networking"
+        weight = 3
+        url = "/networking/"
+
+        [[languages.en.menu.main]]
         name = "Photography"
         weight = 5
         url = "https://www.instagram.com/theperfectbehold/"

@@ -7,12 +7,12 @@ draft: false
 # What is REST
 REST, acronym for Representational State Transfer, is the architectural approach to building web services. Let's discuss a few characteristics of REST:  
 
-* REST is independent of any underlying protocol. i.e REST API can be build over any protocol like REST HTTP API which means RESTful API built over HTTP protocol.   
-* REST is independent of any specific implementation detail. i.e a REST API can be built on any language,tool,environment,etc. Almost every language allows one to write a REST API. The participating Client and Server can be built,modified and scaled separately, as long as they communicate in a consistent manner.  
+* REST is independent of any underlying protocol. i.e REST API can be built over any protocol like REST HTTP API which means RESTful API built over HTTP protocol.   
+* REST is independent of any specific implementation detail. i.e a REST API can be built on any language, tool, environment, etc. Almost every language allows one to write a REST API. The participating Client and Server can be built, modified and scaled separately, as long as they communicate in a consistent manner.  
 
 # Design principles of RESTful HTTP APIs  
 * **Statelessness**: The participating client and server are not required to know the state of each other. Essentially, every request/response is independent and does not have any knowledge of the previous request/response.  
-* REST API endpoints are designed around *resources* which can be an object,service,data,etc. For example, an endpoint `/addCustomer` is invalid whereas `/customer` with POST verb is better suited because 'customer' is a noun which is the resource here.(we'll discuss about HTTP verbs later)   
+* REST API endpoints are designed around *resources* which can be an object,service,data,etc. For example, an endpoint `/addCustomer` is invalid whereas `/customer` with POST verb is better suited because 'customer' is a noun which is the resource here.(we'll discuss HTTP verbs later)   
 * A resource has an identifier in the URI which helps to uniquely identify the resource. Like `/customer/24` signifies the customer with a unique identifier `24`.  
 * The clients communicate with the service by exchanging representations of the resource. There are many exchange formats like XML,JSON,etc but these days JSON is heavily used (Javascript Object Notation).  
 * There are four basic HTTP verbs to communicate with the resources.  
@@ -22,7 +22,7 @@ REST, acronym for Representational State Transfer, is the architectural approach
     4) `DELETE`: Delete a resource or collection of resources.  
 
 # Let's start building  
-In this guide we will create a simple API which can perform CRUD operations (i.e **C**reate  **R**ead **U**pdate **D**elete ) on the 'customer' resource.  
+In this guide, we will create a simple API which can perform CRUD operations (i.e **C**reate  **R**ead **U**pdate **D**elete ) on the 'customer' resource.  
 ``` 
 C --> create a new customer instance (POST)  
 R --> fetch a customer's details (GET)  
