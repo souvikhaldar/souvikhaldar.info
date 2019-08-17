@@ -8,14 +8,15 @@ draft: false
 A communication system for connecting internet-enabled devices like computers,smartphones,etc.  
 
 # Types of Computer Networks 
-1) Local Area Network (LAN):  
-    *  Connects hosts within a relatively small geographical area, like same room, same building, same campus,etc.  
-    *  Faster.  
-    *  Cheaper.  
-2) Wide Area Network (WAN):  
-    *  Connects hosts in relatively bigger geographical area, like a city, a country, a continent, etc.  
-    *  Slower  
-    *  Expensive  
+## Local Area Network (LAN):  
+*  Connects hosts within a relatively small geographical area,like same room, same building, same campus,etc.  
+*  Faster.  
+*  Cheaper.  
+
+## Wide Area Network (WAN):  
+*  Connects hosts in relatively bigger geographical area, like a city, a country, a continent, etc.  
+*  Slower  
+*  Expensive  
 
 The initial cost of setting up a LAN might be high, but the end result is a self managed network infrastructure. Whereas, in WAN there is no investment for setup and ISP (Internet Service Provider) takes care of the maintenance, but eventually we end up paying hefty for the maintenance over the time. Hence WAN is relatively cheaper than LAN.  
 
