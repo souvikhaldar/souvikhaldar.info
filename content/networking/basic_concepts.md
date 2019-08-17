@@ -8,7 +8,6 @@ draft: false
 A communication system for connecting internet-enabled devices like computers,smartphones,etc.  
 
 # Types of Computer Networks 
-Broadly classified into two groups:-  
 1) Local Area Network (LAN):  
     *  Connects hosts within a relatively small geographical area, like same room, same building, same campus,etc.  
     *  Faster.  
@@ -22,7 +21,7 @@ The initial cost of setting up a LAN might be high, but the end result is a self
 
 # Types of Data Communication  
 ## 1) Circuit Switching  
-When two nodes want to communicate with each other in **Circuit Switching**, a dedicated path is established between them. A ****logical channel**** is defined on this established path, where **logical channel** means a chanel of fixed bandwidth on this path. So, the given path might be shared by other communicating nodes, but the **logical channel** based on this path guarantees a network of fixed bandwidth.  
+When two nodes want to communicate with each other in **Circuit Switching**, a dedicated path is established between them. A **logical channel** is defined on this established path, where **logical channel** means a chanel of fixed bandwidth on this path. So, the given path might be shared by other communicating nodes, but the **logical channel** based on this path guarantees a network of fixed bandwidth.  
 Steps involved in the process:  
     *  **Setting up of the path**: This needs to done before data transfer can take   place.  
     *  **Data transfer**: The best thing about **circuit switching** is that data transfer happens at the maximum speed possible.  
