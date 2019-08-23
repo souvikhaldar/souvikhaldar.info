@@ -1,7 +1,7 @@
 ---
 title: "National Youth day: Commemorating the birth anniversary of Swami Vivekananda "
 date: 2019-08-23T17:52:35+05:30
-draft: true
+draft: false
 ---
 
 *"We are what our thoughts have made us; so take care about what you think. Words are secondary. Thoughts live; they travel far."*  

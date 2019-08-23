@@ -1,7 +1,7 @@
 ---
 title: "Understanding Recursion"
 date: 2019-06-23T18:22:25+05:30
-draft: true
+draft: false
 ---
 ## Introduction  
 Recursion is often regarded as the one of the most complex concepts to understand in computer programming. IMHO, recursion is the "building block" of Functional programming, creating highly used data structures like Tree and an elegant way of writing code in general. So in this blog I'll try to go through the basics and later solve a few problems to explain the concept in a better way. So, let's get started!  
