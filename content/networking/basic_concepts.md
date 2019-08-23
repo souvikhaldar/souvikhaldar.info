@@ -44,8 +44,9 @@ Pros:
 *  Packets can be forwarded according to set priority.   
 
 #### How are these packets transmitted?  
-1) Virtual Circuit:  
+1) Virtual Circuit approach:  
 It is similar to Circuit-switching, as in, it also sets up a path (not dedicated though) for the packet transfer to happen.  
 In this case, each packets contains the **Virtual-circuit number** in the header part. The routing table in the routers follows this virtual-circuit number of the packets and forwards accordingly. Hence no dynamic decisions are taken by the routers and all packets follow a predetermined path.  
-2) Datagram
+2) Datagram approach:  
+
 

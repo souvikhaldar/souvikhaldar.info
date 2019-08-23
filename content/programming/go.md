@@ -23,7 +23,20 @@ The code above will print “world” and “hello” five times after an interv
     c <- v // the data v is sent to channel 
     c v := <- c // the data from channel c is stored in variable v
 
-By default, sending to a channel and receiving from a channel is blocked until they are ready, this makes the goroutines synchronized without using explicit locks or conditions. Channels can be buffered as well. If you provide a second argument (buffer length) to the make command for a channel it becomes buffered, otherwise unbuffered.
+By default, sending to a channel and receiving from a channel is blocked until they are ready, this makes the goroutines synchronized without using explicit locks or conditions. So, if you want a goroutine to finish at some point, you can wait at that point by reading from an unbuffered channel, to which you pass a value only when the goroutine is about to finish it's task. Receivers always block until there is data to receive. As and when you send a value to the unbuffered channel, the point where the execution was paused because the unbuffered channel was waiting to read a value, get's the value! 
+```
+c := make(chan int)  // Allocate a channel.
+// Start the sort in a goroutine; when it completes, signal on the channel.
+go func() {
+    list.Sort()
+    c <- 1  // Send a signal; value does not matter.
+}()
+doSomethingForAWhile()
+<-c   // Wait for sort to finish; discard sent value.
+```  
+(source- *Effective Go*)  
+
+Channels can be buffered as well. If you provide a second argument (buffer length) to the make command for a channel it becomes buffered, otherwise unbuffered.
 
     UnbufCh := make(chan int) // creating an unbuffered channel 
     bufCh := make(chan int,5) // creating a buffered channel of buffer length 5

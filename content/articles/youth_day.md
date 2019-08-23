@@ -1,0 +1,11 @@
+---
+title: "National Youth day: Commemorating the birth anniversary of Swami Vivekananda "
+date: 2019-08-23T17:52:35+05:30
+draft: true
+---
+
+*"We are what our thoughts have made us; so take care about what you think. Words are secondary. Thoughts live; they travel far."*  
+I fall lack of words while expressing my gratitude towards this giant embodiment of knowledge, Swami Vivekananda. He was a rare genius in every aspect. He was the biggest advocate of Vedanta philosophy and put forward to the real message of Hinduism before the entire world. His words have total practical meaning even in this era of cut throat competition.  
+"First of all, our young men must be strong. Religion will come afterwards. Be strong, my young friends; that is my advice to you. You will be nearer to Heaven through football than through the study of the Gita. These are bold words; but I have to say them, for I love you. I know where the shoe pinches. I have gained a little experience. You will understand the Gita better with your biceps, your muscles, a little stronger. You will understand the mighty genius and the mighty strength of Krishna better with a little of strong blood in you. You will understand the Upanishads better and the glory of the Atman when your body stands firm upon your feet, and you feel yourselves as men. Thus we have to apply these to our needs."  
+
+He was born on 12th January 1863 in Calcutta (modern day Kolkata) to an aristocratic Bengali family. Sooner in his life, he developed craving for spiritual knowledge. Many, including the principal of his college, remarked him as a prodigy.The youth can always derive a fountain of inspiration out of his speeches and teachings which always influences to be the Man of honour with a nerve of steel. From then on, his quest for knowledge never ended and he went on to become the one true pioneer of the youth. In his honour, the U.N declared 1985 as the International Year of the Youth. In keeping with the spirit of this declaration, the government of India promulgated the 12th January 1985 will be observed as the National Youth Day all over the country. Hereafter, 12th January is celebrated as the National Youth Day.  

@@ -18,13 +18,14 @@ Such errors in dynamically typed languages like python are thrown only at runtim
 
 * Fast compilation- The compilation of a golang program is so fast that it often feels like a interpreted language! So Go is the perfect combination of `type safety` of compiled languages and quick to execute aspect of interpreted languages!  
 
-* Generates Binary executable - Go is a compiled language that can generate binary executable with all the dependencies baked into it. This essentially means, for running the binary one does not need any runtime support. Plus the binary generated is really small in size, added bonanza :) 
+* Generates Native Binary executable - Go is a compiled language that can generate binary executable with all the dependencies baked into it. This essentially means, for running the binary one does not need any runtime support. Plus the binary generated is really small in size, added bonanza :) 
 The best result that comes out of it is, one can containerize a full blown software in ~5 MB! That’s a really small number! This process of building a container is called multi-stage build. 
 
 * Cross-platform- This is one of the most amazing feature of golang, which makes it the language of choice for the DevOps people too. Go can generate binary executable for different target platform! What is means is, you can write Go code on Darwin (Mac) and generate binary which can run on linux, so on and so forth, with no requirement for any other support! 
 Also, it isn’t like Java which can also run on different platforms, but the catch is, it requires the Java Virtual machine to be installed on the target platform, which is hugely memory hogging!
 
-* Concurrency- This is the feature that makes puts Go in the lead position in the field of Backend Engineering. Concurrent programming is a nightmare for most of the developers. But the way Go deals with it is a breeze! Concurrency is first class citizen in Go. You can run a process in a new goroutine (light-weight thread) just by prefixing the function invocation call with `go`. There’s a lot to talk about it but you [read my article](http://souvikhaldar.info/programming/go/) on this topic which elaborates it further.
+* Concurrency- This is the feature that makes puts Go in the lead position in the field of Backend Engineering. Concurrent programming is a nightmare for most of the developers. But the way Go deals with it is a breeze! Concurrency is first class citizen in Go. You can run a process in a new goroutine (light-weight thread) just by prefixing the function invocation call with `go`. There’s a lot to talk about it but you [read my article](http://souvikhaldar.info/programming/go/) on this topic which elaborates it further.  
+*  Garbage Collected- It definitely takes off a lot of memory-management related burden off of developer's shoulder! 
 
 
 ## Why learn Go?
