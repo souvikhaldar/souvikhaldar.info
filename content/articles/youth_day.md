@@ -1,5 +1,5 @@
 ---
-title: "National Youth day: Commemorating the birth anniversary of Swami Vivekananda "
+title: "Swami Vivekananda: The Bold Monk"
 date: 2019-08-23T17:52:35+05:30
 draft: false
 ---
