@@ -77,7 +77,8 @@ Of the above seven layers, the last three (i.e Physical, Data Link and Network) 
 **Physical** layer is the physical medium of transportation of data, **Data Link** is where reliable transfer of the frames (packet converted to frame here) between the nodes takes place (flow control, error control,etc) and the **Network** layer is responsible for routing of the frames across the network.  
 **Transport** layers is responsible to reliable communication, **Session** layer manages the session of the communication, **Presentation** is the optional layers of typically conversion of data takes place (like encryption,code conversion,etc) and finally **Application** is the layer which interfaces with the user.  
 
-**This is the data flows:**  
+**This is how the data flows:**  
+
 ![](/images/2019-08-27-00-14-39.png)   
 
 # Conclusion  
