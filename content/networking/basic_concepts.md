@@ -2,13 +2,11 @@
 title: "Basic Concepts of Computer Networking"
 date: 2019-08-17T21:33:47+05:30
 draft: false
----
-
+---  
 # What is a Computer Network
 A communication system for connecting internet-enabled devices like computers,smartphones,etc.  
 
 # Types of Computer Networks 
-
 ### Local Area Network (LAN):  
 *  Connects hosts within a relatively small geographical area,like same room, same building, same campus,etc.  
 *  Faster.  
@@ -27,7 +25,6 @@ The initial cost of setting up a LAN might be high, but the end result is a self
 3) Processing Delay- Time taken by the nodes to forward the packets. Since nodes store and forward the packets, hence there is some delay there.  
 
 # Types of Data Communication  
-
 ### 1) Circuit Switching  
 When two nodes want to communicate with each other in **Circuit Switching**, a dedicated path is established between them. A **logical channel** is defined on this established path, where **logical channel** means a chanel of fixed bandwidth on this path. So, the given path might be shared by other communicating nodes, but the **logical channel** based on this path guarantees a network of fixed bandwidth.  
 Steps involved in the process:  
@@ -47,7 +44,6 @@ Steps:
 Pros:  
 *  Links are shared so the utilization is always good.  
 *  Packets can be forwarded according to set priority.   
-
 
 #### How are these packets transmitted?  
 1) Virtual Circuit approach:  
