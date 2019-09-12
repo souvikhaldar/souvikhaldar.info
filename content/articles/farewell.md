@@ -4,9 +4,9 @@ date: 2019-05-02T20:57:31+05:30
 draft: false
 ---
 
-30th of April marked my last working day at [Kartbites](https://kartbites.com/), where I landed after getting the first job of my life as Software Engineer (Backend). 
+30th of April marked my last working day at [Kartbites](https://kartbites.com/), where I landed after getting the first job of my life as Software Engineer (Backend), while I was in third year of pursuing engineering in computer science and engineering. 
 
-Sometime around August of 2017, I was pretty sad one night, because campus placements were going on but I was not able to sit for most of the interviews because of low grades. Also, that particular day there was a recruitment drive for a role which I felt I could do very well because I had just done internship in the same domain at [hasura](https://hasura.io/) but alas, my grades didn't meet the requirements.
+Sometime around August of 2017, I was pretty sad one night, because campus placements were going on but I was not able to sit for most of the interviews because of low grades. Also, that particular day there was a recruitment drive for a role which I felt I could do very well because I had just done internship in the same domain at [hasura](https://hasura.io/) after doing well in a coding course (IMAD) but alas, my grades didn't meet the requirements. Although, I had passion for programming, hardware hacking and all the geeky stuffs from the very childhood, but in campus placements all that matters is fucking **GRADES**!
  
 It was late that very night when I received a message on LinkedIn from a person named Akshay Dua, regarding job opportunity at Multitech (later renamed Kartbites). The job description was very impressive and hence I replied instantly that "I'm interested!". Soon we followed up that night and he invited me for a quick interview on Google Hangouts. It went very smooth and he mostly enquired about my past experiences and what made me like Computer Science in general and I totally liked the conversation. I couldn't sleep the entire night because I had a gut feeling that I've just got the first job of my life, and later it indeed turned out to be true after another round of interview with a person named Indra Dutt.
 
