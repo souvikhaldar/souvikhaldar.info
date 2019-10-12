@@ -1,7 +1,7 @@
 ---
 title: "Pycon India 2019, Chennai, Day 1"
 date: 2019-10-12T09:18:55+05:30
-draft: true
+draft: false
 ---
 PyCon India, the Python conference, is organized once every year, in some city of India and this year it was organized in the city of Chennai.   
 ![](/images/pycon.jpg)  
