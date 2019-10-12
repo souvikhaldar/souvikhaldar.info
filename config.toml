@@ -74,22 +74,22 @@ pygmentscodefencesguesssyntax = true
 
         [[languages.en.menu.main]]
         name = "Events"
-        weight = 2
+        weight = 3
         url = "/events/"
 
         [[languages.en.menu.main]]
         name = "Programming"
-        weight = 3
+        weight = 4
         url = "/programming/"
 
         [[languages.en.menu.main]]
         name = "Networking"
-        weight = 3
+        weight = 5
         url = "/networking/"
 
         [[languages.en.menu.main]]
         name = "Photography"
-        weight = 5
+        weight = 6
         url = "https://www.instagram.com/theperfectbehold/"
 
 
