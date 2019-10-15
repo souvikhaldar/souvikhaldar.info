@@ -71,6 +71,7 @@ As a management intern at Indian Railways (South Eastern) I got to understand ho
  ---
 
 ## Achievements   
+* All India rank 2 in Hackathon organized by Digital Ocean. Refer- https://www.techgig.com/hackathon/digitalocean-cloudhack
 *  [All India Rank in top 2 percentile](https://drive.google.com/file/d/0B8ez0XXq-2ITWDhDRWhUX0I1OTg/view?usp=sharing) in Modern Application Development course by NPTEL.    
 *  [CodeChef certified Data Structures and Algorithms programmer](https://drive.google.com/open?id=1BxSSaGt7PjelIUJac_BpMMSpEgvGWftu)  
 
