@@ -35,7 +35,7 @@ root_url = "http://domainname:port"
 ```
 
 Once these changes are made restart the `grafana` service so as to apply the recent configuration changes. 
-
+`sudo systemctl daemon-reload`  
 `sudo systemctl restart grafana.service`
 
 ## 2. Edit the dashboard
