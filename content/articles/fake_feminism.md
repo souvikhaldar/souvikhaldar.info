@@ -1,7 +1,7 @@
 ---
 title: "Abuse of biased sympathy of society and judiciary towards women "
 date: 2019-11-04T16:15:23+05:30
-draft: true
+draft: false
 ---
 
 *This article is a result of pain and frustration that I'm going though due to witnessing innumerable number of men being victimized because of false allegations by women on various grounds.*  
