@@ -4,14 +4,18 @@ date: 2019-11-04T16:15:23+05:30
 draft: false
 ---
 
-*This article is a result of pain and frustration that I'm going though due to witnessing innumerable number of men being victimized because of false allegations by women on various grounds.*  
+*This article is the result of pain and frustration that I'm going through due to witnessing innumerable number of men being victimized because of false allegations by women on various grounds.*  
+
 This article is a result of pain and frustration that I’m going through due to witnessing an innumerable number of men being victimized because of false allegations by women on various grounds.  
 Sure there had been lot wrongdoings against women and I strongly condemn that, but in this article, I will talk about that side of the coin which we don’t hear or get to know about.
 Any man reading this article would agree with me on that fact that at least at some point in their life they had been threatened by a woman of filing a false complaint of some assault (mostly sexual) to get something done. If you are a man and you don’t find yourself in my shoes, then you’re simply lucky! I’m not lucky hence I took to writing this article to express my grievance. I was recently threatened in a very similar way and I was shocked that women can stoop so low, but when I shared this experience with some people, I figured out I’m in turn a lot lucky and almost everyone shared a horrible experience of the same genre where they to pay lot heftier! I’m not going to share in detail what exactly happened with me, but I can touch upon some points to highlight the story.
 I was in a quarrel with a neighbor who was notorious for harming others on the context of false allegations. I, being aware of such situations from several social media stories, took some precautionary mindset and steps to ensure I never get into such a horrible state. So, I kept audio recording on my mobile device on and then started talking to them. True to my nightmare, she did threaten me of filing a sexual assault complaint if I did not follow what she told! Later when she did try to file the complaint at the police station, I provided the evidence and was relieved! But the worst part is, police did nothing to that lady who made such false accusation and just gave me false hope that they would do something but nothing has happened yet even after 7 days! They instead consoled me by saying that there are many women like this and I should instead be very aware to keep a distance. Anyway, I’m lucky to escape this mishap, but this incident got me into deep pondering over several aspects.  
+
 * I am technologically and financially capable of having and using such an electronic device which took me out this case, but what about poor or elderly people?
 * It was wise of me to do the recording, but what about people who, unaware of such scenarios, get into such cases unprepared?   
 * What about planned attack by women or gang to extort money?  
+
+
 Although this event lasted for a very small duration because of the aforementioned reasons and hence no bigger story was cooked out of it, I was still feeling a bit ashamed. But when I started talking to people about this I was shocked to find out their experience. Without naming anyone I am stating the following brief summary of stories people told me when I hesitatingly shared mine:  
 * A group of people brought a woman to the police station claiming she was a thief. Suddenly, the people who brought her in, starting making excuses to leave, exactly a few minutes later an elderly couple with a lawyer entered the station and claimed the police officer forcefully brought her daughter to the station to molest her! Later, the police out of fear had to pay 2 lakhs in return of dropping this framed allegation!  
 * A lawyer himself was troubled by a woman of similar false charges and ultimately had to hire more lawyer to get out such a situation after a lot of hassle.  
