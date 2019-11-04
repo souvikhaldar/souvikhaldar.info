@@ -17,6 +17,7 @@ I was in a quarrel with a neighbor who was notorious for harming others on the c
 
 
 Although this event lasted for a very small duration because of the aforementioned reasons and hence no bigger story was cooked out of it, I was still feeling a bit ashamed. But when I started talking to people about this I was shocked to find out their experience. Without naming anyone I am stating the following brief summary of stories people told me when I hesitatingly shared mine:  
+
 * A group of people brought a woman to the police station claiming she was a thief. Suddenly, the people who brought her in, starting making excuses to leave, exactly a few minutes later an elderly couple with a lawyer entered the station and claimed the police officer forcefully brought her daughter to the station to molest her! Later, the police out of fear had to pay 2 lakhs in return of dropping this framed allegation!  
 * A lawyer himself was troubled by a woman of similar false charges and ultimately had to hire more lawyer to get out such a situation after a lot of hassle.  
 * A man was falsely charged with molestation but luckily he had his video camera of a relatively small mobile device (iPhone 5s) turned on in his chest pocket!  
