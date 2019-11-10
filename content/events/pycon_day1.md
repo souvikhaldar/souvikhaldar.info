@@ -4,10 +4,11 @@ date: 2019-10-12T09:18:55+05:30
 draft: false
 ---
 PyCon India, the Python conference, is organized once every year, in some city of India and this year it was organized in the city of Chennai.   
-![](/images/pycon.jpg)  
+ 
 It was the 11th iteration of annual gathering of Pythonistas. It's a two-day conference with talks ranging from data science, machine learning to cyber security, graphQL,etc, i.e all the genres where python is being used extensively. The venue for PyCon in Chennai is the convention centre of Chennai Trade Centre. Parallel talks on different topics go on simultaneously in different halls, more details on the speaker line up can be found [here](https://in.pycon.org/2019/).  
 Day 1:-  
-The conference this year started off by the keynote speech of [Jake VanderPlas](https://twitter.com/jakevdp)  
+The conference this year started off by the keynote speech of [Jake VanderPlas](https://twitter.com/jakevdp)   
+![](/images/jakevdp.jpg)  
 ## The power of python in data science.
 *Jake Vanderplas* divided the usage of Python over the time period in the following stages:-  
 i) 1990s: The Scripting era - alternative to bash   
@@ -60,6 +61,8 @@ Camelot is the open source library created by *Vinayak Mehta*, which can efficie
 `pip install camelot-py[cv]` (dependency - `tk` and `ghostscript`)   
 
 Finally, the day ended with the talk on Empowerment of women in the field of technology by the keynote speaker Devi ASL.  
+
+![](/images/pycon.jpg)  
 ---  
 Day 2:-  
 # GraphQL with Django
