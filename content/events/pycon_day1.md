@@ -1,11 +1,12 @@
 ---
-title: "Pycon India 2019, Chennai, Day 1"
+title: "Pycon India 2019, Chennai"
 date: 2019-10-12T09:18:55+05:30
 draft: false
 ---
 PyCon India, the Python conference, is organized once every year, in some city of India and this year it was organized in the city of Chennai.   
 ![](/images/pycon.jpg)  
 It was the 11th iteration of annual gathering of Pythonistas. It's a two-day conference with talks ranging from data science, machine learning to cyber security, graphQL,etc, i.e all the genres where python is being used extensively. The venue for PyCon in Chennai is the convention centre of Chennai Trade Centre. Parallel talks on different topics go on simultaneously in different halls, more details on the speaker line up can be found [here](https://in.pycon.org/2019/).  
+Day 1:-  
 The conference this year started off by the keynote speech of [Jake VanderPlas](https://twitter.com/jakevdp)  
 ## The power of python in data science.
 *Jake Vanderplas* divided the usage of Python over the time period in the following stages:-  
@@ -59,6 +60,46 @@ Camelot is the open source library created by *Vinayak Mehta*, which can efficie
 `pip install camelot-py[cv]` (dependency - `tk` and `ghostscript`)   
 
 Finally, the day ended with the talk on Empowerment of women in the field of technology by the keynote speaker Devi ASL.  
+---  
+Day 2:-  
+# GraphQL with Django
+*Anitha*  
+What is GraphQL?  
+Data query and manipulation language for the APIs.  
+
+**SQL for database ~  GraphQL for APIs.** 
+  
+Supports reading, writing and subscribing to data.  
+Returns only what is required.  
+
+Building blocks-  
+1) Type- schema
+2) Query- Fetch 
+3) Mutation- Modify  
+4) Resolver functions  
+
+**django-graphene**: Preferred Python library for implementing GraphQL APIs.  
+
+Tip- Writing modular resolver functions can ensure that response is faster and avoid Single Point of failure, because now the stress can be shared among lot of functions.  
+
+# Visual studio code + python= Awesomeness 
+*Sagar* from Microsoft explained and presented a demo on amazing python devs can get on Visual Studio code! To be honest, I personally too use Visual Studio Code only while working on project in python!   
+
+# Numba
+Covert python code to fast machine code.  
+`from numba import njit`  
+Just import numba and add the required decorator. ( @njit decorator)  
+We can also use jitclass of numba for initializing the members of the class, which can otherwise be initilized in the __init__.   
+
+# Generators 
+Generators are basically lazy iterators. 
+`yeild` can be used for creating a generator. 
+It automatically converts the range argument to a `iter` object.  
+g = (i**2 for i in range 10) 
+g is a generator.  
+He basically explained how awesome can Generators be if implemented smartly!  
+
+Finally he is my [certificate](https://in.pycon.org/2019/c/c26e292e51.pdf) of participation in Pycon for the year 2019. It is indeed a great experience :)  
 
 
 

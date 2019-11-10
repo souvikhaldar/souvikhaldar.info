@@ -30,11 +30,7 @@ draft: true
 * The coroutines by default runs on the same thread, unless you specify otherwise. 
 	yeild() is used for execution delegation.
 	`launch` keyword is used for making the process it's been prefixed with, a non-blocking one.
-* How coroutines work?
-
-
 * lambda is stateless.
 * closure is the lambda with state.
 * If the context is same it is concurrent and if the context is different then it is parallel.
 * launch doesn't return but async with await returns.
-* 
