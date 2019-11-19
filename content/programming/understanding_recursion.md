@@ -19,7 +19,7 @@ This is implemented by writing a function that calls itself, with a subset of pr
 
 Now let's solve some problems based on recursion, because often examples are best way to understand a concept.
 
-1. Write a recursive function to print all numbers from N to 1 for a given number N.
+1. Write a recursive function to print all numbers from N to 1 for a given number N.  
 
     ```
     def printN(N):
@@ -54,7 +54,7 @@ Now let's solve some problems based on recursion, because often examples are bes
         print_one_to_n(n-1,i+1)
     ```
 
-2. Write a recursive function to check if a string is palindrome or not.  
+2. Write a recursive function to check if a string is palindrome or not.   
     ```
     def palindrome(s):
         if len(s) <= 1:
@@ -65,33 +65,33 @@ Now let's solve some problems based on recursion, because often examples are bes
 
     ```  
 
-<!--
-TODO: Wrong solution
+    <!--
+    TODO: Wrong solution
 
-3. Given `n` people in a circle, `kth` person is killed in every iteration. Find the survivor. (Josephus Problem)  
-![](/images/2019-08-01-17-19-35.png)  
+    3. Given `n` people in a circle, `kth` person is killed in every iteration. Find the survivor. (Josephus Problem)  
+    ![](/images/2019-08-01-17-19-35.png)  
 
 
-```
-def josephus(n,k,start,i,killed=[]):
+    ```
+    def josephus(n,k,start,i,killed=[]):
 
-    if n == len(killed) + 1:
-        return set([x for x in range(1,n+1)]) - set(killed)
-    if (start+1)%n == 0:
-        next = 7
-    else:
-        next = (start+1)%n
-    if start in killed:
-        return josephus(n,k,next,i,killed)
-    else:
-        if i == k:
-            killed.append(start)
-            return josephus(n,k,start,1,killed)
-        return josephus(n,k,next,i+1,killed)
-```
--->
+        if n == len(killed) + 1:
+            return set([x for x in range(1,n+1)]) - set(killed)
+        if (start+1)%n == 0:
+            next = 7
+        else:
+            next = (start+1)%n
+        if start in killed:
+            return josephus(n,k,next,i,killed)
+        else:
+            if i == k:
+                killed.append(start)
+                return josephus(n,k,start,1,killed)
+            return josephus(n,k,next,i+1,killed)
+    ```
+    -->
 
-3. Write a recursive function to calculate the `nth` number in the Finonacci sequence.    
+3. Write a recursive function to calculate the `nth` number in the Finonacci sequence.     
     ```
     def fib(n):
         if n <= 1:
@@ -106,7 +106,7 @@ def josephus(n,k,start,i,killed=[]):
     ![](/images/2019-08-03-12-33-49.png)  
     (image courtesy- mycodeschool, which has arguably the best videos on DSA on the entire internet)  
 
-4. Write a recursive function to find the sum of the digits of a number.   
+4. Write a recursive function to find the sum of the digits of a number.    
     ```
     def sum_of_digits(n,sum):
         if n <= 0:
