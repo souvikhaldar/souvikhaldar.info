@@ -7,7 +7,7 @@ draft: false
 Recursion is often regarded as the one of the most complex concepts to understand in computer programming. IMHO, recursion is the "building block" of Functional programming, creating highly used data structures like Tree and an elegant way of writing code in general. So in this blog I'll try to go through the basics and later solve a few problems to explain the concept in a better way. So, let's get started!  
 ## What is Recusion  
 Recursion is a methodology of problem solving, where we get the solution of a problem by breaking it down to sub-problems and keep breaking it till we reach a point where we can't break it any further (also known as base condition). Once base condition is reached, we handle it then start returning the solution of the sub-problem state that we are in, to the caller sub-problem state (i.e the parent). 
-Hence, this way we can solve the overall problem, by solving the subproblems.  
+Hence, this way we can solve the overall problem, by solving the sub-problems.  
 This is implemented by writing a function that calls itself, with a subset of problem set passed as argument each time, and hence keep breaking the problem.  
 ## Applications of Recursion  
 1. Dynamic Programming
