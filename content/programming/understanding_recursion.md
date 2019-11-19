@@ -19,7 +19,7 @@ This is implemented by writing a function that calls itself, with a subset of pr
 
 Now let's solve some problems based on recursion, because often examples are best way to understand a concept.
 
-1. Write a recursive function to print all numbers from N to 1 for a given number N.  
+*  Write a recursive function to print all numbers from N to 1 for a given number N.  
 
     ```
     def printN(N):
@@ -54,7 +54,7 @@ Now let's solve some problems based on recursion, because often examples are bes
         print_one_to_n(n-1,i+1)
     ```
 
-2. Write a recursive function to check if a string is palindrome or not.   
+*  Write a recursive function to check if a string is palindrome or not.   
     ```
     def palindrome(s):
         if len(s) <= 1:
@@ -91,7 +91,7 @@ Now let's solve some problems based on recursion, because often examples are bes
     ```
     -->
 
-3. Write a recursive function to calculate the `nth` number in the Finonacci sequence.     
+*  Write a recursive function to calculate the `nth` number in the Finonacci sequence.     
     ```
     def fib(n):
         if n <= 1:
@@ -106,7 +106,7 @@ Now let's solve some problems based on recursion, because often examples are bes
     ![](/images/2019-08-03-12-33-49.png)  
     (image courtesy- mycodeschool, which has arguably the best videos on DSA on the entire internet)  
 
-4. Write a recursive function to find the sum of the digits of a number.    
+*  Write a recursive function to find the sum of the digits of a number.    
     ```
     def sum_of_digits(n,sum):
         if n <= 0:
