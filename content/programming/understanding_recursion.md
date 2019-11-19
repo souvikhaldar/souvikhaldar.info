@@ -65,31 +65,7 @@ Now let's solve some problems based on recursion, because often examples are bes
 
     ```  
 
-    <!--
-    TODO: Wrong solution
-
-    3. Given `n` people in a circle, `kth` person is killed in every iteration. Find the survivor. (Josephus Problem)  
-    ![](/images/2019-08-01-17-19-35.png)  
-
-
-    ```
-    def josephus(n,k,start,i,killed=[]):
-
-        if n == len(killed) + 1:
-            return set([x for x in range(1,n+1)]) - set(killed)
-        if (start+1)%n == 0:
-            next = 7
-        else:
-            next = (start+1)%n
-        if start in killed:
-            return josephus(n,k,next,i,killed)
-        else:
-            if i == k:
-                killed.append(start)
-                return josephus(n,k,start,1,killed)
-            return josephus(n,k,next,i+1,killed)
-    ```
-    -->
+    
 
 *  Write a recursive function to calculate the `nth` number in the Finonacci sequence.     
     ```
