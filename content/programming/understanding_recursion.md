@@ -43,7 +43,7 @@ def print_one_to_n(N):
 ```
 
 
-`Tail recursion` is faster than `head recursion` because of a concept called [`tail call elimination`](https://www.geeksforgeeks.org/tail-call-elimination/), in which the compiler esentially converts the recursion to a loop. `Quick sort` uses tail recursion, hence is faster than `Merge sort`.   
+`Tail recursion` is faster than `head recursion` because of a concept called [`tail call elimination`](https://www.geeksforgeeks.org/tail-call-elimination/), in which the compiler essentially converts the recursion to a loop. `Quick sort` uses tail recursion, hence is faster than `Merge sort`.   
 
 Hence, making the above `print_one_to_n` function a tail recursive one by this way:-  
 ```
@@ -62,11 +62,16 @@ def palindrome(s):
     if s[0] != s[-1]:
         return False
     return palindrome(s[1:len(s)-1])
+
 ```  
+
+<!--
+TODO: Wrong solution
+
 3. Given `n` people in a circle, `kth` person is killed in every iteration. Find the survivor. (Josephus Problem)  
 ![](/images/2019-08-01-17-19-35.png)  
 
-TODO: Wrong solution
+
 ```
 def josephus(n,k,start,i,killed=[]):
 
@@ -84,6 +89,7 @@ def josephus(n,k,start,i,killed=[]):
             return josephus(n,k,start,1,killed)
         return josephus(n,k,next,i+1,killed)
 ```
+-->
 
 4. Write a recursive function to calculate the `nth` number in the Finonacci sequence.  
 ```
@@ -109,5 +115,5 @@ def sum_of_digits(n,sum):
     return sum_of_digits(n//10,sum) 
 ```
 
-6. Given a rope of length `n`, you need to find maximum number of pieces you can make such that length of every piece is in set {a,b,c} for given three values a,b and c.  
+
 
