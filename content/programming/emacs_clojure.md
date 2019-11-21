@@ -9,15 +9,21 @@ Clojure, a dialect of Lisp, is best suited to be a programmed in the legendary E
 So, here I'm basically going to log my journey as I start learning the Clojure programming language in the Emacs editor. So this blog is going to witness Souvik Haldar learning two things at once :D  
 
 # Basics steps for beginning a CLojure project 
-Prerequisites:-
+
+### Prerequisites
 i) Install [Leiningen](https://leiningen.org/).  
-ii) Create the project using `lein new app project_euler` (Since we are going to solve euler's problems for learning)  
-iii) Open emacs  
-iv) `C-x C-f` (then locate the `core.clj` file inside `project_euler` directory)  
-v) Fire up the REPL by `M-x cider-jack-in`  (Cider needs to be installed, follow [this](https://github.com/souvikhaldar/beginning-clojure) for setting up emacs with cider and other required packages)  
-vi) Save the file by `C-x C-s` then compile it by `C-c C-k`.  
-vii) Switch to the REPL buffer by `C-o`. (or, you can see all running buffers by `C-x b` then `RET` the buffer in which REPL is running)
-vi) Now you can run the desired function by running it the REPL buffer by `(<function-name> <arg>)`  
+ii) Setup emacs with cider and other required packages, follow [this](https://github.com/souvikhaldar/beginning-clojure)   
+(run `M-x load-file` `RET` `<path-to-init.el>` if emacs doesn't look right)   
+
+  
+### Steps
+i) Create the project using `lein new app project_euler` (Since we are going to solve euler's problems for learning)  
+ii) Open emacs   
+iii) `C-x C-f` (then locate the `core.clj` file inside `project_euler` directory)  
+iv) Fire up the REPL by `M-x cider-jack-in`    
+v) Save the file by `C-x C-s` then compile it by `C-c C-k`.  
+vi) Switch to the REPL buffer by `C-o`. (or, you can see all running buffers by `C-x b` then `RET` the buffer in which REPL is running)
+vii) Now you can run the desired function by running it the REPL buffer by `(<function-name> <arg>)`  
 
 ## Example program written in Clojure  
 
