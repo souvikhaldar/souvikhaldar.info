@@ -19,7 +19,7 @@ He emphasized the following steps/tools for learning data science in python:-
 * Conda (prefer miniconda)  
 **Difference between pip and conda**- pip installs any package in any environment but conda installs any package in conda environment. This can install all the required tools and packages. Some of these are:-  
 * Dask- generate graphs for several backends.  
-* SciPy- functions for scientic computations 
+* SciPy- functions for scientific computations 
 * Numba- Compiles python code to LLVM code. (just add required decorator in the same code)  
 * Cython- Combination of C and python. Mostly for speeding up python code.  
 
@@ -56,7 +56,7 @@ Then they used *requests* library to write a script, which simulated the behavio
 This suggests the lack of security research in IoT field and why this is becoming important day by day!  
 
 ##  Extract table from PDF  
-Camelot is the open source library created by *Vinayak Mehta*, which can efficiently extract tablular data from the PDFs.
+Camelot is the open source library created by *Vinayak Mehta*, which can efficiently extract tabular data from the PDFs.
 
 `pip install camelot-py[cv]` (dependency - `tk` and `ghostscript`)   
 
@@ -92,7 +92,7 @@ Tip- Writing modular resolver functions can ensure that response is faster and a
 Covert python code to fast machine code.  
 `from numba import njit`  
 Just import numba and add the required decorator. ( @njit decorator)  
-We can also use jitclass of numba for initializing the members of the class, which can otherwise be initilized in the __init__.   
+We can also use jitclass of numba for initializing the members of the class, which can otherwise be initialized in the __init__.   
 
 # Generators 
 Generators are basically lazy iterators. 
@@ -102,7 +102,7 @@ g = (i**2 for i in range 10)
 g is a generator.  
 He basically explained how awesome can Generators be if implemented smartly!  
 
-Finally he is my [certificate](https://in.pycon.org/2019/c/c26e292e51.pdf) of participation in Pycon for the year 2019. It is indeed a great experience :)  
+Finally here is my [certificate](https://in.pycon.org/2019/c/c26e292e51.pdf) of participation in Pycon for the year 2019. It was indeed a great experience :)  
 
 
 
