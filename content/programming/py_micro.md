@@ -4,13 +4,17 @@ date: 2019-12-04T12:54:07+05:30
 draft: false
 ---
 # What is microservices architecture? 
-1. Follows Unix philosophy *"Do one thing, do it well"*. 
-2. It is a variant of Service Oriented Architecture (or SOA).
 
-*Service-Oriented Architecture (SOA) is an architectural approach in which applications make use of services available in the network. In this architecture, services are provided to form applications, through a communication call over the internet.*  
+* It is a variant of Service Oriented Architecture (or SOA).
 
-So we can think of SOA as a generic version of Client-Server architecture where server can serve to request from any client and not not specific client, as in the case of a typical client-server architecture.  
-3. The purpose of microservice architecture is to decouple the system and make it more modularized. The different components of the system are made loosely coupled. The idea is to achieve "Separation of Concern".  
+    *Service-Oriented Architecture (SOA) is an architectural approach in which applications make use of services available in the network. In this architecture, services are provided to form applications, through a communication call over the internet.*  
+
+    So we can think of SOA as a generic version of Client-Server architecture where server can serve to request from any client and not not specific client, as in the case of a typical client-server architecture.  
+    
+*  Follows Unix philosophy *"Do one thing, do it well"*.  
+
+* The purpose of microservice architecture is to decouple the system and make it more modularized. The different components of the system are made loosely coupled. The idea is to achieve "Separation of Concern".  
+
 **Now let's talk about advantages and disadvantages of microservices architecture.**  
 
 # Advantages
