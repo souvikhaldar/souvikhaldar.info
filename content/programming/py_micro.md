@@ -1,5 +1,5 @@
 ---
-title: "Let's talk about Microservice Architecture"
+title: "What is Microservice Architecture? Implementation of Microservice in Golang using go-micro"
 date: 2019-12-04T12:54:07+05:30
 draft: false
 ---
@@ -39,7 +39,7 @@ For eg., suppose I'm building a music streaming service, currently getting a lot
 6. Most of the communication between the microservices happens over the network, so latency is increased.  
 7. Some messages might drop, leading to lesser reliability. (This is can fixed to a great extent by using Message Queues in between the services like Kafka, Rabbit MQ,etc)  
 
-## Typical structure of a microservice 
+# Typical structure of a microservice 
 
 A microservice consists of three major components:  
 
@@ -47,9 +47,38 @@ A microservice consists of three major components:
 | Communication   | --> | Processing | --> | Storage |
    
 
- i) Communication is mostly implemented in the form HTTP API or gRPC endpoint. It is used to recieving the request and responding with the response.  
+ i) Communication is mostly implemented in the form HTTP API or gRPC endpoint. It is used for receiving the request and responding with the response.  
  ii) Processing is the central logic of the microservice the requests is processed and response is generated.  
  iii) Storage is optional but if a microservice requires persistent storage then it need to have a separate database.   
+Now let's implement a simple microservice which takes two argument as parameter, adds them and returns the result. We will be doing this using the go-micro framework in golang.  
 
- Finally signing off by saying, in next post I'm going to implement a microservice in Golang, and why Golang? [Read here](https://rubygarage.org/blog/top-languages-for-microservices). Till then, happy coding :)
+# Implementation in Golang
+
+Firstly, why golang, for writing a microservice?  
+1. Syntax is as simple as Python, yet the software produced is very reliable because of type safety, Garbage collection, no fancy tricks!  
+2. It produces static binary for almost all possible platforms. You can code in Mac to create binary for linux, windows,etc. Plus the single binary executable allows creating containers as small as 5 MB which highly decreases the boot time.  
+3. It has great support for building microservice. In fact, according to many, it has the best support. Frameworks such as go-micro, go-kit, gizmo, etc makes it a breeze!   
+4. It is damn fast!   
+
+We choose [go-micro](https://github.com/micro/go-micro) framework because abstracts a lot of complications of distributed systems and can almost be used directly out of the box! Do check out it's features.   
+
+Please clone [this](https://github.com/souvikhaldar/golang-microservice-example) repository and refer to it in the following steps.  
+
+## Pre-requites
+1.  [Install Go](https://golang.org/doc/install)   
+2. Install protoc-gen-micro `go get github.com/micro/protoc-gen-micro`   
+2. Install Go's support for protocol buffers `go get -u github.com/golang/protobuf/protoc-gen-go`   
+3. [Install protocol buffer compiler](https://github.com/protocolbuffers/protobuf)   
+
+## Steps for writing own microservice
+1. Write the API documentation in the protobuf as shown in `sum/sum.proto`  
+2. Compile it using `protoc --proto_path=$GOPATH/src:. --micro_out=. --go_out=. sum.proto` . 
+3. Implement the server by implementing the `Adder` interface as you can see in the generated go file (look the impl. in server.go) and the client (look at the impl. in client.go)  
+
+##  How to run this example
+Open two terminals, run server first in one terminal, then client in the other one. You're done! 
+
+
+# Conclusion  
+This was definitely a very simple service, but I hope it got you started. I talked about this at a meetup, you can find the [slides](https://docs.google.com/presentation/d/1XPZp-ZeiGtQiypJkqyYBfkdvvUWPtKPQQ2p5cm8vkGo/edit?usp=sharing) and [video demonstration](https://youtu.be/U7mKebOVoNY) here respectively. For any further, do reach out to me on [Twitter](https://twitter.com/s0uvikhaldar).  
 
