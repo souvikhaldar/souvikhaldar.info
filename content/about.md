@@ -9,11 +9,12 @@ draft: false
 
 ## Profile
 
- I'm a Backend Developer by profession and mostly use Golang and Python to interact with computers. I like to read books/articles of various genres (little biased towards technical ones), socialize/hangout with friends and new people; and love to build and learn new things. I mostly write about things I'm learning, here or on [Medium](https://medium.com/@souvikhaldar) mostly to make it a point to visit later on, which others too might find helpful.  
+ I'm a Backend Developer by profession. I mostly use Golang and Python to interact with computers and I love it. I like to read books/articles of various genres (little biased towards technical ones), socialize/hangout with friends, meet new people but most importantly, I love to build and learn new things.  
+I mostly write about things I'm learning and things that are running on my head and needs to be ventilated.    
  
 ---  
 ## Achievements   
-* All India rank 2 in Hackathon organized by Digital Ocean. Refer- https://www.techgig.com/hackathon/digitalocean-cloudhack
+* All India rank 2 in a Hackathon organized by Digital Ocean. Refer- https://www.techgig.com/hackathon/digitalocean-cloudhack
 *  [All India Rank in top 2 percentile](https://drive.google.com/file/d/0B8ez0XXq-2ITWDhDRWhUX0I1OTg/view?usp=sharing) in Modern Application Development course by NPTEL.    
 *  [CodeChef certified Data Structures and Algorithms programmer](https://drive.google.com/open?id=1BxSSaGt7PjelIUJac_BpMMSpEgvGWftu)  
 
@@ -22,8 +23,9 @@ draft: false
 ## Experience
 **BACKEND ENGINEER, [BIOSTRAP](https://biostrap.com/) - REMOTE - MAY 2019 - PRESENT**
 
-* Responsible for building and managing the backend platform of Biostrap platform.
-* gRPC 
+* Responsible for building and managing the backend platform using Golang.  
+* Writing tools in golang.  
+* gRPC
 * Cloud- AWS
 
 
