@@ -1,5 +1,5 @@
 ---
-title: "Personal interpretation on Citizenship Amendment Act"
+title: "Personal interpretation of Citizenship Amendment Act of India"
 date: 2019-12-17T22:24:34+05:30
 draft: false
 ---
