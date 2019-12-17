@@ -3,8 +3,7 @@ title: "Personal interpretation of Citizenship Amendment Act of India"
 date: 2019-12-17T22:24:34+05:30
 draft: false
 ---
-
-*Caution: Views and interpretations are completely personal*  
+*Caution: Views and interpretations are completely personal*   
 # Crux of the Act  
 *  NRC (National Register of Citizens) which was originally planned for only the Assam state of India but might be applied pan India, says that anyone who has entered India on or after 1972, would not be given citizenship of India. (maybe eventually deported)  
 *  CAB (Citizenship Amendment Bill) states that only Hindu, Sikh, Christian, Parsi, Buddhist and Jain from Afghanistan, Pakistan and Bangladesh would be given the citizenship in India.  
