@@ -33,5 +33,6 @@ iii) Since these are already Muslim majority countries hence they are less likel
 *  I believe, the intention of implementation of the above policies could have been better if there were no clause for exclusion on the basis of religion.   
 *  Currently, India is not in good shape with regard to employment, GDP, crime rate, etc which deserve higher priority at the moment.   
 *  Since the act is communal in nature in nature hence there is high chance of riots which can be huge mishap for everyone belonging to this country.   
-*  India is essentially secular in nature hence classification of any kind based on religion is against this very nature hence should be discarded or modified accordingly.   
+*  In my view, NRC is good and might have many positive impacts on the country, hence it can implemented without any further edit.  
+*  India is essentially secular in nature hence classification of any kind based on religion is against this very nature hence CAB should be discarded or modified accordingly.   
 
