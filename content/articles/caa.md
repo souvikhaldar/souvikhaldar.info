@@ -1,5 +1,5 @@
 ---
-title: "Personal interpretation of Citizenship Amendment Act of India"
+title: "Personal interpretation of Citizenship Amendment Act, 2019 of India"
 date: 2019-12-17T22:24:34+05:30
 draft: false
 ---
@@ -9,6 +9,7 @@ draft: false
 *  CAB (Citizenship Amendment Bill) states that only Hindu, Sikh, Christian, Parsi, Buddhist and Jain from Afghanistan, Pakistan and Bangladesh would be given the citizenship in India.  
 
 The above two, in combination essentially means that people belonging to Muslim religion (or rest of the above 6 religion), who have entered India on or after 1972 would not be granted citizenship of India, either by the process of Registration or Naturalisation.  
+  
  
 # Why is CAB required
 
@@ -34,5 +35,7 @@ iii) Since these are already Muslim majority countries hence they are less likel
 *  Currently, India is not in good shape with regard to employment, GDP, crime rate, etc which deserve higher priority at the moment.   
 *  Since the act is communal in nature in nature hence there is high chance of riots which can be huge mishap for everyone belonging to this country.   
 *  In my view, NRC is **ideologically** correct and might have many positive impacts on the country since it weeds out illegal immigrants and is agnostic of any religion, hence it can implemented without any further edit. However, it is to be noted that the process of verification and implementation is immensely complex and hence can result in more bad than good effects.   
-*  India is essentially secular in nature hence classification of any kind based on religion is against this very nature hence CAB should be discarded or modified accordingly.   
+*  India is essentially secular in nature hence classification of any kind based on religion is against this very nature hence CAB should be discarded or modified accordingly.    
 
+
+[Link to CAB](http://164.100.47.4/BillsTexts/LSBillTexts/Asintroduced/370_2019_LS_Eng.pdf)
