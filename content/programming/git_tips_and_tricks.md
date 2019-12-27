@@ -36,4 +36,4 @@ For eg, if I want to set xyz.go file to the master version you can do:-
 * If you want to create a new branch out of a remote branch you can use:-  
     `git checkout -b <new-branch> origin/<source-branch>`  
 
-* If a branch `feature`,`bug`,etc branch of yours is very behind than `develop` or `master` (whatever is the eventual target), then doing `merge` (by `git pull origin <master/develop>`) is less troublesome than `rebasing`. Although, under normal conditions `rebase` is better alternative to `merge` since it keeps the git history pristine. 
+* If a `feature`,`bug`,etc branch of yours is very behind than `develop` or `master` (whatever is the eventual target), then doing `merge` (by `git pull origin <master/develop>`) is less troublesome than `rebasing`. Although, under normal conditions `rebase` is better alternative to `merge` since it keeps the git history pristine. 
