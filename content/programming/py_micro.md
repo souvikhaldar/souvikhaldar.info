@@ -1,5 +1,5 @@
 ---
-title: "What is Microservice Architecture? Implementation of Microservice in Golang using go-micro"
+title: "Microservice Architecture and its implementation in Golang using go-micro"
 date: 2019-12-04T12:54:07+05:30
 draft: false
 ---
