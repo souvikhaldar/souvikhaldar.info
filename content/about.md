@@ -23,9 +23,8 @@ I mostly write about things I'm learning and things that are running on my head 
 ## Experience
 **BACKEND ENGINEER, [BIOSTRAP](https://biostrap.com/) - REMOTE - MAY 2019 - PRESENT**
 
-* Responsible for building and managing the backend platform using Golang.  
-* Writing tools in golang.  
-* gRPC
+* Responsible for building and managing the platform of Biostrap.
+* Writing gRPC endpoints, REST HTTP APIs, tools,etc mostly in golang.  
 * Cloud- AWS
 
 
