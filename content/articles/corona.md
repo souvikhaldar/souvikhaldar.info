@@ -29,11 +29,9 @@ There are some tools that you can use for achieving your goal:
 1. Trello: Create a dashboard, brainstorm on todos, slide the todos to doing when it gets the action, slide to done and treat yourself.   
 2. Todoist: Todoist a great way to fill your list of tasks to do when starting the day. Don't create an impossible list of tasks, make a priority and spend time on finalizing what needs to be done today. You can also plan on what you want to do tomorrow, next week or on some date and it will automatically synchronize with your calendar.  
 3. Google Calendar: This is the best way to make your phone, laptop, etc send you push notification on what are the events on a particular day. The tasks you put in Todoist gets synchronized with calender, hence you will automatically get the notifications, which is great! If you have a smartwatch, then just asking "Why are my events today?" will provide the gist of the day ahead, such conveniently!   
----
 
 Finally, when this lockdown is over, which is going to act as a timer for you, a different person awaits at the other end of the tunnel. 
-It is your choice how you want to spend this lockdown. You can endlessly browse the social media, binge watch online video streaming services, etc, or you can take this time to be mindful and cherish the pause you were long yearning for.  
----
+It is your choice how you want to spend this lockdown. You can endlessly browse the social media, binge watch online video streaming services, etc, or you can take this time to be mindful and cherish the pause you were long yearning for.   
 
 In the end, trust your process, trust the system, you are the product of the system you follow!  
 If not now, then when? If not this, then what?  
