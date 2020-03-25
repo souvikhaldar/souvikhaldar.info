@@ -1,10 +1,10 @@
 ---
-title: "Coronavirus lockdown: A blessing in disguise?"
+title: "Coronavirus Lockdown: A Blessing in Disguise?"
 date: 2020-03-25T19:04:22+05:30
-draft: true
+draft: false
 ---
 
-We are currently in a very sad yet interesting time.  
+## We are currently in a very sad yet interesting time.  
 ## Why is it Sad? 
 It is sad because a novel virus, currently named coronavirus, has caused a pandemic worldwide in the form of disease named COVID-19. It originated from China, arguably by eating bats, which has now spread into 150+ countries and almost entire earth is in a state of lockdown to prevent its spread as it is highly contagious and humans are the carriers!   
 ## Why is it interesting?
