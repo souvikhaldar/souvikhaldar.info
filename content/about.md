@@ -30,7 +30,7 @@ I mostly write about things I'm learning and things that are running on my head 
 
 **BACKEND DEVELOPER, [KARTBITES](https://www.kartbites.com/), KOLKATA — OCT 2017- APRIL 2019**
 
-* Building robust and high performant HTTP APIs and microservice using Golang.
+* Building robust and high performance HTTP APIs and microservice using Golang.
 * Monitoring and alerting of servers using Prometheus.  
 * Spatial database management using PostGIS/PostgreSQL.
 * Maintaining and deploying the server using Ansible.

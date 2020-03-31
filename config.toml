@@ -12,10 +12,10 @@ pygmentscodefencesguesssyntax = true
 [params]
   author = "Souvik Haldar"
   favicon = "fav.png"
-  info = "Using Feynman's techique to understand things I covet"
+  info = "Using Feynman Technique to understand things I covet"
   description = "Backend Engineer | Creator | Explorer"
   avatarurl = "/images/IMG_20180912_145153_434.jpg"
-  #footercontent = "getting better eachday, everyday"
+  #footercontent = "getting better each day, everyday"
   dateformat = "January 2,2006"
   rtl = false
 
