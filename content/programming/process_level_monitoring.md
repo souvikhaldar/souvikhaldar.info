@@ -29,15 +29,23 @@ So apart from monitoring we will also look at how we can set up alerts so that w
         Optionally we can append `$ARGS` environment variable to the `ExecStart` and put its value in the `~/.profile`.
 
         ![](/images/2019-04-03-23-15-40.png)
-  
-3. Create a new Dashboard in Grafana for monitoring the required service. Here, for example, let's monitor a service called `go-analyzer.service`. 
+
+3. Now you need to make Prometheus able to scrape the metrics sent by the node_exporter and for doing that you need to modify the configuration of Prometheus (typically the prometheus.yml file). Add the following:  
+   ```
+   - job_name: 'node-exporter'
+     scrape_interval: 5s
+     static_configs:
+       - targets: ['<ip-of-server-running-node-exporter>:9100']
+   ```  
+
+4. Create a new Dashboard in Grafana for monitoring the required service. Here, for example, let's monitor a service called `go-analyzer.service`. 
     * Select the `Add Query` option.
     * Write the query `node_systemd_unit_state{name="go-analyzer.service"}`
     * It will look like- ![](/images/2019-04-03-00-48-53.png)
   
     **Voila! Now you can monitor the state of `go-analyzer` process**
 
-4. Now we'll try to setup alert on this process so that we can get notified if this service goes down.
+5. Now we'll try to setup alert on this process so that we can get notified if this service goes down.
    * Modify the above mentioned query to `node_systemd_unit_state{name="go-analyzer.service",state="active"}`
    * Go to `Alert` section and `Create Alert`
    * Set the condition like - ![](/images/2019-04-03-01-08-00.png)
