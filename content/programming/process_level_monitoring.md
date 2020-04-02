@@ -49,7 +49,7 @@ So apart from monitoring we will also look at how we can set up alerts so that w
    * Modify the above mentioned query to `node_systemd_unit_state{name="go-analyzer.service",state="active"}`
    * Go to `Alert` section and `Create Alert`
    * Set the condition like - ![](/images/2019-04-03-01-08-00.png)
-   * You can send to a channel (like `Server Team` here) or an individual and customize what message is sent ![](/images/2019-04-03-00-58-30.png)
+   * You can send an email alert as well, to a channel (like Server Team here) or an individual. But for this, you need to set-up Grafana with `SMTP` credentials and to do that follow [Alert Manager in Prometheus](http://souvikhaldar.info/programming/alerting/).   ![](/images/2019-04-03-00-58-30.png)  
    * Now save the dashboard and you are all good to go!
 
 # Conclusion
