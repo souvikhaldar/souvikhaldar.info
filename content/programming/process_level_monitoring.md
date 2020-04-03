@@ -11,7 +11,7 @@ As we looked at the benefits above, it becomes quite necessary to monitor `syste
 So apart from monitoring we will also look at how we can set up alerts so that we can receive an email whenever a particular process/service goes down.
 
 # Steps
-1. First you need to set up `SMTP` configuration in Grafana in order to be able to send mails. You can read about it in [this article](https://www.souvikhaldar.info/articles/alerting/). 
+1. First you need to set up `SMTP` configuration in Grafana in order to be able to send mails. You can read about it in [this article](http://souvikhaldar.info/programming/alerting/).  
 2. Now you need to modify the [`node_exporter`](https://github.com/prometheus/node_exporter) to be able to export  the `systemd` metrics. For this you just need to pass a flag named `systemd` to the `node_exporter` command. Here I'll show you how I did it.
    * On the target machine open the `node_exporter` service's unit file. You can find by looking at the output of `systemctl status node_exporter.service`.
      
