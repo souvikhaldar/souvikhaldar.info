@@ -1,7 +1,7 @@
 ---
 title: "Competition Going Global"
 date: 2020-04-09T19:34:03+05:30
-draft: true
+draft: false
 ---
 
 The culture of remote work or work from home (WFH) is not new (especially in the technology sector), I’ve been working remotely for about 2+ years now; and with the current condition of global pandemic (due to COVID-19), every sector of work seems to be moving remote! This is not a productivity or luxury factor anymore, it is the need of the hour!   
