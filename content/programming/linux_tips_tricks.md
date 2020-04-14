@@ -10,6 +10,6 @@ The terminal of UNIX based operating systems is insanely powerful, hence owning 
 # tips
 *  Sometimes we need super-user (`sudo`) privilege to run a command, but we realize it only after executing it. Hence when we try to run the command again we either rewrite the entire command or use the up arrow key to get it again then edit it. But there is a simple way to do it. Use `sudo !!` to run the previously executed command with `sudo` privilege.  
 *  How to list the last three newly created files in a directory?  
-`ls -ltr | head -3`  
+`ls -ltr | tail -3`  
 *  How to send last three newly created files in a directory to a server?  
-``scp `ls -ltr | head -3` username@<ip>:<location>``  
+``scp `ls -ltr | tail -3` username@<ip>:<location>``  
