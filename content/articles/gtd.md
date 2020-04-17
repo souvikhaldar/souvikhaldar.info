@@ -5,8 +5,8 @@ draft: false
 ---
 
 # How I'm implementing the concepts of Getting Things Done 
-*Getting Things Done* is an excellent book on task management written by *David Allen*. As Wikipedia says:  
->The GTD method rests on the idea of moving planned tasks and projects out of the mind by recording them externally and then breaking them into actionable work items.   
+**Getting Things Done** is an excellent book on task management written by *David Allen*. As Wikipedia says:  
+*The GTD method rests on the idea of moving planned tasks and projects out of the mind by recording them externally and then breaking them into actionable work items.*  
 
 This [video](https://youtu.be/gCswMsONkwY) summaries the GTD method elegantly.  
 People implement this method in several ways, some use hand written journals, some use *org-mode* of emacs, etc. I tried to do it with [Todoist](https://todoist.com/) and [Trello](https://trello.com/).   
