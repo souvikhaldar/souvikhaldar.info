@@ -12,4 +12,7 @@ The terminal of UNIX based operating systems is insanely powerful, hence owning 
 *  How to list the last three newly created files in a directory?  
 `ls -ltr | tail -3`  
 *  How to send last three newly created files in a directory to a server?  
-``scp `ls -ltr | tail -3` username@<ip>:<location>``  
+``scp `ls -ltr | tail -3` username@<ip>:<location>``    
+*  `?` variable stores the exit status code of last executed unix or linux shell command. If the value of `?` is 0 then it means that the last command executed successfully, but it it's non-zero, that means there was some error.  
+Eg.  
+![](/images/2020-04-17-16-04-08.png)
