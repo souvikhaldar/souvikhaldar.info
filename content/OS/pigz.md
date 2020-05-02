@@ -5,11 +5,7 @@ draft: false
 ---
 
 While compressing large amount of file using `gzip` I realised that it is quite slow, specially if you use `--best` flag for compressing maximum. While searching on web, I got hold of this tool named [pigz](https://zlib.net/pigz/) which is quite fast as it does the compression in a parralel manner accross multiple cores. The website explains it as:    
-
-
 *pigz, which stands for parallel implementation of gzip, is a fully functional replacement for gzip that exploits multiple processors and multiple cores to the hilt when compressing data. pigz was written by Mark Adler, and uses the zlib and pthread libraries.*  
-
----
 
 Let me try to compress files using `pigz` and `gzip` see how fast can `pigz` get:  
 CPU  
@@ -36,12 +32,16 @@ free -h
 Mem:           11Gi       2.9Gi       2.6Gi       359Mi       5.9Gi       7.9Gi
 Swap:         2.0Gi       710Mi       1.3Gi
 ```  
+---
 
 
-1)  For a single file   
+1)  For a single file  
 
-    Original size: `1649192	VID_20200413_193959.mp4`
-    
+
+    ```
+    du VID_20200413_193959.mp4 
+    1649192	VID_20200413_193959.mp4
+    ```  
 
 
 *  Compressing this video file using `pigz`:  
@@ -89,11 +89,12 @@ Swap:         2.0Gi       710Mi       1.3Gi
 
 
 
-2)  For a directory of files.  
+2)  For a directory of files.
 
-    
-    Original size: `253M	Me/`  
-    
+    ```
+    du -hs Me/
+    253M	Me/
+    ```
 
 *  Using `gzip`  
     ![](/images/2020-05-02-16-09-11.png)
@@ -113,10 +114,12 @@ Swap:         2.0Gi       710Mi       1.3Gi
     ## Result
     While dealing with parallel execution did help obtain faster compression speed!
 
-3)  Compressing a directory of larger size:    
+3)  Compressing a directory of larger size:   
 
-    Original size: `4.0G	retire/`
-    
+    ```
+    du -hs retire/
+    4.0G	retire/
+    ```
 
 *  Using `pigz`:  
     `time tar -cv retire/ | pigz --best > retirePigz.tar.gz`  
@@ -126,6 +129,7 @@ Swap:         2.0Gi       710Mi       1.3Gi
     user	5m25.956s
     sys	0m14.496s
     ```  
+    Compressed size: `4116660	retirePigz.tar.gz`  
 
 * Using `gzip`:  
     `time tar -cv retire/ | gzip --best > retireGzip.tar.gz`  
@@ -135,6 +139,7 @@ Swap:         2.0Gi       710Mi       1.3Gi
     user	3m8.151s
     sys	0m10.939s
     ```
+    Compressed size: `4116024	retireGzip.tar.gz`  
 
 
 
