@@ -16,3 +16,6 @@ The terminal of UNIX based operating systems is insanely powerful, hence owning 
 *  `?` variable stores the exit status code of last executed unix or linux shell command. If the value of `?` is 0 then it means that the last command executed successfully, but it it's non-zero, that means there was some error.  
 Eg.  
 ![](/images/2020-04-17-22-54-33.png)  
+*  Compress a directory:  
+    *  fast- `tar -cv /path/to/dir | gzip --fast newFileName.tar.gz` (fast compression)   
+    *  best- `tar -cv /path/to/dir | gzip --best newFileName.tar.gz` (best compression)  
