@@ -43,6 +43,7 @@ du VID_20200413_193959.mp4
 --- 
 
 *  Compressing this video file using `pigz`:  
+
     ```
     time pigz --best -k VID_20200413_193959.mp4 
 
@@ -60,9 +61,9 @@ du VID_20200413_193959.mp4
     1648308	VID_20200413_193959.mp4.gz
     ```
 
----
 
     *  Compressing using `gzip`:   
+
     ```
     time gzip --best -k VID_20200413_193959.mp4 
 
@@ -72,13 +73,15 @@ du VID_20200413_193959.mp4
     ```
 
     ![](/images/2020-05-02-15-29-49.png)  
+
     As you can see, due to the single threaded execution nature of `gzip` only one core is being used, that too 100%, while other cores are much free, which is not good!  
 
-    The compressed output file:  
+    The compressed output file:   
     ```
     du VID_20200413_193959.mp4.gz 
     1648068	VID_20200413_193959.mp4.gz
     ```
+    
 ## Result:  
 ![](/images/2020-05-02-15-41-21.png)
 Even after trying to compress the same file multiple times, we see that `gzip` is faster and compresses more than `pigz`. Hence, parallel execution does not always guarantee faster execution.
