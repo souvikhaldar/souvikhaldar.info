@@ -49,7 +49,7 @@ Swap:         2.0Gi       710Mi       1.3Gi
 
     real	0m31.855s
     user	1m56.362s
-    sys	0m2.726s
+    sys	    0m2.726s
 
     ```
     Due to the parallel execution nature of `pigz` all the cores are being used simulataneously.  
@@ -69,7 +69,7 @@ Swap:         2.0Gi       710Mi       1.3Gi
 
     real	1m16.566s
     user	1m14.458s
-    sys	0m1.748s
+    sys	    0m1.748s
     ```
 
     ![](/images/2020-05-02-15-29-49.png)  
@@ -112,36 +112,38 @@ Swap:         2.0Gi       710Mi       1.3Gi
     ```
 
 
-    **Result**- While dealing with parallel execution did help obtain faster compression speed!
+    **Result**- While dealing with multiple files, parallel execution did help obtain higher compression speed. 
 
 3)  Compressing a directory of larger size:   
 
     Original size: `4.0G	retire/`  
 
 *  Using `pigz`:  
+
     `time tar -cv retire/ | pigz --best > retirePigz.tar.gz`  
 
     ```
     real	2m5.427s
     user	5m25.956s
-    sys	0m14.496s
+    sys	    0m14.496s
     ```  
     Compressed size: `4116660	retirePigz.tar.gz`  
 
 * Using `gzip`:  
+
     `time tar -cv retire/ | gzip --best > retireGzip.tar.gz`  
 
     ```
     real	3m26.640s
     user	3m8.151s
-    sys	0m10.939s
+    sys	    0m10.939s
     ```
     Compressed size: `4116024	retireGzip.tar.gz`   
 
 
-**Result** - For larger directories, the difference in speed is more significant.   
+**Result** - For larger sized directories, the difference in speed is more significant while compressing parallelly.     
 
 
 
 # Final Conclusion:  
-Here we can see that `pigz` is much faster then `gzip` but `gzip` was able to compress more! Hence when compressing multiple files, using `pigz` but for single file use `gzip`.  
+Here we can see that `pigz` is much faster then `gzip` when compressing multiple files, but `gzip` was able to compress more in any condition! Hence when compressing multiple files, use `pigz` but for single file use `gzip`.   
