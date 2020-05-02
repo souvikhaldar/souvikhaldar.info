@@ -23,7 +23,7 @@ I mostly write about things I'm learning and things that are running on my head 
 ## Experience
 **BACKEND ENGINEER, [BIOSTRAP](https://biostrap.com/) - REMOTE - MAY 2019 - PRESENT**
 
-* Responsible for building and managing the platform of Biostrap.
+* Responsible for building and maintaining the platform of Biostrap.
 * Writing gRPC endpoints, REST HTTP APIs, tools,etc mostly in golang.  
 * Cloud- AWS
 
@@ -57,29 +57,18 @@ As a management intern at Indian Railways (South Eastern) I got to understand ho
 ---
 
 ## Technical Skills
-* Languages- Golang, Python and Clojure.  
-* DevOps- Ansible.  
-* Database- postgreSQL, mySQL, Redis. 
-* Geographic Information System (GIS)- PostGIS.  
-* OS- Mac OSX, Arch Linux, Ubuntu, Kali Linux and Raspbian.  
-* Tools - Postman, Goland, Vim, Visual Studio Code.    
-
----
-
-## Projects  
-* [Mr Bin: Intelligent Waste Management System](https://youtu.be/6kOf2YhKCfo)
-
-    * Technologies- IOT, Cloud Computing, Embedded Programming, Web-Development. 
-    
-    * The motive of this project is that we display the status of the garbage dumps in real time on a personalised website which in turn can be used to predict the best route to be taken for garbage collection.
-    
-    * Server written in Go, deployed on Heroku, frontend in HTML/CSS, Arduino code on Arduino Uno, Python script for data fetching/pushing and Raspberry Pi 3.   
- 
+*  Languages- Golang, Python and Clojure.  
+*  DevOps- Ansible, Prometheus, Grafana, Docker, Kubernetes.  
+*  Database- postgreSQL, mySQL, Redis. 
+*  Geographic Information System (GIS)- PostGIS.  
+*  OS- Mac OSX, Arch Linux, Ubuntu, Kali Linux and Raspbian.  
+*  Security- Reverse Engineering, Honeypot, Malware analysis, Web Security.
 
 ---
 
 ## EDUCATION
-* Graduation = Techno India Salt Lake, Kolkata, MAKAUT University — **B.Tech in Computer Science and Engineering**, 2014-18. 
-* AISSCE = (12th standard) Kendriya Vidyalaya Adra — CBSE , 2013, Science 
-* AISSE = (10th standard) Kendriya Vidyalaya Adra — CBSE , 2011, General 
+* Advanced Certification Program in Cyber Security and Cyber Defense - Indian Institute of Technology Kanpur, Feb 2020 - July 2020
+* Graduation - Techno India Salt Lake, Kolkata, MAKAUT University — **B.Tech in Computer Science and Engineering**, 2014-18. 
+* AISSCE - (12th standard) Kendriya Vidyalaya Adra — CBSE , 2013, Science 
+* AISSE - (10th standard) Kendriya Vidyalaya Adra — CBSE , 2011, General 
 
