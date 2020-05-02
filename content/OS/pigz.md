@@ -5,7 +5,11 @@ draft: false
 ---
 
 While compressing large amount of file using `gzip` I realised that it is quite slow, specially if you use `--best` flag for compressing maximum. While searching on web, I got hold of this tool named [pigz](https://zlib.net/pigz/) which is quite fast as it does the compression in a parralel manner accross multiple cores. The website explains it as:    
+
+
 *pigz, which stands for parallel implementation of gzip, is a fully functional replacement for gzip that exploits multiple processors and multiple cores to the hilt when compressing data. pigz was written by Mark Adler, and uses the zlib and pthread libraries.*  
+
+---
 
 Let me try to compress files using `pigz` and `gzip` see how fast can `pigz` get:  
 CPU  
@@ -32,7 +36,6 @@ free -h
 Mem:           11Gi       2.9Gi       2.6Gi       359Mi       5.9Gi       7.9Gi
 Swap:         2.0Gi       710Mi       1.3Gi
 ```  
----
 
 
 1)  For a single file   
