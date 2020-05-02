@@ -35,9 +35,10 @@ Swap:         2.0Gi       710Mi       1.3Gi
 ---
 
 
-1)  For a single file
+1)  For a single file  
 
-    The original file:   
+
+    The original file:  
     
     ```
     du VID_20200413_193959.mp4 
