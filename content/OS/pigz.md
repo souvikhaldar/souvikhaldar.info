@@ -81,6 +81,8 @@ Swap:         2.0Gi       710Mi       1.3Gi
     du VID_20200413_193959.mp4.gz 
     1648068	VID_20200413_193959.mp4.gz
     ```
+
+    
     **Result** :  
     ![](/images/2020-05-02-15-41-21.png)
     Even after trying to compress the same file multiple times, we see that `gzip` is faster and compresses more than `pigz`. Hence, parallel execution does not always guarantee faster execution.
@@ -108,6 +110,8 @@ Swap:         2.0Gi       710Mi       1.3Gi
     du mePigz.tar.gz 
     249512	mePigz.tar.gz
     ```
+
+
     **Result**- While dealing with parallel execution did help obtain faster compression speed!
 
 3)  Compressing a directory of larger size:   
@@ -133,6 +137,8 @@ Swap:         2.0Gi       710Mi       1.3Gi
     sys	0m10.939s
     ```
     Compressed size: `4116024	retireGzip.tar.gz`   
+
+
 **Result** - For larger directories, the difference in speed is more significant.   
 
 
