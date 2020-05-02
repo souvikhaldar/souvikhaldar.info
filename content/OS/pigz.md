@@ -87,3 +87,27 @@ Even after trying to compress the same file multiple times, we see that `gzip` i
 
 2)  For a directory of files.
 
+A directory containing multiple images of similar size.  
+```
+du -hs Me/
+253M	Me/
+```
+
+*  Using `gzip`  
+    ![](/images/2020-05-02-16-09-11.png)
+    ```
+    du meGzip.tar.gz 
+    249408	meGzip.tar.gz
+    ```
+
+
+*  Using `pigz`  
+    ![](/images/2020-05-02-16-10-48.png)  
+    Compressed file:  
+    ```
+    du mePigz.tar.gz 
+    249512	mePigz.tar.gz
+    ```
+
+Result:  
+Here we can see that `pigz` is much faster then `gzip` but `gzip` was able to compress more! Hence when compressing multiple files, using `pigz` but for single file use `gzip`.  
