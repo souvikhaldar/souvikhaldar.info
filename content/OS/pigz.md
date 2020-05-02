@@ -39,7 +39,7 @@ Swap:         2.0Gi       710Mi       1.3Gi
 
 
     The original file:  
-    
+
     ```
     du VID_20200413_193959.mp4 
     1649192	VID_20200413_193959.mp4
@@ -93,7 +93,8 @@ Swap:         2.0Gi       710Mi       1.3Gi
 
 2)  For a directory of files.
 
-    A directory containing multiple images of similar size.  
+    A directory containing multiple images of similar size:  
+    
     ```
     du -hs Me/
     253M	Me/
