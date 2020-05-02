@@ -40,10 +40,10 @@ Swap:         2.0Gi       710Mi       1.3Gi
 
     The original file:  
 
-    ```
-    du VID_20200413_193959.mp4 
-    1649192	VID_20200413_193959.mp4
-    ```  
+        ```
+        du VID_20200413_193959.mp4 
+        1649192	VID_20200413_193959.mp4
+        ```  
 
 
 *  Compressing this video file using `pigz`:  
@@ -94,11 +94,11 @@ Swap:         2.0Gi       710Mi       1.3Gi
 2)  For a directory of files.
 
     A directory containing multiple images of similar size:  
-    
-    ```
-    du -hs Me/
-    253M	Me/
-    ```
+
+        ```
+        du -hs Me/
+        253M	Me/
+        ```
 
 *  Using `gzip`  
     ![](/images/2020-05-02-16-09-11.png)
