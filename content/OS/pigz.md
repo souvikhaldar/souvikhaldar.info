@@ -34,12 +34,23 @@ Swap:         2.0Gi       710Mi       1.3Gi
 ```  
 ---
 
-1)  For a single file
 
+1)  For a single file  
+
+
+<<<<<<< HEAD
     ```
     du VID_20200413_193959.mp4 
     1649192	VID_20200413_193959.mp4
     ```  
+=======
+    The original file:  
+
+        ```
+        du VID_20200413_193959.mp4 
+        1649192	VID_20200413_193959.mp4
+        ```  
+>>>>>>> 1bc8557f0736ba1a5edc3e8a25b4d983f19721db
 
 
 *  Compressing this video file using `pigz`:  
@@ -89,10 +100,19 @@ Swap:         2.0Gi       710Mi       1.3Gi
 
 2)  For a directory of files.
 
+<<<<<<< HEAD
     ```
     du -hs Me/
     253M	Me/
     ```
+=======
+    A directory containing multiple images of similar size:  
+
+        ```
+        du -hs Me/
+        253M	Me/
+        ```
+>>>>>>> 1bc8557f0736ba1a5edc3e8a25b4d983f19721db
 
 *  Using `gzip`  
     ![](/images/2020-05-02-16-09-11.png)
