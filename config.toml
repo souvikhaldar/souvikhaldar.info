@@ -97,5 +97,10 @@ pygmentscodefencesguesssyntax = true
         weight = 5
         url = "/presentations/"
 
+        [[languages.en.menu.main]]
+        name = "OS"
+        weight = 5
+        url = "/OS/"
+
 
 
