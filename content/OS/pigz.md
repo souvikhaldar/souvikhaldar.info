@@ -35,8 +35,7 @@ Swap:         2.0Gi       710Mi       1.3Gi
 ---
 
 
-1)  For a single file  
-
+1)  For a single file   
 
     ```
     du VID_20200413_193959.mp4 
@@ -89,7 +88,7 @@ Swap:         2.0Gi       710Mi       1.3Gi
 
 
 
-2)  For a directory of files.
+2)  For a directory of files.  
 
     ```
     du -hs Me/
@@ -114,7 +113,7 @@ Swap:         2.0Gi       710Mi       1.3Gi
     ## Result
     While dealing with parallel execution did help obtain faster compression speed!
 
-3)  Compressing a directory of larger size:   
+3)  Compressing a directory of larger size:    
 
     ```
     du -hs retire/
