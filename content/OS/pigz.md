@@ -42,44 +42,44 @@ du VID_20200413_193959.mp4
 ```  
 --- 
 
-Now compressing this video file using `pigz`:  
-```
-time pigz --best -k VID_20200413_193959.mp4 
+*  Compressing this video file using `pigz`:  
+    ```
+    time pigz --best -k VID_20200413_193959.mp4 
 
-real	0m31.855s
-user	1m56.362s
-sys	0m2.726s
+    real	0m31.855s
+    user	1m56.362s
+    sys	0m2.726s
 
-```
-Due to the parallel execution nature of `pigz` all the cores are being used simulataneously. Nice!  
-![](/images/2020-05-02-15-33-21.png)  
+    ```
+    Due to the parallel execution nature of `pigz` all the cores are being used simulataneously. Nice!  
+    ![](/images/2020-05-02-15-33-21.png)  
 
-The output compressed file is:  
-```
-du VID_20200413_193959.mp4.gz 
-1648308	VID_20200413_193959.mp4.gz
-```
+    The output compressed file is:  
+    ```
+    du VID_20200413_193959.mp4.gz 
+    1648308	VID_20200413_193959.mp4.gz
+    ```
 
 ---
 
-Now compressing using `gzip`:   
-```
-time gzip --best -k VID_20200413_193959.mp4 
+    *  Compressing using `gzip`:   
+    ```
+    time gzip --best -k VID_20200413_193959.mp4 
 
-real	1m16.566s
-user	1m14.458s
-sys	0m1.748s
-```
+    real	1m16.566s
+    user	1m14.458s
+    sys	0m1.748s
+    ```
 
-![](/images/2020-05-02-15-29-49.png)  
-As you can see, due to the single threaded execution nature of `gzip` only one core is being used, that too 100%, while other cores are much free, which is not good!  
+    ![](/images/2020-05-02-15-29-49.png)  
+    As you can see, due to the single threaded execution nature of `gzip` only one core is being used, that too 100%, while other cores are much free, which is not good!  
 
-The compressed output file:  
-```
-du VID_20200413_193959.mp4.gz 
-1648068	VID_20200413_193959.mp4.gz
-```
-Result:  
+    The compressed output file:  
+    ```
+    du VID_20200413_193959.mp4.gz 
+    1648068	VID_20200413_193959.mp4.gz
+    ```
+## Result:  
 ![](/images/2020-05-02-15-41-21.png)
 Even after trying to compress the same file multiple times, we see that `gzip` is faster and compresses more than `pigz`. Hence, parallel execution does not always guarantee faster execution.
 
@@ -109,5 +109,6 @@ du -hs Me/
     249512	mePigz.tar.gz
     ```
 
-Result:  
+
+## Final Conclusion:  
 Here we can see that `pigz` is much faster then `gzip` but `gzip` was able to compress more! Hence when compressing multiple files, using `pigz` but for single file use `gzip`.  
