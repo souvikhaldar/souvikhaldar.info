@@ -36,11 +36,11 @@ Swap:         2.0Gi       710Mi       1.3Gi
 
 1)  For a single file
 
-The original file:  
-```
-du VID_20200413_193959.mp4 
-1649192	VID_20200413_193959.mp4
-```  
+    The original file:  
+    ```
+    du VID_20200413_193959.mp4 
+    1649192	VID_20200413_193959.mp4
+    ```  
 
 
 *  Compressing this video file using `pigz`:  
@@ -53,7 +53,7 @@ du VID_20200413_193959.mp4
     sys	0m2.726s
 
     ```
-    Due to the parallel execution nature of `pigz` all the cores are being used simulataneously. Nice!  
+    Due to the parallel execution nature of `pigz` all the cores are being used simulataneously.  
     ![](/images/2020-05-02-15-33-21.png)  
 
     The output compressed file is:  
@@ -63,7 +63,7 @@ du VID_20200413_193959.mp4
     ```
 
 
-    *  Compressing using `gzip`:   
+*  Compressing using `gzip`:   
 
     ```
     time gzip --best -k VID_20200413_193959.mp4 
@@ -90,11 +90,11 @@ du VID_20200413_193959.mp4
 
 2)  For a directory of files.
 
-A directory containing multiple images of similar size.  
-```
-du -hs Me/
-253M	Me/
-```
+    A directory containing multiple images of similar size.  
+    ```
+    du -hs Me/
+    253M	Me/
+    ```
 
 *  Using `gzip`  
     ![](/images/2020-05-02-16-09-11.png)
@@ -114,5 +114,5 @@ du -hs Me/
     ## Result
     While dealing with parallel execution did help obtain faster compression speed!
 
-## Final Conclusion:  
+# Final Conclusion:  
 Here we can see that `pigz` is much faster then `gzip` but `gzip` was able to compress more! Hence when compressing multiple files, using `pigz` but for single file use `gzip`.  
