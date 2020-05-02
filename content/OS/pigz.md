@@ -36,8 +36,6 @@ Swap:         2.0Gi       710Mi       1.3Gi
 
 1)  For a single file
 
-    The original file:  
-    
     ```
     du VID_20200413_193959.mp4 
     1649192	VID_20200413_193959.mp4
@@ -91,8 +89,6 @@ Swap:         2.0Gi       710Mi       1.3Gi
 
 2)  For a directory of files.
 
-    A directory containing multiple images of similar size.   
-
     ```
     du -hs Me/
     253M	Me/
@@ -115,6 +111,33 @@ Swap:         2.0Gi       710Mi       1.3Gi
     ```
     ## Result
     While dealing with parallel execution did help obtain faster compression speed!
+
+3)  Compressing a directory of larger size:   
+
+    ```
+    du -hs retire/
+    4.0G	retire/
+    ```
+
+*  Using `pigz`:  
+    `time tar -cv retire/ | pigz --best > retirePigz.tar.gz`  
+
+    ```
+    real	2m5.427s
+    user	5m25.956s
+    sys	0m14.496s
+    ```  
+
+* Using `gzip`:  
+    `time tar -cv retire/ | gzip --best > retireGzip.tar.gz`  
+
+    ```
+    real	3m26.640s
+    user	3m8.151s
+    sys	0m10.939s
+    ```
+
+
 
 # Final Conclusion:  
 Here we can see that `pigz` is much faster then `gzip` but `gzip` was able to compress more! Hence when compressing multiple files, using `pigz` but for single file use `gzip`.  
