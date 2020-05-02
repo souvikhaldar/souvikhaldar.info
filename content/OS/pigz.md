@@ -40,10 +40,8 @@ Swap:         2.0Gi       710Mi       1.3Gi
 
 1)  For a single file   
 
-    ```
-    du VID_20200413_193959.mp4 
-    1649192	VID_20200413_193959.mp4
-    ```  
+    Original size: `1649192	VID_20200413_193959.mp4`
+    
 
 
 *  Compressing this video file using `pigz`:  
@@ -93,10 +91,9 @@ Swap:         2.0Gi       710Mi       1.3Gi
 
 2)  For a directory of files.  
 
-    ```
-    du -hs Me/
-    253M	Me/
-    ```
+    
+    Original size: `253M	Me/`  
+    
 
 *  Using `gzip`  
     ![](/images/2020-05-02-16-09-11.png)
@@ -118,10 +115,8 @@ Swap:         2.0Gi       710Mi       1.3Gi
 
 3)  Compressing a directory of larger size:    
 
-    ```
-    du -hs retire/
-    4.0G	retire/
-    ```
+    Original size: `4.0G	retire/`
+    
 
 *  Using `pigz`:  
     `time tar -cv retire/ | pigz --best > retirePigz.tar.gz`  
