@@ -18,4 +18,6 @@ Eg.
 ![](/images/2020-04-17-22-54-33.png)  
 *  Compress a directory:  
     *  fast- `tar -cv /path/to/dir | gzip --fast newFileName.tar.gz` (fast compression)   
-    *  best- `tar -cv /path/to/dir | gzip --best newFileName.tar.gz` (best compression)  
+    *  best- `tar -cv /path/to/dir | gzip --best newFileName.tar.gz` (best compression)    
+* `pigz` is a parallel implementation of `gzip` is much faster when compressing multiple number of files:  
+    `tar -cv source-dir/ | pigz --best > target-file-name.tar.gz`
