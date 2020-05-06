@@ -8,8 +8,11 @@ draft: false
 * IRC- souvikhaldar on Freenode server  
 
 ## Profile
+I'm an enterprising individual who loves to take initiatives to make things happen, hence held various positions of responsibility right from early school days till date.  
+I believe in the idea of compund interest and putting small yet planned efforts each day to become better than the person yesterday.  
+I had been fascinated by the green coloured PCBs from a very early age and tinkering with machines ever since.  
+I love to explore fields horizontally, find the sweet spot to zero-in then go all the way into it. Currently exploring the world of Distributed Systems, Cyber Security and Embedded systems, and in this path of exploration making use of golang (primarily), python, C and Clojure for interacting with computers, each representative of a different paradigm of thinking/programming.  
 
- I'm a Backend Developer by profession. I mostly use Golang and Python to interact with computers and I love it. I like to read books/articles of various genres (little biased towards technical ones), socialize/hangout with friends, meet new people but most importantly, I love to build and learn new things.  
 I mostly write about things I'm learning and things that are running on my head and needs to be ventilated.    
  
 ---  
@@ -67,8 +70,8 @@ As a management intern at Indian Railways (South Eastern) I got to understand ho
 ---
 
 ## EDUCATION
-* Advanced Certification Program in Cyber Security and Cyber Defense - Indian Institute of Technology Kanpur, Feb 2020 - July 2020
-* Graduation - Techno India Salt Lake, Kolkata, MAKAUT University — **B.Tech in Computer Science and Engineering**, 2014-18. 
+* Advanced Certification Program in Cyber Security and Cyber Defense - **Indian Institute of Technology Kanpur**, Feb 2020 - July 2020
+* Bachelor of Technology - **Techno India Salt Lake, Kolkata, MAKAUT University** — 2014-18. 
 * AISSCE - (12th standard) Kendriya Vidyalaya Adra — CBSE , 2013, Science 
-* AISSE - (10th standard) Kendriya Vidyalaya Adra — CBSE , 2011, General 
+* AISSE - (10th standard) Kendriya Vidyalaya Adra — CBSE , 2011
 
