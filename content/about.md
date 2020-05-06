@@ -60,8 +60,8 @@ As a management intern at Indian Railways (South Eastern) I got to understand ho
 ---
 
 ## Technical Skills
-*  Languages- Golang, Python and Clojure.  
-*  Web server development.  
+*  Languages- Golang, Python,C and Clojure.  
+*  REST, gRPC and graphQL APIs development.   
 *  DevOps- Ansible, Prometheus, Grafana, Docker, Kubernetes.  
 *  Database- postgreSQL, mySQL, Redis. 
 *  Geographic Information System (GIS)- PostGIS.  
@@ -79,7 +79,7 @@ As a management intern at Indian Railways (South Eastern) I got to understand ho
 
 ## EDUCATION
 * Advanced Certification Program in Cyber Security and Cyber Defense - **Indian Institute of Technology Kanpur**, Feb 2020 - July 2020
-* Bachelor of Technology - **Techno India Salt Lake, Kolkata, MAKAUT University** — 2014-18. 
-* AISSCE - (12th standard) Kendriya Vidyalaya Adra — CBSE , 2013, Science 
+* Bachelor of Technology (Computer Science and Engineering) - **Techno India Salt Lake, Kolkata, MAKAUT University** — 2014-18. 
+* AISSCE (Science,12th standard) Kendriya Vidyalaya Adra — CBSE , 2013.  
 * AISSE - (10th standard) Kendriya Vidyalaya Adra — CBSE , 2011
 
