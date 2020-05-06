@@ -61,11 +61,19 @@ As a management intern at Indian Railways (South Eastern) I got to understand ho
 
 ## Technical Skills
 *  Languages- Golang, Python and Clojure.  
+*  Web server development.  
 *  DevOps- Ansible, Prometheus, Grafana, Docker, Kubernetes.  
 *  Database- postgreSQL, mySQL, Redis. 
 *  Geographic Information System (GIS)- PostGIS.  
 *  OS- Mac OSX, Arch Linux, Ubuntu, Kali Linux and Raspbian.  
-*  Security- Reverse Engineering, Honeypot, Malware analysis, Web Security.
+*  Security:
+    *  Reverse Engineering 
+    *  Honeypot
+    *  Malware analysis
+    *  Web Security 
+    *  Vulnerability Assessment and Penetration Testing
+    *  Intrusion Detection System
+
 
 ---
 
