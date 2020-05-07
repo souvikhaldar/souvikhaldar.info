@@ -1,5 +1,5 @@
 ---
-title: "Perkeep"
+title: "Perkeep: Your own Google Photos, for life"
 date: 2020-05-07T12:38:56+05:30
 draft: false
 ---
@@ -51,6 +51,6 @@ Now let me explain in detail how did I follow the above two steps.
 	 ![](/images/2020-05-07-16-36-26.png)
 
 
-#Conclusion		
+# Conclusion		
 There are various ways to go about the setup which are much much better. This guide was simply to get you started. Now you can keep tinkering till you find the sweet spot :)  
 
