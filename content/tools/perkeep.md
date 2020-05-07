@@ -15,13 +15,13 @@ Now let me explain in detail how did I follow the above two steps.
 
 1.  Read [this](https://perkeep.org/download#getting-started) for installing the perkeepd on laptop.   
 2.  Now you can run the server by executing `perkeepd` on the terminal (after putting `perkeepd` on $PATH or changing directory to location where the executable perkeepd exists).  
-3.  Now install the perkeep app on android from the playstore and in `settings` put <ip-of-laptop>:3179 in the Perkeep server option.  
+3.  Now install the perkeep app on android from the playstore and in `settings` put <ip-of-laptop>:3179 in the Perkeep server option, Username (let's say) foo and Password as bar.  
 4.  Now you can click on **Upload All** from options top right, but you might face Authentication issue like [this](https://github.com/perkeep/perkeep/issues/1308#issuecomment-624798442).    
 5) So, let's configure the perkeepd server on laptop now:    
-	1.  Change the value of "auth" to "none" in `~/.config/perkeep/server-config.json` and let other values be as it is in your case:   
+	1.  Since we picked username as foo and password as bar, change the value of "auth" as following in `~/.config/perkeep/server-config.json` (and leave rest as it is in your case):   
 		```
 		{
- 		   "auth": "none",
+ 		   "auth": "userpass:foo:bar",
    		   "listen": ":3179",
     		   "camliNetIP": "",
    		   "identity": "KJBSDBGSJDG",
@@ -48,9 +48,10 @@ Now let me explain in detail how did I follow the above two steps.
 	 ![](/images/2020-05-07-16-35-17.png)  
 
 	 Locate on maps (one of many features):  
-	 ![](/images/2020-05-07-16-36-26.png)
+	 ![](/images/2020-05-07-16-36-26.png)  
+
 
 
 # Conclusion		
-There are various ways to go about the setup which are much much better. This guide was simply to get you started. Now you can keep tinkering till you find the sweet spot :)  
+There are various ways to go about the setup which are much much better, like storing in s3, reverse proxy to machine, setup HTTPS and what not! This guide was simply to get you started and pique interest. Now you can keep tinkering till you find the sweet spot :)  
 
