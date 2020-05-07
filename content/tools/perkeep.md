@@ -18,26 +18,26 @@ Now let me explain in detail how did I follow the above two steps.
 3.  Now install the perkeep app on android from the playstore and in `settings` put <ip-of-laptop>:3179 in the Perkeep server option.  
 4.  Now you can click on **Upload All** from options top right, but you might face Authentication issue like [this](https://github.com/perkeep/perkeep/issues/1308#issuecomment-624798442).    
 5) So, let's configure the perkeepd server on laptop now:    
-	1.  Change the value of "auth" to "none" in `~/.config/perkeep/server-config.json`:   
+	1.  Change the value of "auth" to "none" in `~/.config/perkeep/server-config.json` and let other values be as it is in your case:   
 		```
 		{
  		   "auth": "none",
    		   "listen": ":3179",
     		   "camliNetIP": "",
-   		   "identity": "EEFEE8C2D4ED75CB",
-    		   "identitySecretRing": "/home/joey/.config/perkeep/identity-secring.gpg",
-    		   "blobPath": "/home/joey/var/perkeep/blobs",
+   		   "identity": "KJBSDBGSJDG",
+    		   "identitySecretRing": "/home/user/.config/perkeep/identity-secring.gpg",
+    		   "blobPath": "/home/user/var/perkeep/blobs",
     		   "packRelated": true,
-    	           "levelDB": "/home/joey/var/perkeep/index.leveldb"
+    	           "levelDB": "/home/user/var/perkeep/index.leveldb"
 		}
 		```
-	2.  Create a systemd unit file for that the `perkeepd` daemon can keep running as systemd process. Create a file named `perkeep.service` at `/etc/systemd/system/` and add the following content into the file:    
+	2.  Create a systemd unit file for that the `perkeepd` daemon can keep running as systemd process. Create a file named `perkeep.service` at `/etc/systemd/system/` and add the following content into the file: (Put your values accordingly)      
 		```
 		[Unit]
 		Description= Perkeepd server
 		[Service]
-		WorkingDirectory= /home/joey/Development/go/bin/
-		ExecStart= /home/joey/Development/go/bin/perkeepd -configfile=/home/joey/.config/perkeep/server-config.json
+		WorkingDirectory= /home/user/path/go/bin/
+		ExecStart= /path/to/GOPATH/bin/go/bin/perkeepd -configfile=/home/user/.config/perkeep/server-config.json
 		Restart= always
 		[Install]
 		WantedBy= multi-user.target
