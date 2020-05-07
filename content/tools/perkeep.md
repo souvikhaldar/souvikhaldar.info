@@ -44,7 +44,12 @@ Now let me explain in detail how did I follow the above two steps.
 		```
 	3.  Now start this service by running `sudo systemctl start perkeep.service`, if it runs fine, web UI would be visible at `localhost:3179`, if not try to debug it by checks `systemctl status perkeep.service`. If everything is fine, enable this service so that during reboot this service can start automatically. For enabling run `sudo systemctl enable perkeep.service`.    
 	
-6.  Now click Upload all option on your android device and images should start popping up at `localhost:3178/ui`  
+6.  Now click Upload all option on your android device and images should start popping up at `localhost:3178/ui`. Your own Google Photos with unlimited storage, almost permanent, easily searchable with intuitive UI right in front of you:   
+	 ![](/images/2020-05-07-16-35-17.png)  
+
+	 Locate on maps (one of many features):  
+	 ![](/images/2020-05-07-16-36-26.png)
+
 
 #Conclusion		
 There are various ways to go about the setup which are much much better. This guide was simply to get you started. Now you can keep tinkering till you find the sweet spot :)  
