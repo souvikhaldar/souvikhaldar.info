@@ -17,7 +17,7 @@ Now let me explain in detail how did I follow the above two steps.
 2.  Now you can run the server by executing `perkeepd` on the terminal (after putting `perkeepd` on $PATH or changing directory to location where the executable perkeepd exists).  
 3.  Now install the perkeep app on android from the playstore and in `settings` put <ip-of-laptop>:3179 in the Perkeep server option, Username (let's say) foo and Password as bar.  
 4.  Now you can click on **Upload All** from options top right, but you might face Authentication issue like [this](https://github.com/perkeep/perkeep/issues/1308#issuecomment-624798442).    
-5) So, let's configure the perkeepd server on laptop now:    
+	So, let's configure the perkeepd server on laptop now:    
 	1.  Since we picked username as foo and password as bar, change the value of "auth" as following in `~/.config/perkeep/server-config.json` (and leave rest as it is in your case):   
 		```
 		{
