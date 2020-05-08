@@ -92,22 +92,18 @@ pygmentscodefencesguesssyntax = true
         weight = 6
         url = "https://www.instagram.com/theperfectbehold/"  
 
-        [[languages.en.menu.main]]
-        name = "Presentations"
-        weight = 7
-        url = "/presentations/"
 
         [[languages.en.menu.main]]
         name = "OS"
-        weight = 8
+        weight = 7
         url = "/OS/"
 
         [[languages.en.menu.main]]
         name = "Tools"
-        weight = 9
+        weight = 8
         url = "/tools/"
 
         [[languages.en.menu.main]]
 	    name = "Security"
-        weight = 10
+        weight = 9
         url = "/security/"
