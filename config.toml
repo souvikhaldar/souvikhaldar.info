@@ -107,5 +107,7 @@ pygmentscodefencesguesssyntax = true
         weight = 5
         url = "/tools/"
 
-
-
+        [[languages.en.menu.main]]
+	name - "Security"
+        weight = 5
+        url = "/security/"
