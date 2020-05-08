@@ -94,20 +94,20 @@ pygmentscodefencesguesssyntax = true
 
         [[languages.en.menu.main]]
         name = "Presentations"
-        weight = 5
+        weight = 7
         url = "/presentations/"
 
         [[languages.en.menu.main]]
         name = "OS"
-        weight = 5
+        weight = 8
         url = "/OS/"
 
         [[languages.en.menu.main]]
         name = "Tools"
-        weight = 5
+        weight = 9
         url = "/tools/"
 
         [[languages.en.menu.main]]
 	    name = "Security"
-        weight = 5
+        weight = 10
         url = "/security/"
