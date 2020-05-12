@@ -7,8 +7,8 @@ draft: false
 [Perkeep](https://perkeep.org/) is an amazing Open Source Software that is used to store images from various sources (like Google Photos) and store it permanantly in a neat searchable fashion with intuitive UI. Since this is FOSS you can free to use it anyway you want, but the question is how do you want to set it up. Also, these days, the mobile phones have made it very complicated to backup photos to laptops so that they can force you to use more their cloud services, like Android will ask for more GDrive and apple for iCloud, which costs a lot in the long run and kinda makes you dependent on them. Recently when I was trying to backup photos from my OnePlus 7 Pro to Macbook, I had to literally run an FTP server to send data or `rsync` files from `termux` to my laptop! **Perkeep** makes the entire process fully automated,fast as well as secure because control of the entire cloud storage is upto you. Plus, there are many search features, intuitive GUI,etc which are cherry on top!  
 It follows typical client-server architecture (where the client can be android as well) and run the server anywhere you want, for more information on setting up the server read [this article](https://perkeep.org/doc/server-config). 
 How I prefer setting up is:  
-1) I have an old laptop with 1 TB HDD, hence it can run used to run the perkeep server.  
-2) I've installed the perkeep android app from playstore, so that I can continuously upload images from mobile.  
+1.  I have an old laptop with 1 TB HDD, hence it can run used to run the perkeep server.  
+2.  I've installed the perkeep android app from playstore, so that I can continuously upload images from mobile.  
 
 Now let me explain in detail how did I follow the above two steps.  
 
