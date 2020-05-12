@@ -148,4 +148,5 @@ Swap:         2.0Gi       710Mi       1.3Gi
 
 
 # Final Conclusion:  
+
 Here we can see that `pigz` is much faster then `gzip` when compressing multiple files, but `gzip` was able to compress more in any condition! Hence when compressing multiple files, use `pigz` but for single file use `gzip`.   
