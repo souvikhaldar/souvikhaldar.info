@@ -13,8 +13,6 @@ I believe in the idea of *compound interest* and putting small yet planned effor
 I had been fascinated by the green coloured PCBs (Printed Circuit Board) from a very early age and tinkering with machines ever since.  
 I love to explore fields horizontally, find the sweet spot to zero-in then go all the way into it. Currently exploring the world of Distributed Systems, Cyber Security and Embedded systems, and in this path of exploration making use of golang (primarily), python, C and Clojure for interacting with computers, each representative of a different paradigm of thinking/programming.   
 
-I mostly write about things I'm learning and things that are running on my head and needs to be ventilated.    
- 
 ---  
 ## Achievements   
 * All India rank 2 in a Hackathon organized by Digital Ocean. Refer- https://www.techgig.com/hackathon/digitalocean-cloudhack
