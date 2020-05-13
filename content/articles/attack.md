@@ -4,7 +4,7 @@ date: 2020-05-13T21:10:50+05:30
 draft: false
 ---
 # Introduction
-If you ever want to play a game, be it any game, pay by attack. 
+If you ever want to play a game, be it any game, play it by attacking.  
 # What do I mean by a game?  
 A game is anything which requires competing with others, it can be a game of cricket, football,basketball, or it can be a your academic year at college,school,office, since it requires performing which impacts many people, be in the attack position, perpetually.  
 # What I mean by attack?  
