@@ -1,7 +1,7 @@
 ---
 title: "Play by attack"
 date: 2020-05-13T21:10:50+05:30
-draft: true
+draft: false
 ---
 # Introduction
 If you ever want to play a game, be it any game, pay by attack. 
