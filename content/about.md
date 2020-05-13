@@ -24,36 +24,32 @@ I love to explore fields horizontally, find the sweet spot to zero-in then go al
 ## Experience
 **BACKEND ENGINEER, [BIOSTRAP](https://biostrap.com/) - REMOTE - MAY 2019 - PRESENT**
 
-* Responsible for building and maintaining the platform of Biostrap.
-* Writing gRPC endpoints, REST HTTP APIs, tools,etc mostly in golang.  
-* Cloud- AWS
+*  Responsible for building and maintaining the platform of Biostrap.
+*  Writing gRPC endpoints, REST HTTP APIs, tools,etc mostly in golang.  
+*  Database: mySQL and scylla.
 
 
 **BACKEND DEVELOPER, [KARTBITES](https://www.kartbites.com/), KOLKATA — OCT 2017- APRIL 2019**
 
-* Building robust and high performance HTTP APIs and microservice using Golang.
-* Monitoring and alerting of servers using Prometheus.  
-* Spatial database management using PostGIS/PostgreSQL.
-* Maintaining and deploying the server using Ansible.
-* Implementing distributed messaging service using NSQ.
-* Cloud - Digital Ocean
+*  Building robust and high performance HTTP APIs and microservice using Golang.
+*  Monitoring and alerting of servers using Prometheus.  
+*  Spatial database management using PostGIS/PostgreSQL.
+*  Maintaining and deploying the server using Ansible.
 
 
 **PRODUCT DEVELOPMENT INTERN, [HASURA.IO](https://hasura.io/), REMOTE — JUN 2017-AUG 2017**
 
-* Developed complete web-app named [**hisab-kitab**](https://youtu.be/V86Moyi1QkM) which is an expense journal application.  
-* Backend in Python (Flask), frontend in html, css, bootstrap and several Hasura APIs.  
-* Complete documentation can be found [here](https://medium.com/@souvikhaldar32/hisab-kitab-save-to-earn-c978344e5744)  
+*  Developed complete web-app named [**hisab-kitab**](https://youtu.be/V86Moyi1QkM) which is an expense journal application.  
+*  Backend in Python (Flask), frontend in html, css, bootstrap and several Hasura APIs.  
+*  Complete documentation can be found [here](https://medium.com/@souvikhaldar32/hisab-kitab-save-to-earn-c978344e5744)  
 
 **MANAGEMENT INTERN, INDIAN RAILWAYS; RANCHI, JHARKHAND — JUN 2017-JUL 2017**
 
-As a management intern at Indian Railways (South Eastern) I got to understand how a big organization like Railways does it’s basic management works like filing tender, pen- sion management, authorities, jurisdiction, etc.
+As a management intern at Indian Railways (South Eastern) I got to understand how a big organization like Railways handles verious management tasks.  
 
 **CONTENT WRITER, INDIANS NEWS; REMOTE — FEB 2015 - SEP 2016** 
 
 * Articles on various topics, but with special emphasis on covering events, seminars, lifestyle and workshops. 
-* Covered several techfests like EDGE 2015, Eccentron (TISL) and Entrepreneurship Awareness Drive press conference.
-*  [Indians News](https://indiansnews.com/author/souvik/)   
 
 ---
 
