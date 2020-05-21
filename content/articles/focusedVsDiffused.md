@@ -1,5 +1,5 @@
 ---
-title: "The power of taking breaks during study"
+title: "Learning how to learn: Focused vs. Diffused mode of learning"
 date: 2020-05-21T13:53:35+05:30
 draft: false
 ---
@@ -13,7 +13,6 @@ There are two modes of studying that needs to be balanced and executed properly 
 1.  Focused mode  
 
     It is the mode in which our brain takes up information from what we are currently reading or observing. This mode is signified by an immense focus on the subject matter, pulling in information and placing it in the brain. The part of the brain responsible for this mode is the prefrontal cortex. In this mode, our focus should be, to intake as much information as possible, without getting distracted by anything else. There are many ways to achieve this but it is not one size fits all kinda thing. You can figure out your sweet spot which makes you intake information the maximum way possible without getting the least distracted. For me, and most millennials, the way which has been helping to achieve maximum efficiency in focused mode is:  
-
         *  Putting the smartphone on silent mode and placing it somewhere I can't see.   
         *  Listening to binaural beats on low volume  
         *  Going to a room or place where nobody can reach out to me.     
