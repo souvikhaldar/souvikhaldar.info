@@ -9,14 +9,14 @@ The idea of taking breaks during study time had been primarily preached under wr
 
 # Focused and diffuse modes of thinking bring very different insights into your learning
 There are two modes of studying that needs to be balanced and executed properly to achieve the best way of learning. These two modes are:
-## 1.  Focused mode  
+1.  Focused mode  
 
     It is the mode in which our brain takes up information from what we are currently reading or observing. This mode is signified by an immense focus on the subject matter, pulling in information and placing it in the brain. The part of the brain responsible for this mode is the prefrontal cortex. In this mode, our focus should be, to intake as much information as possible, without getting distracted by anything else. There are many ways to achieve this but it is not one size fits all kinda thing. You can figure out your sweet spot which makes you intake information the maximum way possible without getting the least distracted. For me, and most millennials, the way which has been helping to achieve maximum efficiency in focused mode is:    
     *  Putting the smartphone on silent mode and placing it somewhere I can't see.   
     *  Listening to binaural beats on low volume  
     *  Going to a room or place where nobody can reach out to me.     
     However, one thing needs to understand here, the Focused mode is not meant to internalize the concepts completely, its primary job is to intake the information with basic understanding with the least amount of noise. One small thing you need to keep in mind for avoiding distraction is that distraction is very common and happens to everyone, the only thing we can do about it is that, whenever you realize that you have been distracted, quickly jump back to focus by making an explicit effort and forget about anything you have been thinking while you are distracted. If it was something important that got you distracted then follow [this article](http://souvikhaldar.info/articles/gtd/) to make a decision and jump back on track.     
-## 2.  Diffused mode  
+2.  Diffused mode  
 
     This is the mode which had been referred to as break during study intervals and is characterized by not studying and relaxing, typically of short duration. It might seem an easy mode but it is equally crucial and plays an important role and needs to be performed well. This mode allows one to sweep the information received in the Focused mode throughout the brain and make connections better the information, and knowledge is nothing but joining the dots between different information received. This is the mode in which you deeply internalize the concepts you've ingested and understood in the focused mode. You can stretch your body, take a bathroom break, lay a bit, etc but don't do anything which requires focus and specifically avoid checking the phone. Let your mind relax and diffuse the knowledge throughout your brain, happily!    
 
