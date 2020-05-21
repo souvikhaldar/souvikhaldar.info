@@ -8,7 +8,8 @@ draft: false
 The idea of taking breaks during study time had been primarily preached under wrong or less understood concepts of science. Mostly the impression of taking breaks has been repeatedly related to the aspect of reduction of pressure on the brain, not getting too obsessed or lifting of mental pressure. Although these aspects are definitely helpful, what if I tell you that by taking breaks during study can actually help you understand concepts better than studying for long hours straight? Once I can convince you on that, I'll provide a battle-tested approach of how to do it in the best possible way and not get distracted by the nitty-gritty of implementation details. So, let me first explain you the concept, scientifically.  
 
 # Focused and diffuse modes of thinking bring very different insights into your learning
-There are two modes of studying that needs to be balanced and executed properly to achieve the best way of learning. These two modes are:
+There are two modes of studying that needs to be balanced and executed properly to achieve the best way of learning. These two modes are:  \
+
 1.  Focused mode  
 
     It is the mode in which our brain takes up information from what we are currently reading or observing. This mode is signified by an immense focus on the subject matter, pulling in information and placing it in the brain. The part of the brain responsible for this mode is the prefrontal cortex. In this mode, our focus should be, to intake as much information as possible, without getting distracted by anything else. There are many ways to achieve this but it is not one size fits all kinda thing. You can figure out your sweet spot which makes you intake information the maximum way possible without getting the least distracted. For me, and most millennials, the way which has been helping to achieve maximum efficiency in focused mode is:    
