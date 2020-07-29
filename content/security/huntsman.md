@@ -1,5 +1,10 @@
+---
+title: "Learning how to learn: Focused vs. Diffused mode of learning"
+date: 2020-07-26T13:53:35+05:30
+draft: false
+---
 # Huntsman
-A swiss army knife for all things security.
+A swiss army knife for offensive security.  
 https://souvikhaldar.github.io/huntsman/
 
 ![](huntsman-main.jpg)
