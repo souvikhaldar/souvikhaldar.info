@@ -7,7 +7,7 @@ draft: false
 A swiss army knife for offensive security.  
 https://souvikhaldar.github.io/huntsman/
 
-![](./huntsman-main.jpg)
+![](/images/huntsman-main.jpg)
 
 
 # Inspiration
