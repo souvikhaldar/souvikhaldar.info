@@ -1,5 +1,5 @@
 ---
-title: "Learning how to learn: Focused vs. Diffused mode of learning"
+title: "Huntsman: A swiss army knife for offensive security"
 date: 2020-07-26T13:53:35+05:30
 draft: false
 ---
