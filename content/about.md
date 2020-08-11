@@ -3,6 +3,8 @@ title: "About"
 date: 2019-03-24T14:36:10+05:30
 draft: false
 ---
+[Donload Resume](https://drive.google.com/file/d/1TFN6o91VVYBfMJSp3ptx9oIPp3JTopNt/view?usp=sharing)  
+
 ## Contact  
 * Email- souvikhaldar32@gmail.com 
 * IRC- souvikhaldar on Freenode server  
@@ -69,11 +71,5 @@ As a management intern at Indian Railways (South Eastern) I got to understand ho
     *  Intrusion Detection System
 
 
----
 
-## EDUCATION
-* Advanced Certification Program in Cyber Security and Cyber Defense - **Indian Institute of Technology Kanpur**, Feb 2020 - July 2020
-* Bachelor of Technology (Computer Science and Engineering) - **Techno India Salt Lake, Kolkata, MAKAUT University** — 2014-18. 
-* AISSCE (Science,12th standard) Kendriya Vidyalaya Adra — CBSE , 2013.  
-* AISSE - (10th standard) Kendriya Vidyalaya Adra — CBSE , 2011
 
