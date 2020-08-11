@@ -3,8 +3,7 @@ title: "About"
 date: 2019-03-24T14:36:10+05:30
 draft: false
 ---
-[Donload Resume](https://drive.google.com/file/d/1TFN6o91VVYBfMJSp3ptx9oIPp3JTopNt/view?usp=sharing)  
-
+[Download Resume](https://drive.google.com/file/d/1TFN6o91VVYBfMJSp3ptx9oIPp3JTopNt/view?usp=sharing)    
 ## Contact  
 * Email- souvikhaldar32@gmail.com 
 * IRC- souvikhaldar on Freenode server  
