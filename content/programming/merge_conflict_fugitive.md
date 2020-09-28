@@ -12,7 +12,7 @@ Resolve the conflict arising out of merging two brances in vim.
 
 # Steps to resolve the conflict
 
-Once you have merged the brances, you can do `:Gstatus` inside vim to see the status of the files. 
+Once you have merged the brances, you can do `:Gstatus` inside vim to see the status of the files.   
 1. Hit enter on the file whose conflicts you want to resolve.  
 2. The above step will open the file in a new buffer.  
 3. Go to the buffer in which the conflicted file is open then do `:Gvdiffsplit` to open the file in three way split as shown below.  
