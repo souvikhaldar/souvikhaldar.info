@@ -23,6 +23,12 @@ Once you have merged the brances, you can do `:Gstatus` inside vim to see the st
 The left split is called the `target` branch, it is the current state of the file when we tried merging i.e current changes. The middle one is the `working` copy, where the resolved final state is captured. The right most split called the `merge` branch, it has the changes from the branch being merged to branch we are on i.e the incoming changes.  
 4. You can move to next conflict using `]c` and previous conflict using `[c`.   
 5. On each conflict you need to decide which changes you want, either you can accept changes from the `target`branch by doing `:diffget //2` or you can accept changes from `merge` branch by doing `:diffget //3`, all from the `working` split. You can also you `:diffput` but I prefer `:diffget`.  
-6. If you want both changes, best options seems to to be manually copying from `target` and `merge` splits.  
-7. You can also use `:Gwrite` on either the `target` or the `merge` split you want that change entirely.  
-8. Once all conflicts are resolved, you can do `:only` from the split you want to keep and leave the `vimdiff` mode.  
+6. If the syntax highlighting does not change even after resolving a conflict, you can use `:diffupdate` to update the working copy. It is good to do `:diffupdate` after resolving conflicts.  
+7. If you want both changes, best options seems to to be manually copying from `target` and `merge` splits.  
+8. You can also use `:Gwrite` on either the `target` or the `merge` split you want that change entirely.  
+9. Once all conflicts are resolved, you can do `:only` from the split you want to keep and leave the `vimdiff` mode.  
+
+# Conclusion
+After having resolved the conflicts, trying you should do `git merge --continue` after staging your changes. 
+There are multiple ways you can go about resolving conflicts, let me you how you are doing it, in vim ;)   
+Catch me up on [twitter](https://twitter.com/s0uvikhaldar)
