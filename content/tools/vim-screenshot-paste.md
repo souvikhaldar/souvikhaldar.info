@@ -1,7 +1,7 @@
 ---
 title: "How to paste screenshot in vim buffer on Ubuntu"
 date: 2020-11-01T00:30:30+05:30
-draft: true
+draft: false
 ---
 # Goal	
 In markdown files, you can insert an image by writing `![alt text](/path/to/image)`, but doing this task manually is quite cumbersome. Let me state the manual steps first to make you understand why this is cumbersome.  
