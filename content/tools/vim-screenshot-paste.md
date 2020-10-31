@@ -5,9 +5,9 @@ draft: false
 ---
 # Goal	
 In markdown files, you can insert an image by writing `![alt text](/path/to/image)`, but doing this task manually is quite cumbersome. Let me state the manual steps first to make you understand why this is cumbersome.  
-1. Take screenshot
-2. Save it at proper location
-3. Mention the image in the markdown using the above mentioned syntax, i.e `![]()`
+1. Take screenshot  
+2. Save it at proper location  
+3. Mention the image in the markdown using the above mentioned syntax, i.e `![]()`  
 
 Now, I wanted to complete the all the above steps in least number of keystrokes, in one step! Let me explain how I did it, then I'll also explain what challenges I faced in the meanwhile. All the steps were performed on Ubuntu 20, hence it might differ from OS to OS. Also, this was a great learning experience for me, hence want to document it the best way possible.
 
