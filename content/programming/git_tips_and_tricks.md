@@ -37,3 +37,5 @@ For eg, if I want to set xyz.go file to the master version you can do:-
     `git checkout -b <new-branch> origin/<source-branch>`  
 
 * If a `feature`,`bug`,etc branch of yours is very behind than `develop` or `master` (whatever is the eventual target), then doing `merge` (by `git pull origin <master/develop>`) is less troublesome than `rebasing`. Although, under normal conditions `rebase` is better alternative to `merge` since it keeps the git history pristine. 
+* Running a command with `-n` flag tells what will happen when you run the command. It is like a test run.  
+* The untracked files can be removed using `git clean -f -d`

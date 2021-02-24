@@ -21,3 +21,8 @@ Eg.
     *  best- `tar -cv /path/to/dir | gzip --best newFileName.tar.gz` (best compression)    
 * `pigz` is a parallel implementation of `gzip` is much faster when compressing multiple number of files:  
     `tar -cv source-dir/ | pigz --best > target-file-name.tar.gz`
+* You can use `find` and `sed` to replace a particular string with another string, accross all the files in a directory using the following command:
+	`for i in $(find pkg -type f -name "*_test.go"); do echo "Checking file $i:"; sed -i -e 's/common\//github.com\/ArecaBay\/service\/pkg\//g' $i ; echo ""; done`
+	Here, I'm substituting all the occurances of the pattern "common/" with "github.com/ArecaBay/service/pkg/" in all files with suffix "_test.go" in the directory "pkg".
+	
+	NOTE: When you run `sed`, it creates backup files with the suffix "-e", hence if you want to clean all those backup files you can run `find . -name "*-e*" -type f -delete`  
