@@ -3,8 +3,11 @@ title: "How to resolve merge conflict in vim"
 date: 2020-09-28T21:19:12+05:30
 draft: false
 ---
+# Introduction
+`vim` is definitely the best (IMHO) editor for editing any kind of text of computer and `git` for maintaining versions. While working with `git` it is quite often the case that conflicts happen while `merging` or `rebasing` branches, but unfortunately I did not get any convenient way to resolve the conflicts. In situations like these I used to resort to `vscode` which had great intuitive way to doing the same. Here, I'm glad to say that I've finally achieved `vscode` level intuitiveness and comfort, in vim <3. Follow along to know how.  
+
 # Goal
-Resolve the conflict arising out of merging two brances in vim.
+Resolve the conflict arising out of merging two branches of `git` in vim.
 
 # Requirements
 * vim
@@ -13,6 +16,8 @@ Resolve the conflict arising out of merging two brances in vim.
 # Steps to resolve the conflict
 
 Once you have merged the brances, you can do `:Gstatus` inside vim to see the status of the files.   
+![Running `:GStatus`](/images/gstatus) 
+
 1. Hit enter on the file whose conflicts you want to resolve.  
 2. The above step will open the file in a new buffer.  
 3. Go to the buffer in which the conflicted file is open then do `:Gvdiffsplit` to open the file in three way split as shown below.  
@@ -29,6 +34,6 @@ The left split is called the `target` branch, it is the current state of the fil
 9. Once all conflicts are resolved, you can do `:only` from the split you want to keep and leave the `vimdiff` mode.  
 
 # Conclusion
-After having resolved the conflicts, trying you should do `git merge --continue` after staging your changes. 
+After having resolved the conflicts, you should do `git merge --continue` after staging your changes by doing `git add <files>`.  
 There are multiple ways you can go about resolving conflicts, let me you how you are doing it, in vim ;)   
 Catch me up on [twitter](https://twitter.com/s0uvikhaldar)
