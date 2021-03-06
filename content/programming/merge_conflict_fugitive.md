@@ -16,7 +16,9 @@ Resolve the conflict arising out of merging two branches of `git` in vim.
 # Steps to resolve the conflict
 
 Once you have merged the brances, you can do `:Gstatus` inside vim to see the status of the files.   
-![Running `:GStatus`](/images/gstatus) 
+
+![](/images/gstatus.png) 
+Running `:GStatus`
 
 1. Hit enter on the file whose conflicts you want to resolve.  
 2. The above step will open the file in a new buffer.  
