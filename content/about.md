@@ -23,7 +23,12 @@ I love to explore fields horizontally, find the sweet spot to zero-in then go al
 ---
 
 ## Experience
-**BACKEND ENGINEER, [BIOSTRAP](https://biostrap.com/) - REMOTE - MAY 2019 - PRESENT**
+
+**SOFTWARE ENGINEER (PLATFORM), [Cloud Vector](https://www.cloudvector.com/) - REMOTE - NOV 2020 - PRESENT**
+* Responsible for building and maintaining the platform (or controller) side of the product.
+* Most of the components are written in golang and redis/psql as database.
+
+**BACKEND ENGINEER, [BIOSTRAP](https://biostrap.com/) - REMOTE - MAY 2019 - SEPTEMBER 2020**
 
 *  Responsible for building and maintaining the platform of Biostrap.
 *  Writing gRPC endpoints, REST HTTP APIs, tools,etc mostly in golang.  
