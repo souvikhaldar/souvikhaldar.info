@@ -3,7 +3,7 @@ title: "About"
 date: 2019-03-24T14:36:10+05:30
 draft: false
 ---
-[Download Resume](https://drive.google.com/file/d/1ycxiFFyGTAPEvGDisP6ovz1swIrEEKKT/view?usp=sharing)    
+
 ## Contact  
 * Email- souvikhaldar32@gmail.com 
 * IRC- souvikhaldar on Freenode server  
@@ -26,9 +26,10 @@ I love to explore fields horizontally, find the sweet spot to zero-in then go al
 ## Experience
 
 **SOFTWARE ENGINEER (PLATFORM) - [Cloud Vector](https://www.cloudvector.com/) - REMOTE - NOV 2020 - PRESENT**   
--  Created efficient cache solution from scratch to reduce the db call latency.  
--  Fixing bugs and improving the overall product.  
--  Most of the components are written in golang and redis/psql as database.  
+
+*  Created efficient cache solution from scratch to reduce the db call latency.  
+*  Fixing bugs and improving the overall product.  
+*  Most of the components are written in golang and redis/psql as database.  
 
 **BACKEND ENGINEER - [BIOSTRAP](https://biostrap.com/) - REMOTE - MAY 2019 - SEPTEMBER 2020**
 
@@ -53,7 +54,8 @@ I love to explore fields horizontally, find the sweet spot to zero-in then go al
 
 **MANAGEMENT INTERN - INDIAN RAILWAYS - RANCHI, JHARKHAND — JUN 2017-JUL 2017**
 
-As a management intern at Indian Railways (South Eastern) I got to understand how a big organization like Railways handles verious management tasks.  
+* Understood to great extent how varies aspects of largest employer of the world works.  
+* Learnt various management skills.  
 
 **CONTENT WRITER - INDIANS NEWS; REMOTE — FEB 2015 - SEP 2016** 
 
