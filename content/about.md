@@ -17,6 +17,7 @@ I love to explore fields horizontally, find the sweet spot to zero-in then go al
 ---  
 ## Achievements   
 * All India rank 2 in a Hackathon organized by Digital Ocean. Refer- https://www.techgig.com/hackathon/digitalocean-cloudhack
+* Awarded **Outstanding Performance** in Cyber security training course by IIT Kanpur in which only 50 industry professionals were selected.[View certificate here](https://drive.google.com/file/d/1VISqw0auyNTxz9djJPE-VYwMBfNIwhtg/view?usp=sharing)
 *  [All India Rank in top 2 percentile](https://drive.google.com/file/d/0B8ez0XXq-2ITWDhDRWhUX0I1OTg/view?usp=sharing) in Modern Application Development course by NPTEL.    
 *  [CodeChef certified Data Structures and Algorithms programmer](https://drive.google.com/open?id=1BxSSaGt7PjelIUJac_BpMMSpEgvGWftu)  
 
