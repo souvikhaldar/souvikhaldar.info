@@ -25,10 +25,10 @@ I love to explore fields horizontally, find the sweet spot to zero-in then go al
 
 ## Experience
 
-**SOFTWARE ENGINEER (PLATFORM) - [Cloud Vector](https://www.cloudvector.com/) - REMOTE - NOV 2020 - PRESENT**  
-* Created efficient cache solution from scratch to reduce the db call latency.  
-* Fixing bugs and improving the overall product.  
-* Most of the components are written in golang and redis/psql as database.  
+**SOFTWARE ENGINEER (PLATFORM) - [Cloud Vector](https://www.cloudvector.com/) - REMOTE - NOV 2020 - PRESENT**   
+-  Created efficient cache solution from scratch to reduce the db call latency.  
+-  Fixing bugs and improving the overall product.  
+-  Most of the components are written in golang and redis/psql as database.  
 
 **BACKEND ENGINEER - [BIOSTRAP](https://biostrap.com/) - REMOTE - MAY 2019 - SEPTEMBER 2020**
 
