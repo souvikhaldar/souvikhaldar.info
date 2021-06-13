@@ -26,3 +26,24 @@ Eg.
 	Here, I'm substituting all the occurances of the pattern "common/" with "github.com/ArecaBay/service/pkg/" in all files with suffix "_test.go" in the directory "pkg".
 	
 	NOTE: When you run `sed`, it creates backup files with the suffix "-e", hence if you want to clean all those backup files you can run `find . -name "*-e*" -type f -delete`  
+* It is useful to run some commands automatically when certain files change, like, I want to run `go install` in my working directory every time I edit any go file. You can do it using this tool https://lnkd.in/e66B6Qn using the following command:
+
+`reflex -r '\.go' go install`
+
+
+
+Bonus tip:  `nohup` it using the following command to run in the background and ignore the input and append output to `.out` file to avoid activity on screen.:
+
+`nohup reflex -r '\.go' go install &`
+
+You can of course control the background processes using `jobs` command afterwards.
+
+
+
+If you're using vim you can run it async using `AsyncRun` plugin using:
+
+`AsyncRun reflex -r `\.go` go install`
+
+This will enable use you to look out for compilation errors in the quickfix window easily. (':copen` to open and `:cclose` to close)
+
+
