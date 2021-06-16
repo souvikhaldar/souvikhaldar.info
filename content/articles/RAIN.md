@@ -1,7 +1,7 @@
 ---
 title: "RAIN technique to deal with emotions"
 date: 2021-06-16T11:50:36+05:30
-draft: true
+draft: false
 ---
 
 I learnt a good technique from the Mindfulness course I'm pursuing on Coursera by Rice University by Dr Tara. Whenever dealing with an unpleasant situation do the following:  
