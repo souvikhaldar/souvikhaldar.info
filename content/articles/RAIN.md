@@ -5,7 +5,7 @@ draft: false
 ---
 
 I learnt a good technique from the Mindfulness course I'm pursuing on Coursera by Rice University by Dr Tara. Whenever dealing with an unpleasant situation do the following:  
-R --> **Recognise** what is it that you're feeling. You can name it exactly, like disappointment, betrayal, etc. You can't just name is sadness, it has to be the exact word that explains it.  
+R --> **Recognise** what is it that you're feeling. You can name it exactly, like disappointment, betrayal, etc. You can't just name it sadness, it has to be the exact word that explains it.  
 
 A --> **Accept** the feeling that you tagged in above step. Sometimes acceptance can be hard but it has to be done.    
 
