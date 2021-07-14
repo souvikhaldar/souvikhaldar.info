@@ -31,6 +31,29 @@ Here, Raspberry Pi 3 would be used the proxy server though which the network is 
    4. Restart the service `sudo systemctl restart tor@default.service`
 4. Now you can use tor on macbook easily configuring proxy option in the settings. This is going to be a socks5 proxy.  
 	![Search for proxies in Preferences and update the socks5 proxy](/images/proxies.png)
+	If you want to setup tor routing only on Mac then you are good to go. You don't need to follow further steps. Now all of your traffic would be routed though the tor socks 5 proxy on the RPI which is present on your local network. (the IP of RPI is 192.168.0.106 and port is 9100 as set in step 3.2).
+5. iPhone does not allow routing traffic though socks 5 proxy, hence we need a HTTP proxy on top of the tor socks 5 proxy. For that we will be using [polipo](https://www.irif.fr/~jch/software/polipo/) 
+   1. Install polipo on pi using `sudo apt-get install polipo`
+   2. Configure its config:
+	   1. `sudo /etc/polipo/config`
+	   2. Change the following items in the config:
+	   ```
+	   diskCacheRoot = " " # to avoid caching data on local system
+	   allowedClients = 127.0.0.1, 192.168.0.0/24 # Expose your network (modify accordingly)
+           socksParentProxy = "localhost:9100"
+	   socksProxyType = socks5
+           proxyAddress = "0.0.0.0"    # IPv4 only
+	   ```
+   3. Now you need to put IP of the RPI and port 8123 in the `manual` proxy setting. You can reach there by going to settings --> wifi --> select your connected wifi --> go to the bottom and click `Configure Proxy` --> Select `Manual` --> Save.
+   
+  ~[Configure proxy on iPhone](/images/mobProxy.png)
+
+# Conclusion
+Now you are ready to explore internet with peace of mind that anonymity can provide. Please do cross check once that you were indeed able to configure tor well by visiting check.torproject.org. You should see something like this :)  
+
+![Tor is configured successfully](/images/torConfirm.png)
+
+
    
 
 
