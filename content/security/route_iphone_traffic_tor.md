@@ -30,7 +30,7 @@ Here, Raspberry Pi 3 would be used the proxy server though which the network is 
    3. Now reload the configs using `sudo systemctl daemon-reload`
    4. Restart the service `sudo systemctl restart tor@default.service`
 4. Now you can use tor on macbook easily configuring proxy option in the settings. This is going to be a socks5 proxy.  
-	[Search for proxies in Preferences and update the socks5 proxy](/images/proxies.png)
+	![Search for proxies in Preferences and update the socks5 proxy](/images/proxies.png)
    
 
 
