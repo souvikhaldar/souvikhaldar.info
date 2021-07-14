@@ -26,8 +26,8 @@ I love to explore fields horizontally, find the sweet spot to zero-in then go al
 ## Experience
 
 **Software Engineer - [Imperva](https://www.imperva.com/) - Bangalore - June 2021 - PRESENT**  
-* CloudVector got acquired by Imperva.  
-* Our team is responsible for developing and integrating API security into the infamous Imperva firewall.
+*  CloudVector got acquired by Imperva.  
+*  Our team is responsible for developing and integrating API security into the infamous Imperva firewall.
 
 **SOFTWARE ENGINEER (PLATFORM) - [Cloud Vector](https://www.cloudvector.com/) - REMOTE - NOV 2020 - May 2021**   
 
