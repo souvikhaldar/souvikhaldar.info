@@ -5,10 +5,11 @@ draft: false
 ---
 # Introduction
 It should be trivial to understand by now that privacy and anonymity is an absolute must in the current age of everything being on the Internet, from the bank/school documents to personal photos to social media.  
-Also, being on Tor network, unlocks the world of Dark web to be explored, which bigger than all the websites a common person might have visited in a lifetime, called the surface web.  
+Also, being on Tor network, unlocks the world of Dark web to be explored, which is bigger than all the websites a common person might have visited in a lifetime, called the surface web.  
 Tor, The Onion Routing project, is the pioneer of freedom in the world of Internet.
-Tor can be used to:  
-> Defend yourself against tracking and surveillance. Circumvent censorship
+Tor can be used to  
+
+**Defend yourself against tracking and surveillance. Circumvent censorship**
 
 Tor Relay Network is a great way of staying anonymous over the Internet because on this network the traffic gets directed through a free, community driven, overlay network consisting of 6 thousand relays.  
 
