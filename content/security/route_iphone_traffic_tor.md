@@ -46,7 +46,7 @@ Here, Raspberry Pi 3 would be used the proxy server though which the network is 
 	   ```
    3. Now you need to put IP of the RPI and port 8123 in the `manual` proxy setting. You can reach there by going to settings --> wifi --> select your connected wifi --> go to the bottom and click `Configure Proxy` --> Select `Manual` --> Save.
    
-  ~[Configure proxy on iPhone](/images/mobProxy.png)
+  ![Configure proxy on iPhone](/images/mobProxy.png)
 
 # Conclusion
 Now you are ready to explore internet with peace of mind that anonymity can provide. Please do cross check once that you were indeed able to configure tor well by visiting check.torproject.org. You should see something like this :)  
