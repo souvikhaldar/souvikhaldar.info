@@ -22,7 +22,7 @@ Here, Raspberry Pi 3 would be used the proxy server through which the network is
 
 1. Setup the raspberry Pi in any preferred way, I would suggest installing Raspbian OS.  
 2. Install `tor` using `sudo apt-get install tor`  
-3. [ ] Configure tor:  
+3. Configure tor:  
    Edit `torrc` file:
    1. `sudo vim /etc/tor/torrc`
    2. Most of the line would be commented out, but uncomment and make changes to the following lines:
@@ -31,7 +31,8 @@ Here, Raspberry Pi 3 would be used the proxy server through which the network is
    3. Now reload the configs using `sudo systemctl daemon-reload`
    4. Restart the service `sudo systemctl restart tor@default.service`
 4. Now you can use tor on macbook easily configuring proxy option in the settings. This is going to be a socks5 proxy.  
-	![Search for proxies in Preferences and update the socks5 proxy](/images/proxies.png)
+	![Search for proxies in Preferences and update the socks5 proxy](/images/proxies.png)  
+	
 	If you want to setup tor routing only on Mac then you are good to go. You don't need to follow further steps. Now all of your traffic would be routed though the tor socks 5 proxy on the RPI which is present on your local network. (the IP of RPI is 192.168.0.106 and port is 9100 as set in step 3.2).
 5. iPhone does not allow routing traffic though socks 5 proxy, hence we need a HTTP proxy on top of the tor socks 5 proxy. For that we will be using [polipo](https://www.irif.fr/~jch/software/polipo/) 
    1. Install polipo on pi using `sudo apt-get install polipo`
@@ -50,7 +51,7 @@ Here, Raspberry Pi 3 would be used the proxy server through which the network is
   ![Configure proxy on iPhone](/images/mobProxy.PNG)
 
 # Conclusion
-Now you are ready to explore internet with peace of mind that anonymity can provide. Please do cross check once that you were indeed able to configure tor well by visiting check.torproject.org. You should see something like this :)  
+Now you are ready to explore internet with peace of mind that anonymity can provide. Please do cross check once that you were indeed able to configure tor well by visiting [this link](check.torproject.org) . You should ideally see something like this :)  
 
 ![Tor is configured successfully](/images/torConfirm.png)
 
